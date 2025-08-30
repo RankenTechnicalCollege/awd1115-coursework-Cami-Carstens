@@ -1,0 +1,15 @@
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\bin\Debug\net8.0\Project9.exe
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\bin\Debug\net8.0\Project9.deps.json
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\bin\Debug\net8.0\Project9.runtimeconfig.json
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\bin\Debug\net8.0\Project9.dll
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\bin\Debug\net8.0\Project9.pdb
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.AssemblyInfoInputs.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.AssemblyInfo.cs
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.csproj.CoreCompileInputs.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.sourcelink.json
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.dll
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\refint\Project9.dll
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.pdb
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\Project9.genruntimeconfig.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH01\CSharpCrashCourse\Project9\obj\Debug\net8.0\ref\Project9.dll

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch01\\csharpcrashcourse\\project9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|solutionrelative:project9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch01\\csharpcrashcourse\\project9\\corner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|solutionrelative:project9\\corner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch01\\csharpcrashcourse\\project9\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|solutionrelative:project9\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch01\\csharpcrashcourse\\project9\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|solutionrelative:project9\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch01\\csharpcrashcourse\\project9\\pancake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|solutionrelative:project9\\pancake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch01\\csharpcrashcourse\\project9\\iturnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94188F00-65E5-4845-BEBD-8A0750B0F7C0}|Project9\\Project9.csproj|solutionrelative:project9\\iturnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Corner.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Corner.cs",
+              "RelativeDocumentMoniker": "Project9\\Corner.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Corner.cs",
+              "RelativeToolTip": "Project9\\Corner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T21:27:54.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Page.cs",
+              "RelativeDocumentMoniker": "Project9\\Page.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Page.cs",
+              "RelativeToolTip": "Project9\\Page.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T21:26:34.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Program.cs",
+              "RelativeDocumentMoniker": "Project9\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Program.cs",
+              "RelativeToolTip": "Project9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T20:22:25.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITurnable.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\ITurnable.cs",
+              "RelativeDocumentMoniker": "Project9\\ITurnable.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\ITurnable.cs",
+              "RelativeToolTip": "Project9\\ITurnable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T21:31:11.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pancake.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Pancake.cs",
+              "RelativeDocumentMoniker": "Project9\\Pancake.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Pancake.cs",
+              "RelativeToolTip": "Project9\\Pancake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T21:28:23.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Leaf.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Leaf.cs",
+              "RelativeDocumentMoniker": "Project9\\Leaf.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH01\\CSharpCrashCourse\\Project9\\Leaf.cs",
+              "RelativeToolTip": "Project9\\Leaf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T21:28:52.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
