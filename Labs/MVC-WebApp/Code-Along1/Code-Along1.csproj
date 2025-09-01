@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Shared\" />
+    <PackageReference Include="bootstrap" Version="5.3.8" />
   </ItemGroup>
 
 </Project>
