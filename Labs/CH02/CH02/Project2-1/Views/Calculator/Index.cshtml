@@ -1,0 +1,64 @@
+﻿@model Calculate
+
+@{
+    ViewBag.Title = "Tip Calculator";
+}
+<h1>Tip Calculator</h1>
+
+<form method="post" asp-action="Index">
+    <div class="text-danger" asp-validation-summary="All"></div>
+   
+    <label class="form-label mt-2 " asp-for="BillAmount">Cost of meal:</label>
+    <input class="form-control mb-3" asp-for="BillAmount" required/>`
+   
+
+<div class="row">
+     <div class="col-md-4 col-sm-6">
+        <label class="form-label">15% Tip:</label>
+        <output class="form-control m-2"> @Model.Tip15().ToString("C")"</output>
+      </div>
+
+    <div class="col-md-4 col-sm-6">
+        <label class ="form-label">Total with 15% Tip:</label>
+        <output class="form-control m-2"> @Model.TotalAmount(Model.Tip15()).ToString("C")"</output>
+    </div>
+
+</div>
+   
+
+
+  <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <label class="form-label">20% Tip:</label>
+        <output class="form-control m-2">@Model.Tip20().ToString("C")"</output>
+      </div>
+
+     <div class="col-md-4 col-sm-6">
+          <label class="form-label">Total with 20% tip:</label>
+          <output class="form-control m-2">@Model.TotalAmount(Model.Tip20()).ToString("C")" </output>
+    </div>
+
+   </div>
+    
+
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <label class="form-label">25% Tip:</label>
+            <output class="form-control m-2">@Model.Tip25().ToString("C")"</output>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <label class="form-label">Total with 25% tip:</label>
+            <output class="form-control m-2">@Model.TotalAmount(Model.Tip25()).ToString("C")"</output>
+    </div>
+    </div>
+
+
+    <div class="mt-3">
+        <button class="btn btn-secondary m-3" type="submit">Calculate</button>
+        <a class="btn btn-primary m-3" asp-area="" asp-controller="Calculator" asp-action="Index">Clear</a>
+    </div>
+
+
+</form>
+

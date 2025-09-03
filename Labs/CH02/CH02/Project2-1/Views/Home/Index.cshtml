@@ -1,0 +1,37 @@
+﻿@model Project2_1.Models.CalculateQuote
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Price Quotation</h1>
+ 
+</div>
+<form method="post" asp-action="Index">
+    <div class="text-danger" asp-validation-summary="All"></div>
+
+
+    <div>
+    <label class="form-label mt-2 " asp-for="Subtotal">Subtotal:</label>
+    <input class="form-control mb-3" asp-for="Subtotal" required />
+    </div>
+
+    <div>
+    <label class="form-label mt-2 " asp-for="DiscountPercent">Discount Percentage:</label>
+    <input class="form-control mb-3" asp-for="DiscountPercent"/>
+    </div>
+
+    <div>
+    <label class="form-label mt-2">DiscountAmount:</label>
+    <output class="form-control mb-3">@Model.DiscountAmount().ToString("C")</output>
+    </div>
+
+    <div>
+    <label class="form-label mt-2">Total:</label>
+    <output class="form-control mb-3">@Model.Total().ToString("C")</output>
+    </div>
+
+    <button class="btn btn-secondary m-3" type="submit">Calculate</button>
+    <a class="btn btn-primary m-3" asp-area="" asp-controller="Home" asp-action="Index">Clear</a>
+</form>
