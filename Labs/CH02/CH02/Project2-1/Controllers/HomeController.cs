@@ -25,10 +25,7 @@ namespace Project2_1.Controllers
             {
                 return View("Index", model);
             }
-            else
-            {
-                model.Subtotal = 0;
-            }
+           
             return View(model);
         }
 

@@ -5,7 +5,7 @@ namespace Project2_1.Models
     public class CalculateQuote
     {
         [Required(ErrorMessage = "Invalid entry.")]
-        [Range(typeof(decimal), "0", "100", ErrorMessage = "Invalid entry. Quote amount must be between 1.00 and 10,000.00.")]
+        [Range(typeof(decimal), "0", "10000", ErrorMessage = "Invalid entry. Must be between 0.01 and 10,000")]
 
         public decimal Subtotal { get; set; }
 

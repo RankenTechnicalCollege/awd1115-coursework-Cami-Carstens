@@ -1,11 +1,11 @@
-﻿@model Project2_1.Models.CalculateQuote
+﻿@model CalculateQuote
 
 @{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Price Quotation</h1>
+<div>
+    <h1 class="display-4 fw-bolder">Price Quotation</h1>
  
 </div>
 <form method="post" asp-action="Index">
@@ -19,17 +19,17 @@
 
     <div>
     <label class="form-label mt-2 " asp-for="DiscountPercent">Discount Percentage:</label>
-    <input class="form-control mb-3" asp-for="DiscountPercent"/>
+    <input class="form-control mb-3" asp-for="DiscountPercent" value="@Model.DiscountPercent.ToString("0") "/>
     </div>
 
     <div>
     <label class="form-label mt-2">DiscountAmount:</label>
-    <output class="form-control mb-3">@Model.DiscountAmount().ToString("C")</output>
+    <span>@Model.DiscountAmount().ToString("C")</span>
     </div>
 
     <div>
     <label class="form-label mt-2">Total:</label>
-    <output class="form-control mb-3">@Model.Total().ToString("C")</output>
+    <span>@Model.Total().ToString("C")</span>
     </div>
 
     <button class="btn btn-secondary m-3" type="submit">Calculate</button>
