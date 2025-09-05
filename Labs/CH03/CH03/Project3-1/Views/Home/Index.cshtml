@@ -1,0 +1,70 @@
+﻿@model CalculateQuote
+
+@{
+    ViewData["Title"] = "Price Quotation";
+}
+
+
+
+<header class="border border-3 bg-success text-white text text-center m-4 p-4 mb-4">
+    <h1>
+        <i class="fa-solid fa-money-bill-wave me-2"></i> Price Quotation
+
+    </h1>
+   
+</header>
+<form method="post" asp-action="Index" class="container border-3 border-black">
+    <div class="text-danger" asp-validation-summary="All"></div>
+
+
+    <div class="row mb-3">
+        <label class="form-label col-sm-12 col-md-3" asp-for="Subtotal"></label>
+        <div class="col-sm-12 col-md-6">
+        <input class="form-control" asp-for="Subtotal" />
+    </div>
+    <div class="col-sm-12 col-md-3 text-danger">
+        <span asp-validation-for="Subtotal"></span>
+    </div>
+
+    </div>
+
+   
+
+    <div class="row mb-3">
+        
+        <label class="form-label col-sm-12 col-md-3" asp-for="DiscountPercent"> Discount Percent:</label>
+        <div class="col-sm-12 col-md-6">
+        <input class="form-control" asp-for="DiscountPercent" />
+    </div>
+    <div class="col-md-3 text-danger">
+        <span asp-validation-for="DiscountPercent"></span>
+    </div>
+    </div>
+
+
+
+    <div class="row mb-3">
+   
+        <label class="form-label col-sm-12 col-md-3">DiscountAmount</label>
+        <div class="col-sm-12 col-md-6 pt-2">
+        <span>@Model.DiscountAmount().ToString("C")</span>
+    </div>
+    </div>
+
+
+
+    <div class="row mb-3">
+      
+        <label class="form-label col-sm-12 col-md-3">Total:</label>
+        <div class="col-sm-12 col-md-6">
+        <span>@Model.Total().ToString("C")</span>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col offset-md-3">
+    <button class="btn btn-success me-3" type="submit">Calculate</button>
+    <a class="btn btn-success" asp-asp-area="" asp-asp-controller="Home" asp-action="Index">Clear</a>
+    </div>
+    </div>
+</form>

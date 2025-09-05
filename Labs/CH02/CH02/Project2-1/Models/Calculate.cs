@@ -4,8 +4,8 @@ namespace Project2_1.Models
 {
     public class Calculate
     {
-        [Required(ErrorMessage = "Invalid entry. Meal cost is required for calculation.")]
-        [Range(1, 10000, ErrorMessage = "Invalid entry. Meal cost must be between 1.00 and 10,000.00.")]
+        [Required(ErrorMessage = "Please enter meal cost.")]
+        [Range(1, 5000, ErrorMessage = "Please enter cost of meal.")]
         public decimal BillAmount { get; set; }
 
         //15%, 20% and 25%
