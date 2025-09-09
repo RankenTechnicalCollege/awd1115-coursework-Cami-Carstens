@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch03\\ch03\\project3-1\\models\\calculatequote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|solutionrelative:project3-1\\models\\calculatequote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch03\\ch03\\project3-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|solutionrelative:project3-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch03\\ch03\\project3-1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|solutionrelative:project3-1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch03\\ch03\\project3-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|solutionrelative:project3-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch03\\ch03\\project3-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|solutionrelative:project3-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch03\\ch03\\project3-1\\models\\calculatequote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24294A2C-0141-4E62-A393-BD874DD5E464}|Project3-1\\Project3-1.csproj|solutionrelative:project3-1\\models\\calculatequote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Project3-1\\Views\\Shared\\_Layout.cshtml",
@@ -47,20 +47,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CalculateQuote.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Models\\CalculateQuote.cs",
               "RelativeDocumentMoniker": "Project3-1\\Models\\CalculateQuote.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Models\\CalculateQuote.cs",
-              "RelativeToolTip": "Project3-1\\Models\\CalculateQuote.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAABgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Models\\CalculateQuote.cs*",
+              "RelativeToolTip": "Project3-1\\Models\\CalculateQuote.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T22:31:01.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Project3-1\\Controllers\\HomeController.cs",
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Project3-1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Project3-1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH03\\CH03\\Project3-1\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Project3-1\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-04T22:01:57.241Z",
               "EditorCaption": ""
