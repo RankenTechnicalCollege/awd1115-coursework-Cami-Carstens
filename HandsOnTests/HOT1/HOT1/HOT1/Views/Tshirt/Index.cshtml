@@ -1,0 +1,61 @@
+﻿@model Tshirt
+@{
+    ViewBag.Title = "T-Shirt Order Form";
+}
+
+<div class="mt-5">
+<h1 class="tshirt">Crazy Crank's T-Shirt Factory</h1>
+<h2 class="orderForm">Order Form</h2>
+
+
+<form method="post" asp-action="Index">
+<div class="text-danger" asp-validation-summary="All"></div>
+
+    <div>
+        <label class="form-label" asp-for="Quantity">Quantity</label>
+        <input class="form-control" asp-for="Quantity" />
+    </div>
+
+    <div>
+        <label class="form-label mt-3" asp-for="DiscountCode">Discount Code</label>
+        <input class="form-control" asp-for="DiscountCode" />
+    </div>
+
+    <button type="submit"class="btn btn-primary mt-3">Order</button>
+</form>
+</div>
+
+
+
+@if(Model !=null && Model.Quantity >0)
+{
+        <div class="border border-2 border-dark p-3 mt-3">
+        <p class="fw-bold mt-2">@ViewBag.Message</p>
+        <p class="border-top mt-3">Subtotal: @($"{Model.Subtotal:C}")</p>
+        <p>Tax: @($"{Model.TaxAmount:C}")</p>
+        <p>Total: @($"{Model.Total:C}")</p>
+        </div>
+}
+
+
+    
+
+@* 
+    <div>
+        <label class="form-label">Subtotal:</label>
+        <input class="form-control" readonly />
+    </div>
+
+    <div>
+        <label class="form-label">Tax:</label>
+        <input class="form-control" readonly />
+    </div>
+
+    <div>
+        <label class="form-label">Total</label>
+        <input class="form-control" readonly />
+    </div> *@
+  
+
+
+

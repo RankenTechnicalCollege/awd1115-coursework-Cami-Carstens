@@ -1,0 +1,25 @@
+﻿@model Converter 
+@{
+    ViewBag.Title = "Distance Converter";
+
+}
+
+<div class="d-flex justify-content-center mt-5">
+    <div class="container">
+<h1>Distance Converter</h1>
+
+<form method="post" asp-action="Index">
+        <div class="text-danger" asp-validation-summary="All"></div>
+    <label class="form-label mt-3" asp-for="Inches">Distance in Inches</label>
+    <input class="form-control" asp-for="Inches" />
+
+    <button type="submit" class="btn btn-primary mt-3" >Convert to CM</button>
+
+</form>
+</div>
+</div>
+
+@if(ViewBag.Message != null)
+{
+    <p class="mt-3 fw-bold fs-2 ms-3">@ViewBag.Message</p>
+}
