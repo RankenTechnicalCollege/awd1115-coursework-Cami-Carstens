@@ -8,6 +8,8 @@ namespace HOT1.Models
         [Range(1, 1000, ErrorMessage = "Error. Please enter a quantity. Call for orders above 1,000")]
         public int? Quantity { get; set; }
 
+
+       
         public string? DiscountCode { get; set; }
         public int? Price { get; set; }
         public decimal? SalesTax { get; set; } = 0.08m;

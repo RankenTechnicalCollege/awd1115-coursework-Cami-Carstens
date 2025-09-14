@@ -19,6 +19,7 @@
     <div>
         <label class="form-label mt-3" asp-for="DiscountCode">Discount Code</label>
         <input class="form-control" asp-for="DiscountCode" />
+        <span class="text-danger" asp-validation-for="DiscountCode"></span>
     </div>
 
     <button type="submit"class="btn btn-primary mt-3">Order</button>
