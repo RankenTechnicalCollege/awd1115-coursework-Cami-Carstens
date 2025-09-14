@@ -5,6 +5,7 @@ wwwroot\Images\BookBannerHome.jpg
 wwwroot\Images\bookImage1.jpg
 wwwroot\Images\bookImage2.jpg
 wwwroot\Images\bookImage3.jpg
+wwwroot\Images\bookImage4.jpg
 wwwroot\Images\BookLogo.jpg
 wwwroot\Images\bookLogo2.jpg
 wwwroot\Images\pexels-donghuangmingde-2177482.jpg
