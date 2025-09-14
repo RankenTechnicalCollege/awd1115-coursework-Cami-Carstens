@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT1\\HOT1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot1\\hot1\\hot1\\views\\tshirt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|solutionrelative:hot1\\views\\tshirt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot1\\hot1\\hot1\\models\\tshirt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|solutionrelative:hot1\\models\\tshirt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot1\\hot1\\hot1\\controllers\\tshirtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|solutionrelative:hot1\\controllers\\tshirtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot1\\hot1\\hot1\\views\\tshirt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|solutionrelative:hot1\\views\\tshirt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21FB6EBB-31F2-4B0E-B2D2-C2ADBE21A276}|HOT1\\HOT1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot1\\hot1\\hot1\\models\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,25 +50,23 @@
               "RelativeToolTip": "HOT1\\Models\\Converter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T23:24:08.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T23:24:08.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Tshirt.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT1\\HOT1\\HOT1\\Models\\Tshirt.cs",
               "RelativeDocumentMoniker": "HOT1\\Models\\Tshirt.cs",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT1\\HOT1\\HOT1\\Models\\Tshirt.cs",
               "RelativeToolTip": "HOT1\\Models\\Tshirt.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswDgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T02:15:04.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T02:15:04.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT1\\HOT1\\HOT1\\Views\\Tshirt\\Index.cshtml",
               "RelativeDocumentMoniker": "HOT1\\Views\\Tshirt\\Index.cshtml",
@@ -81,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TshirtController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT1\\HOT1\\HOT1\\Controllers\\TshirtController.cs",
               "RelativeDocumentMoniker": "HOT1\\Controllers\\TshirtController.cs",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "HOT1\\Controllers\\TshirtController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T02:04:33.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T02:04:33.465Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "HOT1\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-10T23:46:28.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T23:46:28.806Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "HOT1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-10T22:26:09.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T22:26:09.598Z"
             }
           ]
         }

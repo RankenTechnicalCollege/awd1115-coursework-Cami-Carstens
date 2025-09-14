@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "BookShelf-Manage your read, to read, and want to read bookshelf";
+}
+<img src="~/images/BookBanner.jpg" alt="book banner" action="" class="colorBanner img-fluid" />
+<div class="container">
+
+    <h1>Book Shelf</h1>
+    <h2>Personal library management</h2>
+    <p>
+        The Bookshelf page is where each user can view and manage their personal
+        collection of books. This section acts as a virtual library where books 
+        are categorized by reading status: <em>To Read</em>, <em>Currently Reading</em>,
+        and <em>Completed</em>.Users can add books from the Explore page or create custom entries for titles not yet in
+        the system.
+    </p>
+
+    <h2>Features</h2>
+    <p>
+        Each book on the shelf includes its title, author, genre, and user-defined rating.
+        Users can update the reading status at any time, edit details, or remove books from the shelf.
+        Books can also be tagged with custom notes or personal reflections, allowing readers to
+        create a reading journal.
+    </p>
+
+
+
+
+    <div class="">
+    <img src="~/images/SearchedBookPlaceholder.jpg" accesskey="" action="" alt="Books" class="img-fluid" />
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit" class=""><i class="fa fa-search"></i></button>
+    </div>
+
+    <div>
+    <button type="button" class="btn btn-lg btn-secondary m-3">Read</button>
+    <button type="button" class="btn btn-lg btn-secondary me-3">Currently Reading</button>
+    <button type="button" class="btn btn-lg btn-secondary">Want to Read</button>
+    </div>
+</div>
+
