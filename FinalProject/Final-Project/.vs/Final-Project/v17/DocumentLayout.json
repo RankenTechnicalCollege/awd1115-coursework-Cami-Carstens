@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\final-project\\final-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|solutionrelative:final-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\final-project\\final-project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|solutionrelative:final-project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\final-project\\final-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|solutionrelative:final-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\final-project\\final-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|solutionrelative:final-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\final-project\\final-project\\views\\bookshelf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\final-project\\final-project\\views\\discussions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|solutionrelative:final-project\\views\\discussions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\final-project\\final-project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D2077072-BFE5-421C-9E9A-97F6884F5FBC}|Final-Project\\Final-Project.csproj|solutionrelative:final-project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\Final-Project\\Views\\Explore\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Project\\Views\\Explore\\Index.cshtml",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\Final-Project\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Project\\Views\\Home\\Index.cshtml",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\Final-Project\\Views\\Bookshelf\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Project\\Views\\Bookshelf\\Index.cshtml",
@@ -75,20 +75,20 @@
               "RelativeToolTip": "Final-Project\\Views\\Bookshelf\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T03:57:12.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T03:57:12.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\Final-Project\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Final-Project\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\Final-Project\\wwwroot\\css\\site.css",
               "RelativeToolTip": "Final-Project\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-14T01:00:03.478Z"
+              "WhenOpened": "2025-09-14T01:00:03.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,14 +98,14 @@
               "RelativeDocumentMoniker": "Final-Project\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\Final-Project\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Final-Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAB4AAAB0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-14T04:23:16.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\Final-Project\\Final-Project\\Views\\Discussions\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Project\\Views\\Discussions\\Index.cshtml",
