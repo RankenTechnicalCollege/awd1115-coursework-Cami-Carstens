@@ -1,0 +1,66 @@
+﻿@model NovelNook.Models.BookShelfEntry
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <img src="~/images/BookBanner.jpg" alt="book banner" action="" class="colorBanner img-fluid" />
+    <h1 class="pt-2">Create Your Digital Bookshelf</h1>
+
+    <h4>Book Shelf Entry</h4>
+
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="IdentityUserId" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Author" class="control-label mb-2"></label>
+                <input asp-for="Author" class="form-control" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label mb-2 mt-2"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusMessage" class="control-label mb-2 mt-2"></label>
+                <select asp-for="StatusMessage" class="form-control" >
+                <option value="Reading">Reading</option>
+                <option value="Future Read">Future Read</option>
+                <option value="Read">Read</option>
+                </select>
+                <span asp-validation-for="StatusMessage" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AddedDate" class="control-label mb-2 mt-2"></label>
+                <input asp-for="AddedDate" class="form-control" type="date"/>
+                <span asp-validation-for="AddedDate" class="text-danger"></span>
+            </div>
+          @*   <div class="form-group">
+                <input type="hidden" asp-for="IdentityUserId" />
+                <label asp-for="IdentityUserId" class="control-label"></label>
+                <select asp-for="IdentityUserId" class ="form-control" asp-items="ViewBag.IdentityUserId"></select>
+            </div>  *@
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary mt-3 mb-2">Add</button>
+                @* <input type="submit" value="Details" asp-action="Create" class="btn btn-secondary mt-3 mb-3" /> *@
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="text-dark">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

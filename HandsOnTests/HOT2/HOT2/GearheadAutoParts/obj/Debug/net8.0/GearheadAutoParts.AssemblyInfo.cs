@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GearheadAutoParts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c876461f2b831b7c98818b0ea2df669793fdcbd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15e64f152eb559b02b61f3e9ee89b8e34943f88d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GearheadAutoParts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GearheadAutoParts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

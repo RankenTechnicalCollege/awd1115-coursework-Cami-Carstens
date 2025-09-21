@@ -1,0 +1,14 @@
+﻿@model Product
+@{
+    ViewBag.Title = "Deletion Page";
+}
+
+<div class="banner">
+<h1>Confirm Deletion</h1>
+<p>Are you sure you want to delete @Model.ProductName?</p>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="ProductId" />
+    <button type="submit" asp-route-slug="@Model.Slug" class="btn btn-primary me-2">Delete</button>
+    <a asp-action="List" class="btn btn-primary">Cancel</a>
+</form>
+</div>

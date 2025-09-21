@@ -1,0 +1,51 @@
+﻿@model Product
+@{
+    ViewBag.Title = $"{ViewBag.Operation} Product";
+}
+
+<h2>@ViewBag.Operation Product</h2>
+
+<form asp-action="AddEdit" method="post">
+    <input type="hidden" asp-for="ProductId" />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="ProductName" class="control-label mt-2 mb-2"></label>
+        <input asp-for="ProductName" class="form-control" />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductDescShort" class="control-label mt-2 mb-2"></label>
+        <input asp-for="ProductDescShort" class="form-control" />
+        <span asp-validation-for="ProductDescShort" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductDescLong" class="control-label mt-2 mb-2"></label>
+        <input asp-for="ProductDescLong" class="form-control" />
+        <span asp-validation-for="ProductDescLong" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductImage" class="control-label mt-2 mb-2"></label>
+        <input asp-for="ProductImage" class="form-control" />
+        <span asp-validation-for="ProductImage" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductPrice" class="control-label mt-2 mb-2"></label>
+        <input asp-for="ProductPrice" class="form-control" />
+        <span asp-validation-for="ProductPrice" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductQty" class="control-label mt-2 mb-2"></label>
+        <input asp-for="ProductQty" type="number" step="1" class="form-control" />
+        <span asp-validation-for="ProductQty" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId" class="control-label mt-2 mb-2"></label>
+        <select asp-for="CategoryId"asp-items="ViewBag.Categories" class="form-control" >
+        <option value="0" class="mt-1 mb-3">----Select Category----</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3 me-2">Save</button>
+    <a asp-action="List" class="btn btn-primary mt-3">Cancel</a>
+</form>
+

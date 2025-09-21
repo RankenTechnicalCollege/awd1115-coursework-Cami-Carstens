@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Novel Nook Tracker App</title>
+    <meta name="description" content="Web app to manage your reading list. Track your progress on books you are reading or want to read. Engage in discussions." />
+    <meta name="keywords" content="Book Tracker, Reading List, Book Management, Novel Nook, BookTok, Latest Release, Reading Progress, Book Discussions" />
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Final_Project.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <img src="~/images/bookLogo2.jpg" alt="Novel Nook Book Logo" class="img-fluid me-3" style="max-height: 50px; border-radius: 10px;" />
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Novel Nook</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="BookShelfEntries" asp-action="Index">Bookshelf</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Discussions" asp-action="Index">Discussion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Explore" asp-action="Index">Explore</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                   @*  <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button> *@
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container flex-grow-1">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="emailFooter">
+            <label for="email">Sign up for our newsletter:</label>
+            <input type="email" id="email" name="email">
+            <button type="submit">Submit</button>
+        </div>
+        <div class="container">
+            &copy; 2025 - Novel Nook - <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-tiktok p-2"></i>
+            <i class="fa-brands fa-facebook p-2"></i>
+            <i class="fa-brands fa-x-twitter p-2"></i>
+
+        </div>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

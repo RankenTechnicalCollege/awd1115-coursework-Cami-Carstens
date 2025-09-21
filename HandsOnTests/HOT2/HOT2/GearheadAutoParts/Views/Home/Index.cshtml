@@ -1,8 +1,31 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<Product>
+@{
+    ViewBag.Title = "Sales Order Database Application";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Sales Order Database Application</h1>
+<p>A perpetual SQL Server database program</p>
+
+<h2>Version 01</h2>
+
+<div class="list-group">
+    <a asp-controller="Product" asp-action="List" class="list-group-item list-group-item-action">
+        Manage Products
+    </a>
+    <a asp-controller="Category" asp-action="List" class="list-group-item list-group-item-action">
+        Manage Categories
+    </a>
+    <a asp-controller="Vendor" asp-action="List" class="list-group-item list-group-item-action">
+        Manage Vendors
+    </a>
+    <a asp-controller="Customer" asp-action="List" class="list-group-item list-group-item-action">
+        Manage Customers
+    </a>
+    <a asp-controller="Employee" asp-action="List" class="list-group-item list-group-item-action">
+        Manage Employees
+    </a>
+    <a asp-controller="Order" asp-action="List" class="list-group-item list-group-item-action">
+        Manage Orders
+    </a>
 </div>
+
