@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NovelNook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15e64f152eb559b02b61f3e9ee89b8e34943f88d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e388aa3137b92d02cc3faa137a926b8275abc749")]
 [assembly: System.Reflection.AssemblyProductAttribute("NovelNook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NovelNook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
