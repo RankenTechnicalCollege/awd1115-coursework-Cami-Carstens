@@ -43,3 +43,23 @@ header {
         padding: 10px;
         border-radius: 10px;
     }
+
+
+.bookCardsImg {
+   width: 200px;
+    height: 225px;
+   
+   
+
+  
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.descFont {
+    font-size: 12px;
+}

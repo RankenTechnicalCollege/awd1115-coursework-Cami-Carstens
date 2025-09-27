@@ -3,19 +3,34 @@
 }
 
 <h2>Discover New Reads</h2>
-<p>
-    The Explore page allows readers to browse and discover books
-    outside their personal library. This section serves as a searchable catalog where
-    users can find books by title, author, or genre, and quickly add them to their
-    own bookshelf.
-</p>
+<div class="row g-4">
+    @foreach (var card in Model)
+    {
+        <div class="col-12 col-md-4 col-sm-6">
+            <div class="bookCards card h-100 d-flex flex-column border border-2 border-secondary p-2" @* style="width: 200px; height: 50px;  *@">
+                <img src="@card.Image" class="bookCardsImg card-img-top" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@card.Title</h5>
+                    <p class="descFont card-text">@card.Description</p>
 
 
-<h2>Features</h2>
-<p>
-    Users can filter results by genre, author, or book title. The search
-    bar provides keyword matching, making it simple to locate books of interest.
-    Each book preview includes key details such as title, author, average rating,
-    and available discussions.
-</p>
-<img src="~/images/pexels-donghuangmingde-2177482.jpg" class="img-fluid" />
+                    <div class="mt-auto ">
+                        <form method="post" asp-route-controller="BookshelfEntries" asp-action="Create">
+                            <input type="hidden" name="Title" value="@card.Title"/>
+                            <input type="hidden" name="Author" value="@card.Author"/>
+                            <input type="hidden" name="StatusMessage" value="Future Read"/>
+                            <input type="hidden" name="AddedDate" value="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                            <button type="submit" class="bookCards Btn btn btn-secondary mt-auto ms-2">Add to bookshelf</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@* <img src="~/images/pexels-donghuangmingde-2177482.jpg" class="img-fluid" />
+ *@

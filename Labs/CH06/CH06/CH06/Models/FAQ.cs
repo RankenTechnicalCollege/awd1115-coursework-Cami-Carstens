@@ -1,0 +1,23 @@
+﻿using Microsoft.AspNetCore.Components.Routing;
+
+namespace CH06.Models
+{
+    public class FAQ
+    {
+        public int FAQId { get; set; }
+        public string Question { get; set; } = string.Empty;
+        public string Answer { get; set; } = string.Empty;
+
+        //FK
+        public string CategoryId { get; set; } = string.Empty;
+
+        //Nav Prop
+        public Category Category { get; set; } = null!;
+
+        public string TopicId {  get; set; } = string.Empty;
+
+        //Nav Prop
+        public Topic Topic { get; set; } = null!;
+
+    }
+}

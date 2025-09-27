@@ -1,0 +1,53 @@
+﻿@model List<FAQ>
+
+@{
+    ViewData["Title"] = "FAQ's";
+}
+
+<h1>Frequently Asked Questions</h1>
+
+<div class="row m-4 mt-5">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active ms-5" aria-current="page" href="/">All FAQs</a>
+        </li>
+        @foreach (Topic t in ViewBag.Topics)
+        {
+            <li class="nav-item">
+                @*asp-route-topic: dynamic name variable that works bc of the pattern path in Program.cs named {topic} has to have the SAME name *@
+                <a asp-action="Index" class="nav-link" asp-route-topic="@t.TopicId">@t.Name</a>
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col-2 mt-2">
+        <ul class="list-group">
+            @foreach(Category c in ViewBag.Categories)
+            {
+                <li class="list-group-item">
+                    <a asp-action="Index" asp-route-category="@c.CategoryId" asp-route-topic="@ViewBag.SelectedTopic">@c.Name</a>
+                </li>
+                
+            }
+        </ul>
+
+    </div>
+    <div class="col-10">
+        <ul class="list-group me-3">
+            @foreach (FAQ faq in Model)
+            {
+                <li class="list-group-item">
+                    <div class="row">
+                        <span class="fw-bold">@faq.Question</span>
+                    </div>
+
+                    <div class="row">
+                        <span>@faq.Answer</span>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

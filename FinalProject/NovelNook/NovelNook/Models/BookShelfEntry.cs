@@ -32,5 +32,7 @@ namespace NovelNook.Models
 
         //Fk
         public string IdentityUserId { get; set; }
+        public string Slug => $"{Title?.ToLower()}".Replace(" ", "-");
     }
-}
+   
+    }

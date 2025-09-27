@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\models\\salescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\models\\salescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +27,12 @@
       "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\models\\salescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\models\\salescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\views\\product\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\views\\product\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|solutionrelative:gearheadautoparts\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{492B1C3C-283E-4342-9EB2-BE38FC658013}|GearheadAutoParts\\GearheadAutoParts.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot2\\hot2\\gearheadautoparts\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,20 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "GearheadAutoParts\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "GearheadAutoParts\\Views\\Product\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T04:10:28.1Z",
+              "DocumentIndex": 0,
+              "Title": "SalesContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Models\\SalesContext.cs",
+              "RelativeDocumentMoniker": "GearheadAutoParts\\Models\\SalesContext.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Models\\SalesContext.cs",
+              "RelativeToolTip": "GearheadAutoParts\\Models\\SalesContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T18:55:16.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AddEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Views\\Product\\AddEdit.cshtml",
               "RelativeDocumentMoniker": "GearheadAutoParts\\Views\\Product\\AddEdit.cshtml",
@@ -79,25 +79,23 @@
               "RelativeToolTip": "GearheadAutoParts\\Views\\Product\\AddEdit.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T00:37:10.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T00:37:10.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Models\\Product.cs",
               "RelativeDocumentMoniker": "GearheadAutoParts\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Models\\Product.cs",
               "RelativeToolTip": "GearheadAutoParts\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:41:43.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T18:41:43.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "GearheadAutoParts\\Controllers\\ProductController.cs",
@@ -105,12 +103,11 @@
               "RelativeToolTip": "GearheadAutoParts\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwEsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T04:27:45.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T04:27:45.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Views\\Product\\List.cshtml",
               "RelativeDocumentMoniker": "GearheadAutoParts\\Views\\Product\\List.cshtml",
@@ -118,12 +115,11 @@
               "RelativeToolTip": "GearheadAutoParts\\Views\\Product\\List.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T00:36:38.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T00:36:38.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Models\\Category.cs",
               "RelativeDocumentMoniker": "GearheadAutoParts\\Models\\Category.cs",
@@ -131,25 +127,11 @@
               "RelativeToolTip": "GearheadAutoParts\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T23:30:07.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T23:30:07.041Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SalesContext.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Models\\SalesContext.cs",
-              "RelativeDocumentMoniker": "GearheadAutoParts\\Models\\SalesContext.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Models\\SalesContext.cs",
-              "RelativeToolTip": "GearheadAutoParts\\Models\\SalesContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T18:55:16.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "GearheadAutoParts\\Views\\Home\\Index.cshtml",
@@ -157,8 +139,19 @@
               "RelativeToolTip": "GearheadAutoParts\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T01:09:41.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T01:09:41.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GearheadAutoParts\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT2\\HOT2\\GearheadAutoParts\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "GearheadAutoParts\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T04:10:28.1Z"
             },
             {
               "$type": "Document",

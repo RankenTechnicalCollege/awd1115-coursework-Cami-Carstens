@@ -9,9 +9,13 @@ using NovelNook.Data;
 using NovelNook.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace NovelNook.Controllers
 {
+    //base route-on load
+    //make plural(#3)
+    [Route("books/")]
     public class BookShelfEntriesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -23,7 +27,8 @@ namespace NovelNook.Controllers
             _userManager = userManager;
         }
 
-        // GET: BookShelfEntries
+        // GET: BookShelfEntries /books
+        [HttpGet("")]
         public async Task<IActionResult> Index()
         {
             var userId = _userManager.GetUserId(User);
@@ -33,26 +38,29 @@ namespace NovelNook.Controllers
             return View(entries);
         }
 
-        //GET: BookShelfEntries/Details/5
-        public async Task<IActionResult> Details(int? id)
+        //GET: 
+        [HttpGet("book/{id}/{slug}/")]
+        public async Task<IActionResult> Details(int? id, string slug)
         {
-            if (id == null)
+            var bookShelfEntry = await _context.BookshelfEntries
+                .Include(b => b.User)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (bookShelfEntry == null)
             {
                 return NotFound();
             }
 
-            var bookShelfEntry = await _context.BookshelfEntries
-                .Include(b => b.User)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (bookShelfEntry == null)
+            if(bookShelfEntry.Slug != slug)
             {
-                return NotFound();
+                return RedirectToAction("Details", new { id = bookShelfEntry.Id, slug = bookShelfEntry.Slug });
             }
 
             return View(bookShelfEntry);
         }
 
         //GET: BookShelfEntries/Create
+        [HttpGet("create/")]
         public IActionResult Create()
         {
             var userId = _userManager.GetUserId(User);
@@ -67,8 +75,8 @@ namespace NovelNook.Controllers
         // POST: BookShelfEntries/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        [HttpPost("create/")]
+       
         public async Task<IActionResult> Create([Bind("Id,Author,Title,StatusMessage,AddedDate,IdentityUserId")] BookShelfEntry bookShelfEntry)
         {
             if (ModelState.IsValid)
@@ -79,12 +87,42 @@ namespace NovelNook.Controllers
                 return RedirectToAction(nameof(Index));
             }
             //ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id", bookShelfEntry.IdentityUserId);
-            //return View(bookShelfEntry);
+            return View(bookShelfEntry);
+            //return RedirectToAction(nameof(Index));
+        }
+
+        //CREATE METHOD FOR ADDING BOOK FROM EXPLORE PAGE TO THE BOOKSHELF PAGE THROUGH CREATE PAGE
+
+        [HttpPost("add-to-bookshelf/")]
+        
+        public async Task<IActionResult> AddBook([Bind("Title", "Author")] BookShelfEntry bookShelfEntry)
+        {
+            if(!ModelState.IsValid)
+            {
+                return RedirectToAction("Index", "Explore");
+            }
+            var userId = _userManager.GetUserId(User);
+            bool ifExists = await _context.BookshelfEntries.AnyAsync(b => b.Title == bookShelfEntry.Title && b.Author == bookShelfEntry.Author && b.IdentityUserId == userId);
+
+            if(ifExists)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            bookShelfEntry.IdentityUserId = userId;
+            bookShelfEntry.StatusMessage = "Future Read";
+            bookShelfEntry.AddedDate = DateTime.Now;
+
+            _context.Add(bookShelfEntry);
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: BookShelfEntries/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+
+        
+
+        // GET: 
+        [HttpGet("book/edit/{id}/{slug}")]
+        public async Task<IActionResult> Edit(int? id, string slug)
         {
             if (id == null)
             {
@@ -100,6 +138,11 @@ namespace NovelNook.Controllers
             {
                 return Unauthorized();
             }
+
+            if(bookShelfEntry.Slug != slug)
+            {
+                return RedirectToAction("Edit", new { id = bookShelfEntry.Id, slug = bookShelfEntry.Slug });
+            }
             //ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id", bookShelfEntry.IdentityUserId);
             return View(bookShelfEntry);
         }
@@ -107,7 +150,7 @@ namespace NovelNook.Controllers
         // POST: BookShelfEntries/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("book/edit/{id}/{slug}/")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Author,Title,StatusMessage,AddedDate,IdentityUserId")] BookShelfEntry bookShelfEntry)
         {
@@ -151,10 +194,11 @@ namespace NovelNook.Controllers
             //ViewData["IdentityUserId"] = new SelectList(_context.Users, "Id", "Id", bookShelfEntry.IdentityUserId);
             return View(bookShelfEntry);
         }
-        
 
-        // GET: BookShelfEntries/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+
+        // GET: 
+        [HttpGet("book/delete/{id}/{slug}")]
+        public async Task<IActionResult> Delete(int? id, string slug)
         {
             if (id == null)
             {
@@ -173,7 +217,7 @@ namespace NovelNook.Controllers
         }
 
         // POST: BookShelfEntries/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost("book/delete/{id}/{slug}/"), ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -191,5 +235,7 @@ namespace NovelNook.Controllers
         {
             return _context.BookshelfEntries.Any(e => e.Id == id);
         }
+
     }
+    
 }
