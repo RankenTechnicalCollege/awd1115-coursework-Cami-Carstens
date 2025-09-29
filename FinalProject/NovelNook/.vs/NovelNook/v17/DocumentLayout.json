@@ -62,8 +62,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -87,8 +91,7 @@
               "RelativeToolTip": "NovelNook\\Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T22:41:05.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T22:41:05.364Z"
             },
             {
               "$type": "Document",
@@ -100,12 +103,7 @@
               "RelativeToolTip": "NovelNook\\Views\\BookShelfEntries\\Delete.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-27T22:38:36.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-09-27T22:38:36.775Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "NovelNook\\Views\\BookShelfEntries\\Create.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T02:59:36.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T02:59:36.556Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "NovelNook\\Views\\BookShelfEntries\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T03:36:01.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T03:36:01.645Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "NovelNook\\Views\\BookShelfEntries\\Index.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T03:19:01.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T03:19:01.898Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "NovelNook\\Controllers\\BookShelfEntriesController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAwwCkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T03:05:18.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T03:05:18.412Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "NovelNook\\wwwroot\\css\\site.css",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-26T20:47:12.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T20:47:12.488Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "NovelNook\\Views\\Explore\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T20:06:40.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T20:06:40.866Z"
             },
             {
               "$type": "Document",

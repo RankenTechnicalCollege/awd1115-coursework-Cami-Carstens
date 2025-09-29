@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH06\\HelloWorldSK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44E864A8-10DD-4135-A265-FA5327BB79C4}|HelloWorldSK\\HelloWorldSK.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch06\\helloworldsk\\helloworldsk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E864A8-10DD-4135-A265-FA5327BB79C4}|HelloWorldSK\\HelloWorldSK.csproj|solutionrelative:helloworldsk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E864A8-10DD-4135-A265-FA5327BB79C4}|HelloWorldSK\\HelloWorldSK.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch06\\helloworldsk\\helloworldsk\\lightsplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E864A8-10DD-4135-A265-FA5327BB79C4}|HelloWorldSK\\HelloWorldSK.csproj|solutionrelative:helloworldsk\\lightsplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LightsPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH06\\HelloWorldSK\\HelloWorldSK\\LightsPlugin.cs",
+              "RelativeDocumentMoniker": "HelloWorldSK\\LightsPlugin.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH06\\HelloWorldSK\\HelloWorldSK\\LightsPlugin.cs",
+              "RelativeToolTip": "HelloWorldSK\\LightsPlugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T02:01:11.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH06\\HelloWorldSK\\HelloWorldSK\\Program.cs",
+              "RelativeDocumentMoniker": "HelloWorldSK\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH06\\HelloWorldSK\\HelloWorldSK\\Program.cs",
+              "RelativeToolTip": "HelloWorldSK\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T01:42:17.193Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
