@@ -1,0 +1,16 @@
+﻿
+@{
+    Layout = "_HelpLayout";
+    ViewBag.Title = "Help Tutorial Page 1";
+    ViewBag.ActiveTab = "1";
+}
+
+@section Header {
+    <h1>Help Page</h1>
+}
+
+
+<h2 class="mt-4">Tutorial - Page 1</h2>
+<p>Here's the first thing you need to know about my website</p>
+<a asp-area="Help" asp-controller="Tutorial" asp-action="Index"asp-route-id="2" class="btn btn-dark text-white">Next</a>
+

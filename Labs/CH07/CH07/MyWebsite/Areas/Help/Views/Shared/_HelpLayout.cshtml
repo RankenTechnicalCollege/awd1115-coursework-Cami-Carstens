@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+   <div class= "container mt-3">
+   
+       <ul class="nav nav-tabs">
+           <li class="nav-item">
+               <a class="nav-link @(ViewBag.ActiveTab == "Home" ? "active" : "")" 
+               asp-area="Help" asp-controller="Home" asp-action="Index">Home</a>
+           </li>
+           <li class="nav-item">
+                <a class="nav-link @(ViewBag.ActiveTab == "1" ? "active" : "")"
+                asp-area="Help" asp-controller="Tutorial" asp-action="Index"  asp-route-id="1">Tutorial</a>
+           </li>
+@*         <li class="nav-item">
+            <a class="nav-link @(ViewBag.ActiveTab == "2" ? "active" : "")"
+               asp-area="Help" asp-controller="Tutorial" asp-action="Index" asp-route-id ="2">Tutorial Page-2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link @(ViewBag.ActiveTab == "3" ? "active" : "")"
+               asp-area="Help" asp-controller="Tutorial" asp-action="Index" asp-route-id="3">Tutorial Page-3</a> *@
+        </li>
+       </ul>
+   </div>
+
+<div class="container">
+   
+        @RenderBody()
+  
+</div> 
