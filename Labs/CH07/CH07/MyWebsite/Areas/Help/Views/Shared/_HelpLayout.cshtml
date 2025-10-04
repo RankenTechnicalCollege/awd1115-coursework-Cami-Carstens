@@ -1,6 +1,8 @@
 ﻿
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "_Layout";
+    string c = ViewContext.RouteData.Values["controller"].ToString() ?? "";
+    string a = ViewContext.RouteData.Values["action"].ToString() ?? "";
 }
 
    <div class= "container mt-3">
