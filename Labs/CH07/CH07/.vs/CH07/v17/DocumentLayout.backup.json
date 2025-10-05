@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\shared\\_helplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\shared\\_helplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\tutorial\\page3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,20 +23,40 @@
       "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\tutorial\\page2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\tutorial\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\tutorial\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\shared\\_helplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\shared\\_helplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\controllers\\tutorialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +67,8 @@
       "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\tutorial\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\tutorial\\page1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\areas\\help\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\areas\\help\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\ch07\\mywebsite\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80541B55-FB3A-4032-A667-567BC5FCB9CF}|MyWebsite\\MyWebsite.csproj|solutionrelative:mywebsite\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,150 +86,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Page3.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
-              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T21:09:06.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T03:51:45.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "MyWebsite\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T21:11:07.386Z",
-              "EditorCaption": ""
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MyWebsite\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MyWebsite\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-05T18:30:05.584Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MyWebsite\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T19:54:11.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Page2.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
-              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T21:08:50.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "MyWebsite\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T21:11:33.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MyWebsite\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MyWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-03T21:00:44.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_HelpLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
-              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T19:31:02.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MyWebsite\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MyWebsite\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Program.cs",
+              "RelativeDocumentMoniker": "MyWebsite\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Program.cs",
+              "RelativeToolTip": "MyWebsite\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:22:00.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T02:43:27.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TutorialController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
-              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
-              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T20:56:47.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T20:56:20.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Page1.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page1.cshtml",
               "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page1.cshtml",
@@ -237,7 +135,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page2.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T21:08:50.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page3.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Tutorial\\Page3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T21:09:06.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_HelpLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Shared\\_HelpLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T19:31:02.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeToolTip": "MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T02:41:04.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyWebsite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T19:54:11.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "MyWebsite\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T21:11:33.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "MyWebsite\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T21:11:07.386Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyWebsite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyWebsite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:22:00.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T03:51:45.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Views\\_ViewStart.cshtml",
@@ -249,19 +255,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Program.cs",
-              "RelativeDocumentMoniker": "MyWebsite\\Program.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Program.cs",
-              "RelativeToolTip": "MyWebsite\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "TutorialController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Controllers\\TutorialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T02:43:27.985Z"
+              "WhenOpened": "2025-10-02T20:56:47.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyWebsite\\Areas\\Help\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T20:56:20.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MyWebsite\\Views\\_ViewStart.cshtml",
@@ -270,18 +288,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-03T01:54:29.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_UserLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
-              "RelativeDocumentMoniker": "MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\CH07\\MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
-              "RelativeToolTip": "MyWebsite\\Views\\Shared\\_UserLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T02:41:04.743Z"
             }
           ]
         }

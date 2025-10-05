@@ -27,7 +27,7 @@
                             asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white @(ViewContext.RouteData.Values["action"]?.ToString() == "About" ? "active" : "")'' 
+                            <a class="nav-link text-white @(ViewContext.RouteData.Values["action"]?.ToString() == "About" ? "active" : "")"
                             asp-area="" asp-controller="Home" asp-action="About" asp-route-brand="all">About</a>
                         </li>
                         <li class="nav-item">
@@ -35,8 +35,8 @@
                             asp-area="" asp-controller="Home" asp-action="Contact" asp-route-brand="all">Contact</a>
                         </li>
                         <li class="nav-item ms-auto">
-                            <a class="nav-link text-white" 
-                            asp-area="Help" asp-controller="Tutorial" asp-action="Index">Help</a>
+                            <a class="nav-link text-white"
+                               asp-area="Help" asp-controller="Tutorial" asp-action="Index">Help</a>
                         </li>
                     </ul>
                 </div>
