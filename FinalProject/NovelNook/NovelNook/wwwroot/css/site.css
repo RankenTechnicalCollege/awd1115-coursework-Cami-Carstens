@@ -63,3 +63,12 @@ header {
 .descFont {
     font-size: 12px;
 }
+
+.nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #000000 !important;
+}
+.navbar-brand.active {
+    font-weight: bold;
+    border-bottom: 2px solid #000000 !important;
+}

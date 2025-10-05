@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\views\\bicycle\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Views\\Bicycle\\List.cshtml",
               "RelativeDocumentMoniker": "MyShop\\Views\\Bicycle\\List.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Views\\Bicycle\\List.cshtml",
               "RelativeToolTip": "MyShop\\Views\\Bicycle\\List.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAABwAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-02T18:33:06.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BicycleController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
               "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -88,8 +88,7 @@
               "RelativeToolTip": "MyShop\\Areas\\Admin\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T18:56:45.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T18:56:45.053Z"
             },
             {
               "$type": "Document",
@@ -101,8 +100,7 @@
               "RelativeToolTip": "MyShop\\Views\\Bicycle\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-01T23:29:13.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T23:29:13.631Z"
             },
             {
               "$type": "Document",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "MyShop\\Areas\\Admin\\Views\\Bicycle\\List.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T19:30:51.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T19:30:51.684Z"
             },
             {
               "$type": "Document",
@@ -127,8 +124,7 @@
               "RelativeToolTip": "MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T19:36:32.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T19:36:32.997Z"
             },
             {
               "$type": "Document",

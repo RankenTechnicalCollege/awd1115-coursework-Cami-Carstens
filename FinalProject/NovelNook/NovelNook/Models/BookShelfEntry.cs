@@ -12,9 +12,9 @@ namespace NovelNook.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage="Author is required.")]
-        public string Author { get; set; }
+        public string? Author { get; set; }
         [Required(ErrorMessage = "Book title is required.")]
-        public string Title { get; set; }
+        public string? Title { get; set; }
 
         [Required(ErrorMessage = "Please make a reading status selection")]
         [Display(Name = "Status")]
@@ -28,10 +28,10 @@ namespace NovelNook.Models
         // Navigation property-navigates to the User who placed the order
         //order has a user
         [ValidateNever]
-        public IdentityUser User { get; set; }
+        public IdentityUser? User { get; set; }
 
         //Fk
-        public string IdentityUserId { get; set; }
+        public string? IdentityUserId { get; set; }
         public string Slug => $"{Title?.ToLower()}".Replace(" ", "-");
     }
    

@@ -14,12 +14,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 
 </head>
+
+
+@{
+        var controller = ViewContext.RouteData.Values["controller"]?.ToString() ?? "Home";
+        var action = ViewContext.RouteData.Values["action"]?.ToString() ?? "Index";
+        var area = ViewContext.RouteData.Values["area"]?.ToString() ?? "";
+}
 <body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <img src="~/images/bookLogo2.jpg" alt="Novel Nook Book Logo" class="img-fluid me-3" style="max-height: 50px; border-radius: 10px;" />
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Novel Nook</a>
+                <a class="navbar-brand @(controller == "Home" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index">Novel Nook</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +35,13 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="BookShelfEntries" asp-action="Index">Bookshelf</a>
+                            <a class="nav-link text-dark @(controller == "BookShelfEntries" && action =="Index" ? "active" : "")" asp-area="" asp-controller="BookShelfEntries" asp-action="Index">Bookshelf</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Discussions" asp-action="Index">Discussion</a>
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Discussions" ? "active" : "")" asp-area="Forum" asp-controller="Discussions" asp-action="Index">Discussion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Explore" asp-action="Index">Explore</a>
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Explore" ? "active" : "")" asp-area="" asp-controller="Explore" asp-action="Index">Explore</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -67,7 +74,7 @@
         </div>
 
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+   @*  <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

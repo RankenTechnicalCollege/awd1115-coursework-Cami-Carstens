@@ -9,7 +9,7 @@ namespace MyWebsite.Areas.Help.Controllers
       //method for which tutorial page view
         public IActionResult Index(int id)
         {
-            //ViewBag.ActiveTab = "Tutorial";
+            ViewBag.ActiveTab = "Tutorial";
             ViewBag.ActivePage = id.ToString();
             if (id == 1)
             {

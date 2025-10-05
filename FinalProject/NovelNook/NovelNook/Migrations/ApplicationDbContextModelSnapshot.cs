@@ -240,7 +240,6 @@ namespace NovelNook.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IdentityUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("StatusMessage")
@@ -313,9 +312,7 @@ namespace NovelNook.Migrations
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
                         .WithMany()
-                        .HasForeignKey("IdentityUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("IdentityUserId");
 
                     b.Navigation("User");
                 });

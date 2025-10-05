@@ -76,7 +76,8 @@ namespace NovelNook.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost("create/")]
-       
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Create([Bind("Id,Author,Title,StatusMessage,AddedDate,IdentityUserId")] BookShelfEntry bookShelfEntry)
         {
             if (ModelState.IsValid)
@@ -94,17 +95,17 @@ namespace NovelNook.Controllers
         //CREATE METHOD FOR ADDING BOOK FROM EXPLORE PAGE TO THE BOOKSHELF PAGE THROUGH CREATE PAGE
 
         [HttpPost("add-to-bookshelf/")]
-        
+
         public async Task<IActionResult> AddBook([Bind("Title", "Author")] BookShelfEntry bookShelfEntry)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return RedirectToAction("Index", "Explore");
             }
             var userId = _userManager.GetUserId(User);
             bool ifExists = await _context.BookshelfEntries.AnyAsync(b => b.Title == bookShelfEntry.Title && b.Author == bookShelfEntry.Author && b.IdentityUserId == userId);
 
-            if(ifExists)
+            if (ifExists)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -118,7 +119,7 @@ namespace NovelNook.Controllers
         }
 
 
-        
+
 
         // GET: 
         [HttpGet("book/edit/{id}/{slug}")]

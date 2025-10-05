@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NovelNook.Data;
 using NovelNook.Models;
+using NovelNook.Areas.Forum.Models;
+using Microsoft.Build.Framework;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddDbContext<SeedDataContext>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddDbContext<DiscussionContext>(options =>
+options.UseSqlServer(connectionString));
 
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -48,11 +53,13 @@ app.UseRouting();
 app.UseAuthorization();
 
 
+app.MapAreaControllerRoute(
+    name: "Forum",
+    areaName: "Forum",
+    pattern: "Forum/{controller=Discussions}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "books",
     pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}");
-
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
