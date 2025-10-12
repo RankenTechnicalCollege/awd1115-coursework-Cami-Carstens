@@ -1,4 +1,6 @@
-﻿@model IEnumerable<NovelNook.Models.BookShelfEntry>
+﻿@model NovelNook.Models.BookShelfViewModel 
+
+@* @model IEnumerable<NovelNook.Models.BookShelfEntry> *@
 
 @{
     ViewData["Title"] = "Index";
@@ -17,16 +19,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Author)
+                Author
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                Title
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.StatusMessage)
+                Status
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AddedDate)
+                Added Date
             </th>
             <th>
                @*  @Html.DisplayNameFor(model => model.User) *@
@@ -35,7 +37,7 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.BookShelfEntries) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Author)
@@ -61,3 +63,27 @@
 }
     </tbody>
 </table>
+
+
+<h2 class="mt-5">Recommended Reading</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach(var rec in Model.BookRecommendations)
+    {
+        <div class="col">
+            <div class="card h-100">
+                <div class="recCard card-body">
+                    <h4 class="card-title">@rec.Title</h4>
+                    <h5 class="card-subtitle mb-2">@rec.Author</h5>
+                    <p class="card-text">@rec.Description</p>
+
+                    <form asp-action="AddBook" method="post" class="mt-auto">
+                        <input type="hidden" name="Title" value="@rec.Title" />
+                        <input type="hidden" name="Author" value="@rec.Author" />
+                        <button type="submit" class="btn btn-secondary w-100">Add To BookShelf</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>

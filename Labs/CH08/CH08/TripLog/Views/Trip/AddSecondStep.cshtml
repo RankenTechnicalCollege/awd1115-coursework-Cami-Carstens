@@ -1,0 +1,25 @@
+﻿@model TripLog.Models.TripPage2
+@{
+    ViewBag.Title = "Add Trip - Step 2";
+}
+
+<h4>@ViewBag.SubHeader</h4>
+
+<form asp-action="AddSecondStep" method="post">
+    <div class="form-group">
+        <label asp-for="AccommodationPhone"></label>
+        <input asp-for="AccommodationPhone" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AccommodationEmail"></label>
+        <input asp-for="AccommodationEmail" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-dark mt-3">Next</button>
+  
+        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-dark mt-3">Cancel</a>
+    
+</form>
+
+

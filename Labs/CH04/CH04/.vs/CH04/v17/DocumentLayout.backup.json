@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contact\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch04\\ch04\\ch04\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch04\\ch04\\ch04\\views\\contact\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contact\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch04\\ch04\\ch04\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|solutionrelative:ch04\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEE67D41-AF84-4C7E-8E07-0BCC47019DE6}|CH04\\CH04.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch04\\ch04\\ch04\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,18 +39,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddEdit.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH04\\CH04\\CH04\\Views\\Contact\\AddEdit.cshtml",
-              "RelativeDocumentMoniker": "CH04\\Views\\Contact\\AddEdit.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH04\\CH04\\CH04\\Views\\Contact\\AddEdit.cshtml",
-              "RelativeToolTip": "CH04\\Views\\Contact\\AddEdit.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T03:47:21.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH04\\CH04\\CH04\\Views\\Contact\\Delete.cshtml",
               "RelativeDocumentMoniker": "CH04\\Views\\Contact\\Delete.cshtml",
@@ -68,10 +56,9 @@
               "RelativeDocumentMoniker": "CH04\\Views\\Contact\\List.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH04\\CH04\\CH04\\Views\\Contact\\List.cshtml",
               "RelativeToolTip": "CH04\\Views\\Contact\\List.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T03:57:07.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T03:57:07.083Z"
             },
             {
               "$type": "Document",
@@ -81,10 +68,22 @@
               "RelativeDocumentMoniker": "CH04\\Views\\Details\\Details.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH04\\CH04\\CH04\\Views\\Details\\Details.cshtml",
               "RelativeToolTip": "CH04\\Views\\Details\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-18T02:49:26.285Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH04\\CH04\\CH04\\Views\\Contact\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "CH04\\Views\\Contact\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH04\\CH04\\CH04\\Views\\Contact\\AddEdit.cshtml",
+              "RelativeToolTip": "CH04\\Views\\Contact\\AddEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T03:47:21.452Z"
             },
             {
               "$type": "Document",

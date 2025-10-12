@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NovelNook.Data;
 using NovelNook.Models;
+
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -21,21 +22,41 @@ namespace NovelNook.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
 
-        public BookShelfEntriesController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        //add in modelView // gives access to both models-bookshelf and explorecard
+        private readonly SeedDataContext _seedDataContext;
+
+        //
+
+        public BookShelfEntriesController(ApplicationDbContext context, UserManager<IdentityUser> userManager, SeedDataContext seedContext)
         {
             _context = context;
             _userManager = userManager;
+            _seedDataContext = seedContext;
         }
 
         // GET: BookShelfEntries /books
         [HttpGet("")]
         public async Task<IActionResult> Index()
         {
-            var userId = _userManager.GetUserId(User);
             var entries = await _context.BookshelfEntries
-                .Where(b => b.IdentityUserId == userId)
+                .Where(b => b.IdentityUserId == _userManager.GetUserId(User))
                 .ToListAsync();
-            return View(entries);
+
+            var recommendations = await _seedDataContext.BookRecommendations.ToListAsync();
+
+            var viewModel = new BookShelfViewModel
+            {
+                BookShelfEntries = entries,
+                BookRecommendations = recommendations
+
+            };
+            return View(viewModel);
+
+            //var userId = _userManager.GetUserId(User);
+            //var entries = await _context.BookshelfEntries
+            //    .Where(b => b.IdentityUserId == userId)
+            //    .ToListAsync();
+            //return View(entries);
         }
 
         //GET: 

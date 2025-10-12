@@ -21,6 +21,117 @@ namespace NovelNook.Migrations.SeedData
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("NovelNook.Models.BookRecommendation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BookRecommendations");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Author = "Blake Crouch",
+                            Description = "A mind-bending thriller that explores the concept of alternate realities and the choices that define us. Jason Dessen, a college physics professor, is abducted and wakes up in a world where his life is completely different. As he navigates this new reality, he must confront the consequences of his choices and fight to return to his original life.",
+                            Title = "Dark Matter"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Author = "Shauna Niequist",
+                            Description = "A collection of essays that find beauty and meaning in the ordinary moments of life. Shauna Niequist shares her reflections on family, faith, and the simple joys that make life special, encouraging readers to appreciate the small things that often go unnoticed.",
+                            Title = "Cold Tangerines: Celebrating the Extraordinary Nature of Everyday Life"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Author = "Jandy Nelson",
+                            Description = "A young adult novel that tells the story of twins Noah and Jude, who are struggling to reconnect after a tragic event. The narrative alternates between their perspectives, revealing their secrets, dreams, and the complexities of their relationship as they navigate love, loss, and self-discovery.",
+                            Title = "I'll give you the sun"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Author = "Claire Kendal",
+                            Description = "A psychological thriller that delves into the dark side of obsession and the lengths people will go to protect their secrets.",
+                            Title = "The Book of You"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Author = "Liane Moriarty",
+                            Description = "A gripping novel that explores the lives of three women in a tight-knit community, unraveling the secrets and lies that lead to a shocking event at a school trivia night.",
+                            Title = "Big Little Lies"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Author = "Caroline Kepnes",
+                            Description = "A psychological thriller that follows Joe Goldberg, a bookstore manager who becomes infatuated with a customer named Beck. The story is told from Joe's perspective, revealing his obsessive and dangerous behavior as he manipulates those around him to win Beck's affection.",
+                            Title = "You"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Author = "Neal Shusterman",
+                            Description = "In a future where death has been conquered, two teenagers are chosen to become Scythes, the only ones who can end life to control population growth. As they learn the art of gleaning, they must navigate moral dilemmas and the corrupt world of the Scythedom.",
+                            Title = "Scythe"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Author = "V.E. Schwab",
+                            Description = "Vicious is a science fiction fantasy novel about two former college roommates, Victor Vale and Eli Ever, who turn into powerful arch-nemeses. After a shared research project goes horribly wrong, the two rivals develop extraordinary abilities and embark on a path of ambition, betrayal, and revenge. The story explores what happens when people gain superpowers in a world where there are no true heroes, only villains and anti-heroes with twisted motivations.",
+                            Title = "Vicious"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Author = "Matt Haig",
+                            Description = "In Notes on a Nervous Planet, Matt Haig explores the impact of modern life on mental health, addressing issues like anxiety, social media, and the fast pace of contemporary living. Through personal anecdotes and reflections, Haig offers insights and practical advice on how to navigate the challenges of the digital age while maintaining mental well-being.",
+                            Title = "Notes on Nervous Planet"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Author = "A.S. King",
+                            Description = "Dig is a young adult novel that follows the story of a teenage girl named Brynn, who is struggling to cope with the recent death of her father. As she navigates her grief, Brynn uncovers family secrets and confronts her own identity, leading to a journey of self-discovery and healing.",
+                            Title = "Dig"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Author = "Beatrice the Biologist",
+                            Description = "Everyday Amazing is a fascinating exploration of the science behind everyday phenomena. Beatrice the Biologist delves into the wonders of the natural world, explaining complex scientific concepts in an engaging and accessible way. From the chemistry of cooking to the physics of rainbows, this book reveals the extraordinary science that surrounds us in our daily lives.",
+                            Title = "Everyday Amazing: Fascinating Facts About the Science That Surrounds Us"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Author = "Adam Grant",
+                            Description = "Think Again: The Power of Knowing What You Don't Know by Adam Grant is about the importance of reexamining your beliefs and unlearning outdated knowledge to adapt and succeed in a rapidly changing world. Grant, an organizational psychologist, argues that what matters more than intelligence is \"mental flexibility\" and the willingness to question your own opinions.",
+                            Title = "Think Again"
+                        });
+                });
+
             modelBuilder.Entity("NovelNook.Models.ExploreCard", b =>
                 {
                     b.Property<int>("Id")

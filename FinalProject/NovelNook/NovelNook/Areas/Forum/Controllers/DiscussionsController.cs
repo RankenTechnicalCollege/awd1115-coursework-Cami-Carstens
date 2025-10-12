@@ -21,6 +21,7 @@ namespace NovelNook.Areas.Forum.Controllers
             {
                 Discussions = _context.Discussions.ToList()
             };
+            ViewBag.SuccessMessage = TempData["SuccessMessage"];
             return View(model);
         }
 
@@ -33,6 +34,7 @@ namespace NovelNook.Areas.Forum.Controllers
             {
                 _context.Discussions.Add(model.NewDiscussion);
                 _context.SaveChanges();
+                TempData["SuccessMessage"] = "Discussion entry was successfully added to forum.";
                 return RedirectToAction(nameof(Index));
             }
 
@@ -57,7 +59,9 @@ namespace NovelNook.Areas.Forum.Controllers
             if (ModelState.IsValid)
             {
                 _context.Discussions.Update(discussion);
+               
                 _context.SaveChanges();
+                TempData["SuccessMessage"] = "Discussion entry was updated.";
                 return RedirectToAction(nameof(Index));
             }
             return View(discussion);
@@ -74,6 +78,8 @@ namespace NovelNook.Areas.Forum.Controllers
             }
             _context.Discussions.Remove(discussion);
             _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Discussion entry was successfully deleted.";
             return RedirectToAction(nameof(Index));
         }
     }

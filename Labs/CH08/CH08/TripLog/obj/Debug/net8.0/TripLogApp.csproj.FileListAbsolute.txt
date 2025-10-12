@@ -1,0 +1,10 @@
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.csproj.AssemblyReference.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.AssemblyInfoInputs.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.AssemblyInfo.cs
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.csproj.CoreCompileInputs.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.RazorAssemblyInfo.cache
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.RazorAssemblyInfo.cs
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\Labs\CH08\CH08\TripLog\obj\Debug\net8.0\TripLogApp.sourcelink.json

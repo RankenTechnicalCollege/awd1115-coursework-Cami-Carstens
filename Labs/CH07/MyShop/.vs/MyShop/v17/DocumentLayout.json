@@ -7,32 +7,32 @@
       "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\views\\bicycle\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\bicycle\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\views\\bicycle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\views\\bicycle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\views\\bicycle\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\views\\bicycle\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\views\\bicycle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\views\\bicycle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\areas\\admin\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\areas\\admin\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\bicyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\bicycle\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\views\\bicycle\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\bicycle\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7625A75C-12D2-4DFA-91A7-CE5BE1179B34}|MyShop\\MyShop.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch07\\myshop\\myshop\\myshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -54,15 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BicycleController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
-              "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
-              "RelativeToolTip": "MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T19:14:53.159Z",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
+              "RelativeToolTip": "MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T20:20:54.536Z",
               "EditorCaption": ""
             },
             {
@@ -73,22 +73,22 @@
               "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Views\\Bicycle\\List.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\List.cshtml",
               "RelativeToolTip": "MyShop\\Areas\\Admin\\Views\\Bicycle\\List.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADIAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-02T19:30:51.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Views\\Bicycle\\List.cshtml",
-              "RelativeDocumentMoniker": "MyShop\\Views\\Bicycle\\List.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Views\\Bicycle\\List.cshtml",
-              "RelativeToolTip": "MyShop\\Views\\Bicycle\\List.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAABwAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
+              "RelativeToolTip": "MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T18:33:06.907Z",
+              "WhenOpened": "2025-10-02T19:36:32.997Z",
               "EditorCaption": ""
             },
             {
@@ -101,11 +101,37 @@
               "RelativeToolTip": "MyShop\\Areas\\Admin\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T18:56:45.053Z"
+              "WhenOpened": "2025-10-02T18:56:45.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BicycleController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
+              "RelativeToolTip": "MyShop\\Areas\\Admin\\Controllers\\BicycleController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:14:53.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BicycleController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Controllers\\BicycleController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\BicycleController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Controllers\\BicycleController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\BicycleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T19:17:43.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Views\\Bicycle\\Details.cshtml",
               "RelativeDocumentMoniker": "MyShop\\Views\\Bicycle\\Details.cshtml",
@@ -117,39 +143,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddEdit.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
-              "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
-              "RelativeToolTip": "MyShop\\Areas\\Admin\\Views\\Bicycle\\AddEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T19:36:32.997Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
-              "RelativeDocumentMoniker": "MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
-              "RelativeToolTip": "MyShop\\Areas\\Admin\\Views\\Bicycle\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Views\\Bicycle\\List.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Bicycle\\List.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Views\\Bicycle\\List.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Bicycle\\List.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T20:20:54.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BicycleController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Controllers\\BicycleController.cs",
-              "RelativeDocumentMoniker": "MyShop\\Controllers\\BicycleController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH07\\MyShop\\MyShop\\Controllers\\BicycleController.cs",
-              "RelativeToolTip": "MyShop\\Controllers\\BicycleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T19:17:43.913Z"
+              "WhenOpened": "2025-10-02T18:33:06.907Z"
             },
             {
               "$type": "Document",

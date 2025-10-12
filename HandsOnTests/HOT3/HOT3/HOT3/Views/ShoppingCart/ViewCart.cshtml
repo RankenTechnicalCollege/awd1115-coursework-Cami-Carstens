@@ -1,0 +1,57 @@
+﻿@model ShoppingCartViewModel
+
+<h1 class="">Shopping Cart</h1>
+
+<table class="table table-bordered table-striped align-middle text-center">
+    <thead>
+        <tr>
+            <th class="text-white">Brand</th>
+            <th class ="text-white">Name</th>
+            <th class ="text-white">Price</th>
+            <th class="text-white">Quantity</th>
+            <th class="text-white">Total</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model.CartItems)
+        {
+            <tr>
+                <td class="text-white">@item.Hoodie.Brand</td>
+                <td class="text-white">@item.Hoodie.Name</td>
+                <td class="text-white">@item.Hoodie.Price.ToString("C")</td>
+                <td class="text-white">@item.Quantity</td>
+                <td class="text-white">@((item.Hoodie.Price * item.Quantity).ToString("C"))</td>
+
+                <td class="hiddenField">
+                <input type="hidden" value="@item.Hoodie.Id" />
+                </td>
+                <td>
+                    <a asp-controller="ShoppingCart" asp-action="RemoveItem" asp-route-id="@item.Hoodie.Id"class="btn btn-danger btn-sm"
+                       onclick="return confirm('Are you sure you want to remove this item from the cart?');">Remove</a> 
+                </td>
+            </tr>
+        }
+        <tr>
+            
+            <td colspan="4" class="text-end text-white"><strong>Total:</strong></td>
+            <td class="text-white"><strong>@Model.TotalPrice?.ToString("C")</strong></td>
+           
+        </tr>
+    </tbody>
+</table>
+<div class="mt-3">
+        <a asp-controller="Hoodie" asp-action="Index" class="mb-4 text-dark">Continue shopping</a>
+
+</div>
+
+@if (!string.IsNullOrEmpty(ViewBag.CartMessage))
+{
+    <h5 class="success @* border border-dark border-2 *@">@ViewBag.CartMessage</h5>
+}
+
+<div class="d-flex justify-content-end">
+<form method="post" asp-action="PurchaseItems">
+    <button class="btn btn-secondary mt-2">Purchase</button>
+</form>
+</div>

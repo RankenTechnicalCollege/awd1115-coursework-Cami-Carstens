@@ -6,9 +6,111 @@ namespace NovelNook.Models
     {
         public SeedDataContext(DbContextOptions<SeedDataContext> options) : base(options) { }
         public DbSet<ExploreCard> ExploreCards { get; set; } = null!;
-       
+        public DbSet<BookRecommendation> BookRecommendations { get; set; } = null!;
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<BookRecommendation>().HasData(
+                new BookRecommendation
+                {
+                    Id = 1,
+                    Title = "Dark Matter",
+                    Author = "Blake Crouch",
+                    Description = "A mind-bending thriller that explores the concept of alternate realities and the choices that define us. Jason Dessen, a college physics professor, is abducted and wakes up in a world where his life is completely different. As he navigates this new reality, he must confront the consequences of his choices and fight to return to his original life."
+
+                },
+                new BookRecommendation
+                {
+                    Id = 2,
+                    Title = "Cold Tangerines: Celebrating the Extraordinary Nature of Everyday Life",
+                    Author = "Shauna Niequist",
+                    Description = "A collection of essays that find beauty and meaning in the ordinary moments of life. Shauna Niequist shares her reflections on family, faith, and the simple joys that make life special, encouraging readers to appreciate the small things that often go unnoticed."
+                },
+                new BookRecommendation
+                {
+                    Id = 3,
+                    Title = "I'll give you the sun",
+                    Author = "Jandy Nelson",
+                    Description = "A young adult novel that tells the story of twins Noah and Jude, who are struggling to reconnect after a tragic event. The narrative alternates between their perspectives, revealing their secrets, dreams, and the complexities of their relationship as they navigate love, loss, and self-discovery."
+                },
+                new BookRecommendation
+                {
+                    Id = 4,
+                    Title = "The Book of You",
+                    Author = "Claire Kendal",
+                    Description = "A psychological thriller that delves into the dark side of obsession and the lengths people will go to protect their secrets."
+                },
+                new BookRecommendation
+                {
+                    Id = 5,
+                    Title = "Big Little Lies",
+                    Author = "Liane Moriarty",
+                    Description = "A gripping novel that explores the lives of three women in a tight-knit community, unraveling the secrets and lies that lead to a shocking event at a school trivia night."
+                },
+                new BookRecommendation
+                {
+                    Id = 6,
+                    Title = "You",
+                    Author = "Caroline Kepnes",
+                    Description = "A psychological thriller that follows Joe Goldberg, a bookstore manager who becomes infatuated with a customer named Beck. The story is told from Joe's perspective, revealing his obsessive and dangerous behavior as he manipulates those around him to win Beck's affection."
+                },
+                new BookRecommendation
+                {
+                    Id = 7,
+                    Title = "Scythe",
+                    Author = "Neal Shusterman",
+                    Description = "In a future where death has been conquered, two teenagers are chosen to become Scythes, the only ones who can end life to control population growth. As they learn the art of gleaning, they must navigate moral dilemmas and the corrupt world of the Scythedom."
+                },
+                new BookRecommendation
+                {
+                    Id = 8,
+                    Title = "Vicious",
+                    Author = "V.E. Schwab",
+                    Description = "Vicious is a science fiction fantasy novel about two former college roommates, Victor Vale and Eli Ever, who turn into powerful arch-nemeses. After a shared research project goes horribly wrong, the two rivals develop extraordinary abilities and embark on a path of ambition, betrayal, and revenge. The story explores what happens when people gain superpowers in a world where there are no true heroes, only villains and anti-heroes with twisted motivations."
+                },
+                new BookRecommendation
+                {
+                    Id = 9,
+                    Title = "Notes on Nervous Planet",
+                    Author = "Matt Haig",
+                    Description = "In Notes on a Nervous Planet, Matt Haig explores the impact of modern life on mental health, addressing issues like anxiety, social media, and the fast pace of contemporary living. Through personal anecdotes and reflections, Haig offers insights and practical advice on how to navigate the challenges of the digital age while maintaining mental well-being."
+                },
+                new BookRecommendation
+                {
+                    Id = 10,
+                    Title = "Dig",
+                    Author = "A.S. King",
+                    Description = "Dig is a young adult novel that follows the story of a teenage girl named Brynn, who is struggling to cope with the recent death of her father. As she navigates her grief, Brynn uncovers family secrets and confronts her own identity, leading to a journey of self-discovery and healing."
+                },
+                new BookRecommendation
+                {
+                    Id = 11,
+                    Title = "Everyday Amazing: Fascinating Facts About the Science That Surrounds Us",
+                    Author = "Beatrice the Biologist",
+                    Description = "Everyday Amazing is a fascinating exploration of the science behind everyday phenomena. Beatrice the Biologist delves into the wonders of the natural world, explaining complex scientific concepts in an engaging and accessible way. From the chemistry of cooking to the physics of rainbows, this book reveals the extraordinary science that surrounds us in our daily lives."
+                },
+                new BookRecommendation
+                {
+                    Id = 12,
+                    Title = "Think Again",
+                    Author = "Adam Grant",
+                    Description = "Think Again: The Power of Knowing What You Don't Know by Adam Grant is about the importance of reexamining your beliefs and unlearning outdated knowledge to adapt and succeed in a rapidly changing world. Grant, an organizational psychologist, argues that what matters more than intelligence is \"mental flexibility\" and the willingness to question your own opinions."
+
+                }
+ );
+
+
+
+
+
+
+
+
+
+
+            //Explore Cards on Explore Page
+
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<ExploreCard>().HasData(
                 new ExploreCard
@@ -41,23 +143,23 @@ namespace NovelNook.Models
             },
 
               new ExploreCard
+              {
+                  Id = 4,
+                  Title = "murach's ASP.NET Core MVC",
+                  Description = "Learn to write your first apps using MVC (Model-View-Controller) pattern. This book gets you off to a fast start whether or not you have prior experience with server-side development.\r\nIt teaches you all the skills you need to develop bulletproof, database-driven web apps. That includes using endpoint routing, Razor views, model binding, data validation, dependency injection, Bootstrap for responsive design, EF (Entity Framework) Core for database handling, xUnit and Moq for unit testing, and Identity for authentication",
+                  Author = "Mary Delamater Joel Murach",
+                  Image = "/images/ASPNet.jpg",
+                  LinkUrl = ""
+              },
+                 new ExploreCard
                  {
-                     Id = 4,
-                     Title = "murach's ASP.NET Core MVC",
-                     Description = "Learn to write your first apps using MVC (Model-View-Controller) pattern. This book gets you off to a fast start whether or not you have prior experience with server-side development.\r\nIt teaches you all the skills you need to develop bulletproof, database-driven web apps. That includes using endpoint routing, Razor views, model binding, data validation, dependency injection, Bootstrap for responsive design, EF (Entity Framework) Core for database handling, xUnit and Moq for unit testing, and Identity for authentication",
-                     Author = "Mary Delamater Joel Murach",
-                     Image = "/images/ASPNet.jpg",
+                     Id = 5,
+                     Title = "Be Water My Friend",
+                     Description = " \"Empty your mind, be formless, shapeless—like water,\" was popularized by martial arts legend and philosopher Bruce Lee. The phrase is a core tenet of his philosophy, urging practitioners to become adaptable and fluid, both in combat and in life. \"Empty your mind, be formless, shapeless—like water. You put water into a cup, it becomes the cup. You put water into a bottle, it becomes the bottle. You put it in a teapot, it becomes the teapot. Now, water can flow or it can crash. Be water, my friend.",
+                     Author = "Shannon Lee",
+                     Image = "/images/Be-Water-My-Friend.jpg",
                      LinkUrl = ""
                  },
-                 new ExploreCard
-                  {
-                    Id = 5,
-                    Title = "Be Water My Friend",
-                    Description = " \"Empty your mind, be formless, shapeless—like water,\" was popularized by martial arts legend and philosopher Bruce Lee. The phrase is a core tenet of his philosophy, urging practitioners to become adaptable and fluid, both in combat and in life. \"Empty your mind, be formless, shapeless—like water. You put water into a cup, it becomes the cup. You put water into a bottle, it becomes the bottle. You put it in a teapot, it becomes the teapot. Now, water can flow or it can crash. Be water, my friend.",
-                    Author = "Shannon Lee",
-                    Image = "/images/Be-Water-My-Friend.jpg",
-                    LinkUrl = ""
-                  },
                  new ExploreCard
                  {
                      Id = 6,
@@ -74,7 +176,7 @@ namespace NovelNook.Models
                      Description = "Charlotte's Web is a classic 1952 children's novel by E.B. White about the unlikely friendship between a pig named Wilbur and a wise barn spider named Charlotte, who saves his life by spinning words in her web that praise him, preventing him from becoming pork chops. ",
                      Author = "E.B. White",
                      Image = "/images/Charlottes-web.jpg",
-                    LinkUrl = ""
+                     LinkUrl = ""
                  },
                  new ExploreCard
                  {
@@ -95,41 +197,41 @@ namespace NovelNook.Models
                      LinkUrl = ""
                  },
                   new ExploreCard
-                   {
+                  {
                       Id = 10,
                       Title = "A Darker Shade of Magic",
                       Description = "A Darker Shade of Magic by V.E. Schwab is a fantasy novel about Kell, a rare magician called an Antari, who can travel between four parallel versions of London. He serves as an ambassador in the magical Red London but also works as a smuggler, leading to his accidental acquisition of a forbidden black stone from Black London. When an exchange goes wrong, Kell escapes to the non-magical Grey London, where he meets the cunning thief Lila Bard, and together they embark on a perilous adventure to save all the worlds from a greedy, magic-hungry force",
-                       Author = "V.E. Schwab",
+                      Author = "V.E. Schwab",
                       Image = "/images/Darker-shade-of-magic.jpg",
-                     LinkUrl = ""
-                      },
+                      LinkUrl = ""
+                  },
                   new ExploreCard
-                      {
-                           Id = 11,
-                           Title = "Dark Matter",
-                           Description = "A Darker Shade of Magic by V.E. Schwab is a fantasy novel about Kell, a rare magician called an Antari, who can travel between four parallel versions of London. He serves as an ambassador in the magical Red London but also works as a smuggler, leading to his accidental acquisition of a forbidden black stone from Black London. When an exchange goes wrong, Kell escapes to the non-magical Grey London, where he meets the cunning thief Lila Bard, and together they embark on a perilous adventure to save all the worlds from a greedy, magic-hungry force",
-                           Author = "Blake Crouch",
-                           Image = "/images/Dark-matter.jpg",
-                           LinkUrl = ""
-                        },
+                  {
+                      Id = 11,
+                      Title = "Dark Matter",
+                      Description = "A Darker Shade of Magic by V.E. Schwab is a fantasy novel about Kell, a rare magician called an Antari, who can travel between four parallel versions of London. He serves as an ambassador in the magical Red London but also works as a smuggler, leading to his accidental acquisition of a forbidden black stone from Black London. When an exchange goes wrong, Kell escapes to the non-magical Grey London, where he meets the cunning thief Lila Bard, and together they embark on a perilous adventure to save all the worlds from a greedy, magic-hungry force",
+                      Author = "Blake Crouch",
+                      Image = "/images/Dark-matter.jpg",
+                      LinkUrl = ""
+                  },
                    new ExploreCard
-                          {
-                            Id = 12,
-                           Title = "Emotional Intelligence",
-                           Description = "a groundbreaking book that argues emotional intelligence (EI), encompassing self-awareness, impulse control, persistence, empathy, and social skills, is a more significant determinant of success than IQ. Drawing on psychology and neuroscience, the book explains how EI, which can be nurtured and developed, influences relationships, career success, and overall well-being, offering a new understanding of intelligence and a compelling vision for personal and societal growth.  ",
-                           Author = "Daniel Goleman",
-                           Image = "/images/Emotional-intelligence.jpg",
-                         LinkUrl = ""
-                           },
+                   {
+                       Id = 12,
+                       Title = "Emotional Intelligence",
+                       Description = "a groundbreaking book that argues emotional intelligence (EI), encompassing self-awareness, impulse control, persistence, empathy, and social skills, is a more significant determinant of success than IQ. Drawing on psychology and neuroscience, the book explains how EI, which can be nurtured and developed, influences relationships, career success, and overall well-being, offering a new understanding of intelligence and a compelling vision for personal and societal growth.  ",
+                       Author = "Daniel Goleman",
+                       Image = "/images/Emotional-intelligence.jpg",
+                       LinkUrl = ""
+                   },
                   new ExploreCard
-                     {
-                           Id = 13,
-                            Title = "Erasing History",
-                            Description = "In Erasing History, Yale professor of philosophy Jason Stanley exposes the true danger of the authoritarian right’s attacks on education, identifies their key tactics and funders, and traces their intellectual roots. He illustrates how fears of a fascist future have metastasized, from hypothetical threat to present reality. And with his “urgent, piercing, and altogether brilliant” (Johnathan M. Metzl, author of What We’ve Become) insight, he illustrates that hearts and minds are won in our schools and universities—places that democratic societies across the world are now ill-prepared to defend against the fascist assault currently underway",
-                           Author = "Jason Stanley",
-                           Image = "/images/Ai-Dummies.jpg",
-                           LinkUrl = ""
-                      },
+                  {
+                      Id = 13,
+                      Title = "Erasing History",
+                      Description = "In Erasing History, Yale professor of philosophy Jason Stanley exposes the true danger of the authoritarian right’s attacks on education, identifies their key tactics and funders, and traces their intellectual roots. He illustrates how fears of a fascist future have metastasized, from hypothetical threat to present reality. And with his “urgent, piercing, and altogether brilliant” (Johnathan M. Metzl, author of What We’ve Become) insight, he illustrates that hearts and minds are won in our schools and universities—places that democratic societies across the world are now ill-prepared to defend against the fascist assault currently underway",
+                      Author = "Jason Stanley",
+                      Image = "/images/Erasing-history.jpg",
+                      LinkUrl = ""
+                  },
                 new ExploreCard
                 {
                     Id = 14,
@@ -247,10 +349,6 @@ namespace NovelNook.Models
                     Image = "/images/Vicious.jpg",
                     LinkUrl = ""
                 }
-
-
-
-
 
 
             );
