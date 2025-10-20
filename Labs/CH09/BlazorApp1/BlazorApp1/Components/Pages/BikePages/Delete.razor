@@ -1,0 +1,75 @@
+﻿@page "/bikes/delete"
+@using Microsoft.EntityFrameworkCore
+@using BlazorApp1.Models
+@inject IDbContextFactory<BlazorApp1.Data.BlazorApp1Context> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Delete</PageTitle>
+
+<h1>Delete</h1>
+
+<p>Are you sure you want to delete this?</p>
+<div>
+    <h2>Bike</h2>
+    <hr />
+    @if (bike is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Manufacturer</dt>
+            <dd class="col-sm-10">@bike.Manufacturer</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Model</dt>
+            <dd class="col-sm-10">@bike.Model</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Year</dt>
+            <dd class="col-sm-10">@bike.Year</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Price</dt>
+            <dd class="col-sm-10">@bike.Price</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">CreatedOn</dt>
+            <dd class="col-sm-10">@bike.CreatedOn</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Rating</dt>
+            <dd class="col-sm-10">@bike.Rating</dd>
+        </dl>
+        <EditForm method="post" Model="bike" OnValidSubmit="DeleteBike" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(bike is null)">Delete</button> |
+            <a href="/">Back to List</a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    private Bike? bike;
+
+    [SupplyParameterFromQuery]
+    private int BikeId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        bike = await context.Bike.FirstOrDefaultAsync(m => m.BikeId == BikeId);
+
+        if (bike is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private async Task DeleteBike()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Bike.Remove(bike!);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/bikes");
+    }
+}

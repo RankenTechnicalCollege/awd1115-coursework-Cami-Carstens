@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch09\\blazorapp1\\blazorapp1\\components\\pages\\bikepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\bikepages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch09\\blazorapp1\\blazorapp1\\components\\pages\\bikepages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\bikepages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch09\\blazorapp1\\blazorapp1\\components\\pages\\bikepages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\bikepages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch09\\blazorapp1\\blazorapp1\\components\\pages\\bikepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\bikepages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch09\\blazorapp1\\blazorapp1\\components\\pages\\bikepages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\bikepages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Migrations\\20251020021627_initialCommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorApp1\\Migrations\\20251020021627_initialCommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch09\\blazorapp1\\blazorapp1\\models\\bike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4499EDC3-0524-41FD-8016-CC43998E49C1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\bike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\BikePages\\Edit.razor",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Edit.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\BikePages\\Edit.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T02:24:42.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.razor",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Details.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\BikePages\\Details.razor",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Details.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\BikePages\\Details.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T02:24:25.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\BikePages\\Delete.razor",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Delete.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\BikePages\\Delete.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T02:24:04.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\BikePages\\Index.razor",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Index.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\BikePages\\Index.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T02:22:55.84Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\BikePages\\Create.razor",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Components\\Pages\\BikePages\\Create.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\BikePages\\Create.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T02:13:05.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251020021627_initialCommit.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Migrations\\20251020021627_initialCommit.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Migrations\\20251020021627_initialCommit.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Migrations\\20251020021627_initialCommit.cs",
+              "RelativeToolTip": "BlazorApp1\\Migrations\\20251020021627_initialCommit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T02:16:27.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bike.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Models\\Bike.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Models\\Bike.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH09\\BlazorApp1\\BlazorApp1\\Models\\Bike.cs",
+              "RelativeToolTip": "BlazorApp1\\Models\\Bike.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T01:53:37.173Z",
+              "EditorCaption": ""
             }
           ]
         }

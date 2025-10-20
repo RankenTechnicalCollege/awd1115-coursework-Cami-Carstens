@@ -1,0 +1,69 @@
+﻿@page "/bikes/create"
+@using Microsoft.EntityFrameworkCore
+@using BlazorApp1.Models
+@inject IDbContextFactory<BlazorApp1.Data.BlazorApp1Context> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Bike</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Bike" OnValidSubmit="AddBike" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="manufacturer" class="form-label">Manufacturer:</label> 
+                <InputText id="manufacturer" @bind-Value="Bike.Manufacturer" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => Bike.Manufacturer" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="model" class="form-label">Model:</label> 
+                <InputText id="model" @bind-Value="Bike.Model" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => Bike.Model" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="year" class="form-label">Year:</label> 
+                <InputText id="year" @bind-Value="Bike.Year" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => Bike.Year" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="price" class="form-label">Price:</label> 
+                <InputNumber id="price" @bind-Value="Bike.Price" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => Bike.Price" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="createdon" class="form-label">CreatedOn:</label> 
+                <InputDate id="createdon" @bind-Value="Bike.CreatedOn" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => Bike.CreatedOn" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="rating" class="form-label">Rating:</label> 
+                <InputNumber id="rating" @bind-Value="Bike.Rating" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => Bike.Rating" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Bike Bike { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddBike()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Bike.Add(Bike);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/bikes");
+    }
+}

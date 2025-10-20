@@ -1,0 +1,56 @@
+﻿@page "/bikes/details"
+@using Microsoft.EntityFrameworkCore
+@using BlazorApp1.Models
+@inject IDbContextFactory<BlazorApp1.Data.BlazorApp1Context> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Bike</h2>
+    <hr />
+    @if (bike is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Manufacturer</dt>
+            <dd class="col-sm-10">@bike.Manufacturer</dd>
+            <dt class="col-sm-2">Model</dt>
+            <dd class="col-sm-10">@bike.Model</dd>
+            <dt class="col-sm-2">Year</dt>
+            <dd class="col-sm-10">@bike.Year</dd>
+            <dt class="col-sm-2">Price</dt>
+            <dd class="col-sm-10">@bike.Price</dd>
+            <dt class="col-sm-2">CreatedOn</dt>
+            <dd class="col-sm-10">@bike.CreatedOn</dd>
+            <dt class="col-sm-2">Rating</dt>
+            <dd class="col-sm-10">@bike.Rating</dd>
+        </dl>
+        <div>
+            <a href="@($"/bikes/edit?bikeid={bike.BikeId}")">Edit</a> |
+            <a href="@($"/")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Bike? bike;
+
+    [SupplyParameterFromQuery]
+    private int BikeId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        bike = await context.Bike.FirstOrDefaultAsync(m => m.BikeId == BikeId);
+
+        if (bike is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

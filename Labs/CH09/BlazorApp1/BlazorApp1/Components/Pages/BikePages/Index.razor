@@ -1,0 +1,59 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using BlazorApp1.Models
+@using BlazorApp1.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<BlazorApp1.Data.BlazorApp1Context> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<h1>Bike List</h1>
+
+
+<div class="row">
+    <div class="col">
+        <label for="txtSearch">Search By Manufacturer or Model</label>
+        <input type="text" id="txtSearch" @bind = "searchText" @bind:event="oninput" class="form-control" />
+    </div>
+    <div class="col">
+        <a href="bikes/create" class="btn btn-primary mt-4">Create New</a>
+    </div>
+</div>
+<p>
+    <a href="bikes/create">Create New</a>
+</p>
+
+
+<QuickGrid Class="table" Items="FilteredBikes" Pagination="pagination">
+    <PropertyColumn Property="bike => bike.Manufacturer" Sortable="true" />
+    <PropertyColumn Property="bike => bike.Model" Sortable="true" />
+    <PropertyColumn Property="bike => bike.Year" />
+    <PropertyColumn Property="bike => bike.Price" />
+    <PropertyColumn Property="bike => bike.CreatedOn" />
+    <PropertyColumn Property="bike => bike.Rating" />
+
+    <TemplateColumn Context="bike">
+        <a href="@($"bikes/edit?bikeid={bike.BikeId}")">Edit</a> |
+        <a href="@($"bikes/details?bikeid={bike.BikeId}")">Details</a> |
+        <a href="@($"bikes/delete?bikeid={bike.BikeId}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+<Paginator State = "pagination" />
+
+@code {
+    private BlazorApp1Context context = default!;
+    private PaginationState pagination = new PaginationState { ItemsPerPage = 2 };
+    private string searchText = string.Empty;
+
+    //for searching for bike 
+    private IQueryable<Bike> FilteredBikes => context.Bike.Where(b => b.Manufacturer!.Contains(searchText) || b.Model!.Contains(searchText));
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}
+
