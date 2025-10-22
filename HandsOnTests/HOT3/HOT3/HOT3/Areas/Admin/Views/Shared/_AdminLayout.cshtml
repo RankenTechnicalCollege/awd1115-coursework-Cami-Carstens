@@ -4,7 +4,6 @@
 
 
 
-
 <header>
     
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
@@ -37,5 +36,6 @@
     </main>
 </div>
 
-
-@await RenderSectionAsync("Scripts", required: false)
+@section Scripts {
+    @await RenderSectionAsync("Scripts", required: false)
+}
