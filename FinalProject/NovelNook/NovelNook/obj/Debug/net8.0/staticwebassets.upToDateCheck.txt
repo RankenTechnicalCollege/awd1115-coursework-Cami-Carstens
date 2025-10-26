@@ -2,6 +2,7 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\Ai-Dummies.jpg
 wwwroot\Images\all-about-love.jpg
+wwwroot\Images\animal-farm.jpg
 wwwroot\Images\ASPNet.jpg
 wwwroot\Images\Be-Water-My-Friend.jpg
 wwwroot\Images\Blood-over-bright-haven.jpg
@@ -21,11 +22,13 @@ wwwroot\Images\Dark-matter.jpg
 wwwroot\Images\Darker-shade-of-magic.jpg
 wwwroot\Images\Emotional-Intelligence.jpg
 wwwroot\Images\Erasing-history.jpg
+wwwroot\Images\everything-beautiful-hurts.jpg
 wwwroot\Images\Golden-son.jpg
 wwwroot\Images\handmaid-tale.jpg
 wwwroot\Images\Kindness-is-My-Superpower.jpg
 wwwroot\Images\Leadership-Dummies.jpg
 wwwroot\Images\Light-we-cannot-see.jpg
+wwwroot\Images\my-friends.jpg
 wwwroot\Images\Originals.jpg
 wwwroot\Images\Peoples-history.jpg
 wwwroot\Images\pexels-donghuangmingde-2177482.jpg
@@ -35,6 +38,7 @@ wwwroot\Images\pexels-pixabay-159711.jpg
 wwwroot\Images\Pretty-girls.jpg
 wwwroot\Images\Python.jpg
 wwwroot\Images\Red-rising.jpg
+wwwroot\Images\river-is-waiting.jpg
 wwwroot\Images\SearchedBookPlaceholder.jpg
 wwwroot\Images\Silent-patient.jpg
 wwwroot\Images\Think-again.jpg

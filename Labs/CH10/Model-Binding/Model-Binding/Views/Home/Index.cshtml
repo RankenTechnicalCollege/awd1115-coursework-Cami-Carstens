@@ -1,0 +1,43 @@
+﻿@model Record
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-action="Index" method="post">
+    <div class="m5">
+        <label asp-for="Id" class="form-label"></label>
+        <input asp-for="Id" class="form-control" />
+    </div>
+
+    <div class="m5">
+        <label asp-for="Name" class="form-label">Record Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+
+<form asp-action="AddMusician" method="post">
+    <div class="m5">
+        <label name="Id" class="form-label">Musician Id</label>
+        <input name="Id" class="form-control" />
+    </div>
+    <div class="mt-5">
+        <label name="Name" class="form-label">Musician's Name'</label>
+        <input name="Name" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3"></button>
+</form>
+
+<form asp-action="AddData" method="post">
+    <div class="m5">
+        <label name="lblStudentNames" class="form-label">First Student Name</label>
+        <input name="studentNames" class="form-control" id="txtName1" />
+    </div>
+
+    <div class="m5">
+        <label name="lblStudentNames2" class="form-label">Second Student Name</label>
+        <input name="studentNames" class="form-control" id="txtName2" />
+    </div>
+    <button type="submit" class="btn btn-success mt-3">Submmit</button>
+</form>
