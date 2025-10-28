@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\carinventory\\carinventory\\carinventory.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|solutionrelative:carinventory\\carinventory.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\carinventory\\carinventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|solutionrelative:carinventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\carinventory\\carinventory\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|solutionrelative:carinventory\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\carinventory\\carinventory\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|solutionrelative:carinventory\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\carinventory\\carinventory\\cardb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE68A79-4861-46D8-BDA1-F28C67A5436D}|CarInventory\\CarInventory.csproj|solutionrelative:carinventory\\cardb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\Program.cs",
+              "RelativeDocumentMoniker": "CarInventory\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\Program.cs",
+              "RelativeToolTip": "CarInventory\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T22:17:06.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarInventory.http",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\CarInventory.http",
+              "RelativeDocumentMoniker": "CarInventory\\CarInventory.http",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\CarInventory.http",
+              "RelativeToolTip": "CarInventory\\CarInventory.http",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-28T21:31:06.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\CarDTO.cs",
+              "RelativeDocumentMoniker": "CarInventory\\CarDTO.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\CarDTO.cs",
+              "RelativeToolTip": "CarInventory\\CarDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAywBQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:25:18.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\Car.cs",
+              "RelativeDocumentMoniker": "CarInventory\\Car.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\Car.cs",
+              "RelativeToolTip": "CarInventory\\Car.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T20:48:58.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarDb.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\CarDb.cs",
+              "RelativeDocumentMoniker": "CarInventory\\CarDb.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CarInventory\\CarInventory\\CarDb.cs",
+              "RelativeToolTip": "CarInventory\\CarDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T20:53:19.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

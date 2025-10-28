@@ -85,6 +85,10 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "site.css",
@@ -94,12 +98,7 @@
               "RelativeToolTip": "NovelNook\\wwwroot\\css\\site.css",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-26T04:04:56.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-10-26T04:04:56.454Z"
             },
             {
               "$type": "Document",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "NovelNook\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-24T23:31:56.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T23:31:56.5Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "NovelNook\\Models\\SeedDataContext.cs",
               "ViewState": "AgIAAG8BAAAAAAAAAAAqwIABAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T04:18:24.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T04:18:24.202Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "NovelNook\\Controllers\\ExploreController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:06:05.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:06:05.576Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "NovelNook\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T01:19:16.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T01:19:16.046Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "NovelNook\\Views\\BookShelfEntries\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T22:57:24.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T22:57:24.98Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "NovelNook\\PaginatedList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T18:33:06.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T18:33:06.844Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "NovelNook\\Areas\\Forum\\Models\\DiscussionContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T04:15:19.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T04:15:19.537Z"
             },
             {
               "$type": "Document",

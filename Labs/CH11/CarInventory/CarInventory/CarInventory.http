@@ -1,0 +1,47 @@
+﻿@CarInventory_HostAddress = http://localhost:5076
+
+GET {{CarInventory_HostAddress}}/cars
+
+###
+
+POST {{CarInventory_HostAddress}}/cars
+Content-Type:application/json
+{
+  "make": "Toyota",
+  "model": "Corolla",
+  "year": 2022,
+  "color": "Black",
+  "Price": 20000,
+  "isavailable": false,
+  "secret": "sensitive info"
+
+}
+
+###
+
+GET {{CarInventory_HostAddress}}/cars/5
+
+###
+
+DELETE {{CarInventory_HostAddress}}/cars/5
+
+###
+
+
+PUT {{CarInventory_HostAddress}}/cars/3
+Content-Type: application/json
+{
+  "make": "Accord",
+  "model": "Honda",
+  "year": 2025,
+  "price": 29000,
+  "color": "Red",
+  "isavailabe": false
+
+}
+
+###
+
+GET {{CarInventory_HostAddress}}/cars/available
+
+###
