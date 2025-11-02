@@ -33,6 +33,10 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
@@ -42,12 +46,7 @@
               "RelativeToolTip": "CarInventory\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:17:06.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-10-28T22:17:06.387Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "CarInventory\\CarDTO.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAywBQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:25:18.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T21:25:18.344Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "CarInventory\\Car.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA5wAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T20:48:58.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T20:48:58.78Z"
             },
             {
               "$type": "Document",

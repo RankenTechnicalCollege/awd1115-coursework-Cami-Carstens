@@ -1,0 +1,39 @@
+﻿@model HOT4.Models.AppointmentListViewModel;
+
+@{
+   
+    ViewBag.Title = "Appointment List";
+}
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+<h1>Booked Appointment List</h1>
+
+<a asp-asp-area="" asp-controller="Appointment" asp-action="Add" class="btn btn-info">Add New Appointment</a>
+
+<div class="col-md-10">
+    <table class="table table-striped border border-2 border-dark mt-3">
+        <tr>
+          @*   <th>Username</th> *@
+            @* <th>Phone Number</th> *@
+            <th>Appointment Date</th>
+            <th>Appointment Time</th>
+            <th>Customer Id</th>
+            
+
+        </tr>
+
+        @foreach (var item in Model.Appointments)
+        {
+            <tr>
+                <td>@item.AppDate.ToShortDateString()</td>
+                <td>@DateTime.Today.Add(item.AppTime).ToString("h:mm tt")</td>
+                <td>@item.Customer?.Username</td>
+            </tr>
+        }
+
+        
+    </table>
+</div>

@@ -1,0 +1,86 @@
+﻿@model Appointment
+
+@{
+    ViewBag.Title = "Add New Appointment";
+}
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+@* <h2>Make a new appointment</h2> *@
+<img src="~/images/book-app.jpg" class="img-fluid mb-3" />
+
+
+<form asp-action="Add" method="post" class="">
+
+@Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+    <div class="row mb-3">
+        <label asp-for="Username" class="col-form-label col-md-2">Username:</label> 
+        <div class="col-md-4">
+            <input asp-for="Username" class="form-control" />
+        </div>
+    <div class="col">
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    </div>
+
+    <div class="row mb-3">
+        <label asp-for="AppDate" class="col-form-label col-md-2"></label>
+        <div class="col-md-4">
+
+            <input asp-for="AppDate" class="form-control" type="date" placeholder="x/xx/xxxx" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="AppDate" class="text-danger"></span>
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <label asp-for="AppTime" class="col-form-label col-md-2"></label>
+        <div class="col-md-4">
+                                                         @* enforce 1 hr intervals for apps *@
+            <input asp-for="AppTime" class="form-control" type="time" step="3600" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="AppTime" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label asp-for="PhoneNumber" class="col-form-label col-md-2">
+            Phone number:
+        </label> 
+        <div class="col-md-4">
+            <input asp-for="PhoneNumber" class="form-control" placeholder="xxx-xxx-xxxx"/>
+        </div>
+        <div class="col">
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+    </div>
+
+   @*  <div class="row mb-3">
+        <label asp-for="CustomerId" class="col-form-label col-md-2"></label>
+        <div class="col-md-4">
+            <select asp-for="CustomerId" class="form-select"
+                    asp-items="@(new SelectList(ViewBag.Customers, "CustomerId", "Username"))">
+                <option value="">-- Please select a customer --</option>
+            </select> *@
+
+        
+       @*  <div class="col">
+            <span asp-validation-for="CustomerId" class="text-danger"></span>
+        </div> *@
+    
+
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-dark text-white me-2 mb-3">Add New Appointment</button>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-outline-dark mb-3">Cancel</a>
+        </div>
+    </div>
+
+</form>

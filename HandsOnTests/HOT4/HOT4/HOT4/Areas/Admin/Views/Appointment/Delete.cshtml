@@ -1,0 +1,18 @@
+﻿@model HOT4.Models.Appointment
+@{
+    ViewBag.Title = "Admin Delete Appointments";
+}
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+<h1>Are you sure you want to delete @Model.Username appointment?</h1>
+
+<form asp-controller="Appointment" asp-action="DeleteApp" method="post">
+    <input type="hidden" name="appid" value="@Model.AppointmentId" />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+
+    <a asp-action="List"class ="btn btn-dark text-white">Cancel</a>
+
+</form>

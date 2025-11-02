@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\hoodie\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\hoodie\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\views\\shoppingcart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\views\\shoppingcart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\models\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "HOT3\\wwwroot\\css\\site.css",
@@ -131,15 +131,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:41:54.269Z"
+              "WhenOpened": "2025-10-08T21:41:54.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -155,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ViewCart.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\ShoppingCart\\ViewCart.cshtml",
               "RelativeDocumentMoniker": "HOT3\\Views\\ShoppingCart\\ViewCart.cshtml",
@@ -179,13 +180,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
               "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-08T21:44:44.804Z",
               "EditorCaption": ""

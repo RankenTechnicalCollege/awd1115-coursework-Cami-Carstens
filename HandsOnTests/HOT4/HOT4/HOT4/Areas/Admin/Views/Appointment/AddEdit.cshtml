@@ -1,0 +1,68 @@
+﻿@model HOT4.Models.Appointment;
+@{
+    ViewBag.Title = "Admin Add/Edit";
+}
+
+
+@* 
+[Required(ErrorMessage ="Id is required")]
+        public int AppointmentId { get; set; }
+        [Required(ErrorMessage ="Appointment date and time is required")]
+        public DateTime AppDateTime { get; set; }
+        public string Username { get; set; } = null!;
+        public string PhoneNumber { get; set; } = null!;
+
+        //FK
+        public int CustomerId { get; set; }
+    } *@
+
+
+<h1>Admin Add/Edit Appointments</h1>
+
+<form asp-controller="Appointment" asp-action="Add" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+
+    <input type="hidden" asp-for="AppointmentId" />
+
+    <div class="mb-3">
+        <label asp-for="Username">Username:</label>
+        <input asp-for="Username" class="form-control" />
+        
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PhoneNumber">Phone Number:</label>
+        <input asp-for="PhoneNumber" class="form-control" />
+  
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="AppDate" class="form-label">Date</label>
+        <input asp-for="AppDate" type="date" class="form-control" value="@Model.AppDate.ToString("yyyy-MM-dd")" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="AppTime">Time</label>
+        <input asp-for="AppTime" type="time" class="form-control" step="3600" value="@Model.AppTime.ToString(@"hh\:mm")" />
+    </div>
+
+ @*    <div class="mb-3">
+    <label asp-for="CustomerId" class="form-label"></label>
+        <select asp-for="CustomerId" class="form-select"
+                asp-items="@(new SelectList(ViewBag.Customers, "CustomerId", "Username"))">
+            <option value="0"></option>
+        </select>
+    </div> *@
+
+
+    <button type="submit" class="btn btn-dark text-white">Submit</button>
+</form>
+
+@section Scripts {
+    @{
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
