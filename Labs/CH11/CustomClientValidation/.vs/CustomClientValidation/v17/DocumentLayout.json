@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\customclientvalidation\\customclientvalidation\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|solutionrelative:customclientvalidation\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\customclientvalidation\\customclientvalidation\\controllers\\validationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|solutionrelative:customclientvalidation\\controllers\\validationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\customclientvalidation\\customclientvalidation\\wwwroot\\js\\minimum-age.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|solutionrelative:customclientvalidation\\wwwroot\\js\\minimum-age.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\customclientvalidation\\customclientvalidation\\models\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|solutionrelative:customclientvalidation\\models\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\customclientvalidation\\customclientvalidation\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|solutionrelative:customclientvalidation\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch11\\customclientvalidation\\customclientvalidation\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0BD4BF6-9DB8-4E24-80B8-072EDC751D15}|CustomClientValidation\\CustomClientValidation.csproj|solutionrelative:customclientvalidation\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidationController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Controllers\\ValidationController.cs",
+              "RelativeDocumentMoniker": "CustomClientValidation\\Controllers\\ValidationController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Controllers\\ValidationController.cs",
+              "RelativeToolTip": "CustomClientValidation\\Controllers\\ValidationController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:51:45.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomClientValidation\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomClientValidation\\Models\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:00:44.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "minimum-age.js",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\wwwroot\\js\\minimum-age.js",
+              "RelativeDocumentMoniker": "CustomClientValidation\\wwwroot\\js\\minimum-age.js",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\wwwroot\\js\\minimum-age.js",
+              "RelativeToolTip": "CustomClientValidation\\wwwroot\\js\\minimum-age.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-03T03:36:03.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MinimumAgeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Models\\MinimumAgeAttribute.cs",
+              "RelativeDocumentMoniker": "CustomClientValidation\\Models\\MinimumAgeAttribute.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Models\\MinimumAgeAttribute.cs",
+              "RelativeToolTip": "CustomClientValidation\\Models\\MinimumAgeAttribute.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:11:47.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "CustomClientValidation\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "CustomClientValidation\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T02:47:04.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "CustomClientValidation\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\CustomClientValidation\\CustomClientValidation\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "CustomClientValidation\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:15:59.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

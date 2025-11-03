@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\models\\validation\\nodoublebookingcheckattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\models\\validation\\nodoublebookingcheckattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\models\\appointmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\models\\appointmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -13,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\models\\validation\\nodoublebookingcheckattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\models\\validation\\nodoublebookingcheckattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -67,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\controllers\\validationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\models\\appointmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|solutionrelative:hot4\\models\\appointmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81C335B3-B573-462D-857B-258E011D2416}|HOT4\\HOT4.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot4\\hot4\\hot4\\views\\customer\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -118,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "HOT4\\Views\\Shared\\_Layout.cshtml",
@@ -140,32 +132,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "HOT4\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "HOT4\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-01T04:02:00.074Z",
+              "Title": "NoDoubleBookingCheckAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
+              "RelativeDocumentMoniker": "HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
+              "RelativeToolTip": "HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T04:31:54.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppointmentController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Controllers\\AppointmentController.cs",
-              "RelativeDocumentMoniker": "HOT4\\Controllers\\AppointmentController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Controllers\\AppointmentController.cs",
-              "RelativeToolTip": "HOT4\\Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:17:20.081Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T04:42:39.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Views\\Appointment\\Add.cshtml",
+              "RelativeDocumentMoniker": "HOT4\\Views\\Appointment\\Add.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Views\\Appointment\\Add.cshtml",
+              "RelativeToolTip": "HOT4\\Views\\Appointment\\Add.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T02:04:02.587Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AppointmentContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\AppointmentContext.cs",
+              "RelativeDocumentMoniker": "HOT4\\Models\\AppointmentContext.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\AppointmentContext.cs",
+              "RelativeToolTip": "HOT4\\Models\\AppointmentContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T18:47:59.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "HOT4\\Models\\Appointment.cs",
@@ -178,46 +193,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NoDoubleBookingCheckAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
-              "RelativeDocumentMoniker": "HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
-              "RelativeToolTip": "HOT4\\Models\\Validation\\NoDoubleBookingCheckAttribute.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBQAAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T04:31:54.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "HOT4\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T04:42:39.472Z",
-              "EditorCaption": ""
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "HOT4\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "HOT4\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:17:20.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Views\\Appointment\\Add.cshtml",
-              "RelativeDocumentMoniker": "HOT4\\Views\\Appointment\\Add.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Views\\Appointment\\Add.cshtml",
-              "RelativeToolTip": "HOT4\\Views\\Appointment\\Add.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-01T02:04:02.587Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HOT4\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HOT4\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-01T04:02:00.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HourAppOnlyAttribute.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Validation\\HourAppOnlyAttribute.cs",
               "RelativeDocumentMoniker": "HOT4\\Models\\Validation\\HourAppOnlyAttribute.cs",
@@ -225,12 +225,11 @@
               "RelativeToolTip": "HOT4\\Models\\Validation\\HourAppOnlyAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T05:08:53.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T05:08:53.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FutureDateAttribute.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Validation\\FutureDateAttribute.cs",
               "RelativeDocumentMoniker": "HOT4\\Models\\Validation\\FutureDateAttribute.cs",
@@ -238,12 +237,11 @@
               "RelativeToolTip": "HOT4\\Models\\Validation\\FutureDateAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T05:35:49.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T05:35:49.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AddEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Appointment\\AddEdit.cshtml",
               "RelativeDocumentMoniker": "HOT4\\Areas\\Admin\\Views\\Appointment\\AddEdit.cshtml",
@@ -251,12 +249,11 @@
               "RelativeToolTip": "HOT4\\Areas\\Admin\\Views\\Appointment\\AddEdit.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-01T23:57:14.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T23:57:14.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "HOT4\\Areas\\Admin\\Controllers\\AppointmentController.cs",
@@ -264,12 +261,11 @@
               "RelativeToolTip": "HOT4\\Areas\\Admin\\Controllers\\AppointmentController.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAAwFMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T04:47:27.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T04:47:27.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Appointment\\List.cshtml",
               "RelativeDocumentMoniker": "HOT4\\Areas\\Admin\\Views\\Appointment\\List.cshtml",
@@ -277,12 +273,11 @@
               "RelativeToolTip": "HOT4\\Areas\\Admin\\Views\\Appointment\\List.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T00:02:47.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T00:02:47.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Appointment\\Index.cshtml",
               "RelativeDocumentMoniker": "HOT4\\Areas\\Admin\\Views\\Appointment\\Index.cshtml",
@@ -290,12 +285,11 @@
               "RelativeToolTip": "HOT4\\Areas\\Admin\\Views\\Appointment\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-01T04:37:31.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T04:37:31.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "HOT4\\Models\\Customer.cs",
@@ -303,12 +297,11 @@
               "RelativeToolTip": "HOT4\\Models\\Customer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T18:24:05.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T18:24:05.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Validate.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\Validation\\Validate.cs",
               "RelativeDocumentMoniker": "HOT4\\Models\\Validation\\Validate.cs",
@@ -316,12 +309,11 @@
               "RelativeToolTip": "HOT4\\Models\\Validation\\Validate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T00:13:22.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T00:13:22.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ValidationController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Controllers\\ValidationController.cs",
               "RelativeDocumentMoniker": "HOT4\\Controllers\\ValidationController.cs",
@@ -329,21 +321,7 @@
               "RelativeToolTip": "HOT4\\Controllers\\ValidationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T05:46:45.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "HOT4\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "HOT4\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T23:43:47.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T05:46:45.667Z"
             },
             {
               "$type": "Document",
@@ -355,8 +333,7 @@
               "RelativeToolTip": "HOT4\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T01:15:42.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T01:15:42.6Z"
             },
             {
               "$type": "Document",
@@ -368,25 +345,11 @@
               "RelativeToolTip": "HOT4\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T01:11:33.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T01:11:33.746Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Program.cs",
-              "RelativeDocumentMoniker": "HOT4\\Program.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Program.cs",
-              "RelativeToolTip": "HOT4\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T18:44:20.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HOT4\\Views\\Home\\Index.cshtml",
@@ -398,19 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AppointmentContext.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\AppointmentContext.cs",
-              "RelativeDocumentMoniker": "HOT4\\Models\\AppointmentContext.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\AppointmentContext.cs",
-              "RelativeToolTip": "HOT4\\Models\\AppointmentContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T18:47:59.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Views\\Customer\\Add.cshtml",
               "RelativeDocumentMoniker": "HOT4\\Views\\Customer\\Add.cshtml",
@@ -422,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Areas\\Admin\\Views\\Appointment\\Delete.cshtml",
               "RelativeDocumentMoniker": "HOT4\\Areas\\Admin\\Views\\Appointment\\Delete.cshtml",
@@ -434,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "AppointmentListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Models\\AppointmentListViewModel.cs",
               "RelativeDocumentMoniker": "HOT4\\Models\\AppointmentListViewModel.cs",
@@ -446,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "20251101041516_initial.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\Migrations\\20251101041516_initial.cs",
               "RelativeDocumentMoniker": "HOT4\\Migrations\\20251101041516_initial.cs",
@@ -458,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "HOT4.csproj",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT4\\HOT4\\HOT4\\HOT4.csproj",
               "RelativeDocumentMoniker": "HOT4\\HOT4.csproj",
