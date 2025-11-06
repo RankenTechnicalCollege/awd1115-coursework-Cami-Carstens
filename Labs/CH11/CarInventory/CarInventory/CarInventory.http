@@ -45,3 +45,21 @@ Content-Type: application/json
 GET {{CarInventory_HostAddress}}/cars/available
 
 ###
+
+POST {{CarInventory_HostAddress}}/cars
+Content-Type: application/json
+
+{
+  //Car
+}
+
+###
+
+GET {{CarInventory_HostAddress}}/cars/available
+
+###
+
+@id=0
+GET {{CarInventory_HostAddress}}/cars/{{id}}
+
+###
