@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\AI_DatabaseAssistant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB0A83-756E-4EEE-8446-C27AD2C608C4}|AI_DatabaseAssistant\\AI_DatabaseAssistant.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ai_databaseassistant\\ai_databaseassistant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDB0A83-756E-4EEE-8446-C27AD2C608C4}|AI_DatabaseAssistant\\AI_DatabaseAssistant.csproj|solutionrelative:ai_databaseassistant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB0A83-756E-4EEE-8446-C27AD2C608C4}|AI_DatabaseAssistant\\AI_DatabaseAssistant.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ai_databaseassistant\\ai_databaseassistant\\plugins\\adventureworksqueryplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDB0A83-756E-4EEE-8446-C27AD2C608C4}|AI_DatabaseAssistant\\AI_DatabaseAssistant.csproj|solutionrelative:ai_databaseassistant\\plugins\\adventureworksqueryplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDB0A83-756E-4EEE-8446-C27AD2C608C4}|AI_DatabaseAssistant\\AI_DatabaseAssistant.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ai_databaseassistant\\ai_databaseassistant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BDB0A83-756E-4EEE-8446-C27AD2C608C4}|AI_DatabaseAssistant\\AI_DatabaseAssistant.csproj|solutionrelative:ai_databaseassistant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAHMVAAAAAAAAAAAwwHkVAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-09T05:05:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdventureWorksQueryPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\AI_DatabaseAssistant\\AI_DatabaseAssistant\\Plugins\\AdventureWorksQueryPlugin.cs",
+              "RelativeDocumentMoniker": "AI_DatabaseAssistant\\Plugins\\AdventureWorksQueryPlugin.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\AI_DatabaseAssistant\\AI_DatabaseAssistant\\Plugins\\AdventureWorksQueryPlugin.cs",
+              "RelativeToolTip": "AI_DatabaseAssistant\\Plugins\\AdventureWorksQueryPlugin.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwDQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:58:07.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\AI_DatabaseAssistant\\AI_DatabaseAssistant\\appsettings.json",
+              "RelativeDocumentMoniker": "AI_DatabaseAssistant\\appsettings.json",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\AI_DatabaseAssistant\\AI_DatabaseAssistant\\appsettings.json",
+              "RelativeToolTip": "AI_DatabaseAssistant\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-09T02:12:46.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\AI_DatabaseAssistant\\AI_DatabaseAssistant\\Program.cs",
+              "RelativeDocumentMoniker": "AI_DatabaseAssistant\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\AI_DatabaseAssistant\\AI_DatabaseAssistant\\Program.cs",
+              "RelativeToolTip": "AI_DatabaseAssistant\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T01:27:35.281Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +36,10 @@
               "RelativeDocumentMoniker": "EmployeeValidation\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH11\\Project11\\EmployeeValidation\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "EmployeeValidation\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T02:16:37.095Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -51,8 +51,7 @@
               "RelativeToolTip": "EmployeeValidation\\Views\\Employee\\Add.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T15:27:11.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:27:11.546Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "EmployeeValidation\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T15:27:15.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:27:15.279Z"
             }
           ]
         }
