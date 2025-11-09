@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "ManyToManyEf\\Views\\Student\\Index.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\ManyToManyEf\\ManyToManyEf\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "ManyToManyEf\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-08T23:17:41.139Z",
               "EditorCaption": ""
@@ -51,8 +55,7 @@
               "RelativeToolTip": "ManyToManyEf\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T23:12:21.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T23:12:21.114Z"
             },
             {
               "$type": "Document",
@@ -64,12 +67,7 @@
               "RelativeToolTip": "ManyToManyEf\\Views\\Courses\\Details.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAcwB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T23:09:16.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-11-08T23:09:16.323Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "ManyToManyEf\\Controllers\\CoursesController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T23:04:17.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T23:04:17.347Z"
             }
           ]
         }

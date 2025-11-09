@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManyToManyEf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccf084bd18416074022fe8f68565168223ab5a00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f56976237b0a2e2b6048401d3c46d59ba73a003")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManyToManyEf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManyToManyEf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
