@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HOT4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c0aa3a6af45e6dc1c36b914b3fef26cd8a0148a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ec9e1ef7042fc268564e0c9cf7b102127e33d64")]
 [assembly: System.Reflection.AssemblyProductAttribute("HOT4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HOT4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

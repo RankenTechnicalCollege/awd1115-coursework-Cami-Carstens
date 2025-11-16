@@ -1,0 +1,77 @@
+﻿@model NovelNookBookStore.Models.Discussion
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Edit Discussion";
+}
+
+<h1 class="text-center my-4">Edit Discussion</h1>
+
+<form asp-area="Forum" asp-controller="Discussion" asp-action="Edit" method="post" class="container">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Author" class="form-label"></label>
+        <input asp-for="Author" class="form-control" placeholder="Author" />
+        <span asp-validation-for="Author" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" placeholder="Book Title" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Genre" class="form-label"></label>
+        <select asp-for="Genre" class="form-select">
+            <option value="">Select Genre</option>
+            <option>Fiction</option>
+            <option>Non-Fiction</option>
+            <option>Memoir</option>
+            <option>Horror</option>
+            <option>Self-Help</option>
+            <option>Psychological Thriller</option>
+            <option>Historical Fiction</option>
+            <option>Education/Academic</option>
+            <option>Young Adult</option>
+        </select>
+        <span asp-validation-for="Genre" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Review" class="form-label"></label>
+        <select asp-for="Review" class="form-select">
+            <option value="">Select Rating</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+      
+        <span asp-validation-for="Review" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="OpinionField" class="form-label"></label>
+        <textarea asp-for="OpinionField" class="form-control" rows="5" placeholder="Your thoughts"></textarea>
+        <span asp-validation-for="OpinionField" class="text-danger"></span>
+    </div>
+
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-area="Forum" asp-controller="Discussions" asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+
+
+ 
+</form>
+
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\models\\datalayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\views\\class\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\views\\class\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\views\\class\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\views\\class\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\views\\class\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\views\\class\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,22 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\models\\datalayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\models\\datalayer\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\views\\class\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\views\\class\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,16 +66,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "RankenClassSchedule\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
+              "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
+              "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T00:52:53.574Z",
+              "WhenOpened": "2025-11-05T23:47:18.62Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QueryOptions.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
+              "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
+              "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:36:43.768Z"
             },
             {
               "$type": "Document",
@@ -91,12 +99,11 @@
               "RelativeToolTip": "RankenClassSchedule\\Views\\Class\\AddEdit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T22:04:53.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T22:04:53.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Teacher\\Index.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Teacher\\Index.cshtml",
@@ -104,12 +111,11 @@
               "RelativeToolTip": "RankenClassSchedule\\Views\\Teacher\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T21:18:42.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T21:18:42.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Home\\Index.cshtml",
@@ -117,77 +123,11 @@
               "RelativeToolTip": "RankenClassSchedule\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T20:47:33.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TeacherController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\TeacherController.cs",
-              "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\TeacherController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\TeacherController.cs",
-              "RelativeToolTip": "RankenClassSchedule\\Controllers\\TeacherController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T21:15:49.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
-              "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
-              "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T23:47:18.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QueryOptions.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
-              "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
-              "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T23:36:43.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T20:47:33.63Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ClassController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\ClassController.cs",
-              "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\ClassController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\ClassController.cs",
-              "RelativeToolTip": "RankenClassSchedule\\Controllers\\ClassController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T21:48:09.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T23:52:37.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Class\\Delete.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Class\\Delete.cshtml",
@@ -195,25 +135,59 @@
               "RelativeToolTip": "RankenClassSchedule\\Views\\Class\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T22:37:47.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T22:37:47.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RankenClassSchedule\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T00:52:53.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "RankenClassSchedule\\Controllers\\TeacherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T21:15:49.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "RankenClassSchedule\\Controllers\\ClassController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAIBJwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T21:48:09.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "RankenClassSchedule\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T22:47:18.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T22:47:18.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Teacher\\Add.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Teacher\\Add.cshtml",
@@ -221,12 +195,11 @@
               "RelativeToolTip": "RankenClassSchedule\\Views\\Teacher\\Add.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T21:32:31.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T21:32:31.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Teacher\\Delete.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Teacher\\Delete.cshtml",
@@ -234,8 +207,11 @@
               "RelativeToolTip": "RankenClassSchedule\\Views\\Teacher\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T21:41:48.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T21:41:48.376Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

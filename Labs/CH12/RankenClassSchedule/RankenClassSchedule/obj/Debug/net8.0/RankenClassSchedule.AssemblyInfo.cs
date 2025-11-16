@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RankenClassSchedule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4a77dc6215277debabf68caefe100744f485d9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ec9e1ef7042fc268564e0c9cf7b102127e33d64")]
 [assembly: System.Reflection.AssemblyProductAttribute("RankenClassSchedule")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RankenClassSchedule")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

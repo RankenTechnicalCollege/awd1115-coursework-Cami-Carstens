@@ -1,0 +1,40 @@
+﻿@model Trip
+
+@{
+    ViewBag.Title = "Add Things To Do";
+}
+
+<h2>Add Things To Do</h2>
+
+<form asp-action="Page2Add" method="post">
+
+
+    <input type="hidden" asp-for="DestinationId" />
+    <input type="hidden" asp-for="AccommodationId" />
+    <input type="hidden" asp-for="StartDate" />
+    <input type="hidden" asp-for="EndDate" />
+  
+
+    <p>Hold Ctrl to select more than one option</p>
+    <select class="form-select mt-4" name="selectedActivities" multiple>
+        <option value="">Select Activity</option>
+        <option>Hiking</option>
+        <option>Beach</option>
+        <option>Swimming</option>
+        <option>Theme Park</option>
+        <option>Sight seeing</option>
+        <option>Ice Skating</option>
+        <option>Ride the Subway</option>
+        <option>Skiing</option>
+        <option>Shopping</option>
+        <option>Going out to Eat</option>
+        <option>Golfing</option>
+        <option>See a Movie</option>
+        <option>Museum</option>
+    </select>
+
+    <button type="submit" class="btn btn-dark mt-4 me-2">Save</button>
+
+    <a asp-for="Home" asp-action="Index" class="btn btn-outline-dark mt-4">Cancel</a>
+
+</form>

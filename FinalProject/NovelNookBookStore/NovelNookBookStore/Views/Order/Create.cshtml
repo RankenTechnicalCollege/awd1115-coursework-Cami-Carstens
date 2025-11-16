@@ -1,0 +1,53 @@
+﻿@model OrderViewModel
+@using NovelNookBookStore.Models.DomainModels
+
+@{
+    ViewBag.Title = "Create Order";
+}
+<h1>Create New Order</h1>
+
+<h3>Books</h3>
+<div class="row">
+    @foreach (Book book in Model.Books)
+    {
+        <div class="col-12 col-sm-6 col-md-4 d-flex mb-3">
+            <form asp-action="AddItem" method="post">
+                <div class="cartCard h-100 w-100" >
+                    <img src="@Url.Content("~/Images/" + book?.ImageUrl)" class="card-img-top fixed-image-height" alt="@book.Description" />
+                   <div class="card-body">
+                        <p>@book.Title -- @book.Price.ToString("C")</p>
+                        <input type="hidden" value="@book.BookId" name="bookId" />
+                        <input type="number" name="bookQty" class="form-control mb-2" value="1" min="1" />                       <button class="btn btn-info" type="submit">Add Book</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    }
+
+
+</div>
+
+<h3>Decors</h3>
+<div class="row">
+    @foreach (Decor decor in Model.Decors)
+    {
+        <div class="col-12 col-sm-6 col-md-4 mb-3 d-flex">
+            <form asp-action="AddItem" method="post">
+                <div class="card" style="width: 18rem;">
+                    <img src="@Url.Content("~/Images/" + decor?.ImageUrl)" class="card-img-top fixed-image-height" alt="@decor.Description" />
+                    <div class="card-body">
+                        <p>@decor.Name -- @decor.Price.ToString("C")</p>
+                        <input type="hidden" value="@decor.DecorId" name="decorId" />
+                        <input type="number" name="decorQty" class="form-control mb-2" value="1" min="1" />
+                        <button class="btn btn-info" type="submit">Add Decor</button>
+                    </div>
+
+                </div>
+
+
+
+            </form>
+        </div>
+    }
+</div>
+

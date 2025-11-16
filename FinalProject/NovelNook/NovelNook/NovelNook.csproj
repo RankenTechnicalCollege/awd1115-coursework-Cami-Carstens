@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Images - Copy\pexels-magda-ehlers-pexels-3735587.jpg.crdownload" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images - Copy\pexels-magda-ehlers-pexels-3735587.jpg.crdownload" />
     <None Include="wwwroot\Images\pexels-magda-ehlers-pexels-3735587.jpg.crdownload" />
   </ItemGroup>
 

@@ -1,0 +1,56 @@
+﻿@using NovelNookBookStore.Models.DomainModels
+@* @model IEnumerable<Decor> *@
+@{
+    ViewBag.Title = "Decor Index List";
+}
+
+<h2>Book Related Decor and Accessories</h2>
+
+<form asp-action="Index" method="get" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="searchString" value="@ViewBag.SearchString" class="form-control" placeholder="Search for product" />
+        <button type="submit" class="btn btn-secondary ms-3">Search</button>
+    </div>
+</form>
+
+<div class="row g-4">
+    @foreach (var card in Model)
+    {
+        <div class="col-12 col-md-4 col-sm-6">
+            <div class="bookCards card h-100 d-flex flex-column border border-2 border-secondary p-2">
+                <img src="@card.Image" class="bookCardsImg card-img-top" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@card.Name</h5>
+                    <p class="descFont card-text">@card.Description</p>
+                    <p class="priceTag card-text">$@card.Price</p>
+
+                    <div class="mt-auto">
+                        <form method="post" asp-controller="Order" asp-action="AddItem">
+                            <input type="hidden" name="bookId" value="0" />
+                            <input type="hidden" name="bookQty" value="0" />
+                            <input type="hidden" name="decorId" value="@card.DecorId" />
+                            <input type="hidden" name="decorQty" value="1" />
+
+                            <button type="submit" class="bookCards Btn btn btn-secondary mt-auto ms-2">Add to cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+@if (Model.TotalPages > 1)
+{
+    <div class="d-flex justify-content-center align-items-center mt-4 gap-2">
+        <a asp-action="Index" asp-route-page="@(Model.PageIndex - 1)" asp-route-searchString="@ViewBag.SearchString" class="btn btn-outline-secondary @prevDisabled">Previous </a>
+
+        <span class="btn btn-light">Page @Model.PageIndex of @Model.TotalPages</span>
+
+        <a asp-action="Index" asp-route-page="@(Model.PageIndex + 1)" asp-route-searchString="@ViewBag.SearchString" class="btn btn-outline-secondary @nextDisabled">Next</a>
+    </div>
+}

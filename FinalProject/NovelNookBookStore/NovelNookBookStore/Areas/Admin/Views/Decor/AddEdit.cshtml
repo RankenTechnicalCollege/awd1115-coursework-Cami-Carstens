@@ -1,0 +1,63 @@
+﻿@model NovelNookBookStore.Models.DomainModels.Decor
+
+@{
+    ViewBag.Title = $"{ViewBag.Operation} New Decor Entry";
+}
+
+<h1>Admin @ViewBag.Operation @Model.Name</h1>
+                            
+<form asp-action="AddEdit" method="post" enctype="multipart/form-data">
+   
+    <input type="hidden" asp-for="DecorId" />
+    <input type="hidden" asp-for="CategoryId" />
+
+    <div class="form-group">
+        <label asp-for="Name" class="form-label" ></label>
+        <input asp-for="Name" class="form-control" name="Name"/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="form-label mt-3"></label>
+        <input asp-for="Description" class="form-control" name="Description" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="form-label  mt-3"></label>
+        <input asp-for="Price" class="form-control" name="Price" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Stock" class="form-label mt-3">In stock</label>
+        <input asp-for="Stock" class="form-control" name="Stock" />
+        <span asp-validation-for="Stock" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageFile" class="form-label mt-3">Upload Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <h5 class="mt-3"> Choose Category</h5>
+            @foreach(Category category in ViewBag.Categories)
+                {
+                    <div class="form-check">
+                        @{
+                            bool isChecked = Model.CategoryId == category.CategoryId;
+                        }
+                    <input type="radio" class="form-check-input" id="@category.CategoryId" name="CategoryId" value="@category.CategoryId" @(isChecked ? "checked" : "") /> @category.Name
+
+                    </div>
+                }
+            </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-area="Admin" asp-action="Index" asp-controller="Decor" class="btn btn-dark">Cancel</a>
+</form>

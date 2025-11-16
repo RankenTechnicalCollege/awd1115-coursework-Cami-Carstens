@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "ManyToManyEf\\Views\\Student\\Index.cshtml",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\ManyToManyEf\\ManyToManyEf\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "ManyToManyEf\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-08T23:17:41.139Z",
               "EditorCaption": ""
@@ -55,7 +55,8 @@
               "RelativeToolTip": "ManyToManyEf\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T23:12:21.114Z"
+              "WhenOpened": "2025-11-08T23:12:21.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

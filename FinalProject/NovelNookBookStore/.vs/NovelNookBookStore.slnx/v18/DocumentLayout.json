@@ -1,0 +1,557 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\domainmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\domainmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\areas\\admin\\views\\book\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\areas\\admin\\views\\book\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\areas\\admin\\controllers\\decorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\areas\\admin\\controllers\\decorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\areas\\admin\\views\\decor\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\areas\\admin\\views\\decor\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDb/NovelNookBookStoreDb/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDb/NovelNookBookStoreDb/True/SqlTable/dbo.Decors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\decor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\decor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\order\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\order\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\domainmodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\domainmodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\areas\\admin\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\areas\\admin\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\views\\discussion\\conversation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\views\\discussion\\conversation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\controllers\\discussioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\controllers\\discussioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\discussionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\discussionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\decorreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\decorreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\finalproject\\novelnookbookstore\\novelnookbookstore\\models\\domainmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1B900C-B691-4334-0322-68BCBBF9C515}|NovelNookBookStore\\NovelNookBookStore.csproj|solutionrelative:novelnookbookstore\\models\\domainmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEMAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T15:44:56.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DomainModels\\Book.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\DomainModels\\Book.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DomainModels\\Book.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\DomainModels\\Book.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA9wBIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T06:37:44.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Views\\Book\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Areas\\Admin\\Views\\Book\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Views\\Book\\AddEdit.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Areas\\Admin\\Views\\Book\\AddEdit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T04:13:29.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "NovelNookBookStore\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv0YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-16T02:29:14.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T05:29:03.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Views\\Decor\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Areas\\Admin\\Views\\Decor\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Views\\Decor\\AddEdit.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Areas\\Admin\\Views\\Decor\\AddEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T04:39:21.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DecorController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Controllers\\DecorController.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Areas\\Admin\\Controllers\\DecorController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Controllers\\DecorController.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Areas\\Admin\\Controllers\\DecorController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAIwJkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T02:33:59.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T15:23:38.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Review.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\Review.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:56:14.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.Orders.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDb/NovelNookBookStoreDb/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDb/NovelNookBookStoreDb/True/SqlTable/dbo.Orders.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-16T06:09:45.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookReview.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\BookReview.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\BookReview.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\BookReview.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\BookReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:05:29.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Program.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Program.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAASwBgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T23:52:02.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T23:59:53.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Decors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDb/NovelNookBookStoreDb/True/SqlTable/dbo.Decors.sql",
+              "ToolTip": "dbo.Decors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-16T06:08:57.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:50:55.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Decor\\Index.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Decor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Decor\\Index.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Decor\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBZwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T00:00:11.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T00:18:40.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Order\\Cart.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Order\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Order\\Cart.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Order\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T01:16:08.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAArwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T00:56:56.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Order\\ViewOrder.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Order\\ViewOrder.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T01:49:11.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DomainModels\\Order.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\DomainModels\\Order.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DomainModels\\Order.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\DomainModels\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:29:26.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\OrderItem.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:53:38.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T03:16:06.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\SessionExtensions.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T23:54:38.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Product.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\Product.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:15:16.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Category.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T01:26:27.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:54:34.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DiscussionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DiscussionViewModel.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\DiscussionViewModel.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DiscussionViewModel.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\DiscussionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T02:15:22.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DiscussionController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Controllers\\DiscussionController.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Controllers\\DiscussionController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Controllers\\DiscussionController.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Controllers\\DiscussionController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAArwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T01:54:11.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Conversation.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Discussion\\Conversation.cshtml",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Views\\Discussion\\Conversation.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Views\\Discussion\\Conversation.cshtml",
+              "RelativeToolTip": "NovelNookBookStore\\Views\\Discussion\\Conversation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T02:07:38.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Discussion.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Discussion.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\Discussion.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\Discussion.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\Discussion.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T01:48:59.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DecorReview.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DecorReview.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\DecorReview.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DecorReview.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\DecorReview.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:05:17.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DomainModels\\User.cs",
+              "RelativeDocumentMoniker": "NovelNookBookStore\\Models\\DomainModels\\User.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\Models\\DomainModels\\User.cs",
+              "RelativeToolTip": "NovelNookBookStore\\Models\\DomainModels\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:14:52.725Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
