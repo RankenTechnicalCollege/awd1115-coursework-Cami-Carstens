@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using NovelNookBookStore.Areas.Admin.Models
+@using NovelNookBookStore.Models
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -15,6 +20,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+
 </head>
 
 
@@ -22,13 +31,14 @@
             var controller = ViewContext.RouteData.Values["controller"]?.ToString() ?? "Home";
             var action = ViewContext.RouteData.Values["action"]?.ToString() ?? "Index";
             var area = ViewContext.RouteData.Values["area"]?.ToString() ?? "";
+                 
 }
 <body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <img src="~/images/bookLogo2.jpg" alt="Novel Nook Book Logo" class="img-fluid me-3" style="max-height: 50px; border-radius: 10px;" />
-                <a class="navbar-brand @(controller == "Home" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i>Novel Nook</a>
+                
+                <a class="navbar-brand @(controller == "Home" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index"> <img src="~/images/bookLogo2.jpg" alt="Novel Nook Book Logo" class="img-fluid" style="border-radius:75px; width: 50px; height: 50px;" />Novel Nook</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -37,36 +47,48 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(controller == "Book" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Book" asp-action="Index"><i class="fa-solid fa-book"></i>Shop Books</a>
+                            <a class="nav-link ms-5 text-dark @(controller == "Book" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Book" asp-action="Index"><i class="fa-solid fa-book"></i>Books</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Discussions" ? "active" : "")" asp-area="" asp-controller="Decor" asp-action="Index"><i class="fa-solid fa-bag-shopping"></i>Shop Decor</a>
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Discussions" ? "active" : "")" asp-area="" asp-controller="Decor" asp-action="Index"><i class="fa-solid fa-bag-shopping"></i>Decor</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Order" ? "active" : "")" asp-area="" asp-controller="Order" asp-action="Create"><i class="bi bi-cart4"></i></i>Shop All </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Sale" ? "active" : "")" asp-area="" asp-controller="Sale" asp-action="List"><i class="fa-solid fa-bag-shopping"></i>Clearance</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Explore" ? "active" : "")" asp-area="" asp-controller="Discussion" asp-action="Index"><i class="fa-solid fa-face-grin-beam"></i>Book Talk</a>
                         </li>
-                        </ul>
+                       
 
-
-                        <ul class="navbar-nav ms-auto">
-                       @*  <li class="nav-item">
-                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-lock"></i>Admin</a>
-                        </li>  *@
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Order" ? "active" : "")" asp-area="" asp-controller="Order" asp-action="Create">Cart</a>
-                        </li> 
-
+                       
                     </ul>
+                    
                     <partial name="_LoginPartial" />
-                    @*  <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button> *@
+                   
                 </div>
                 <ul class=" adminNav navbar-nav ms-auto">
-                <li class="AdminNav nav-item">
-                    <a class="AdminNav nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-lock"></i>Admin</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Order" ? "active" : "")" asp-area="" asp-controller="Order" asp-action="Create">Cart</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Order" ? "active" : "")" asp-area="" asp-controller="Order" asp-action="ViewOrder">Orders</a>
+                    </li>
+             
+                    <li class="AdminNav nav-item">
+                    <a class="AdminNav nav-link text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-lock"></i>Admin</a>
                 </li>
+
+                  
+
+
                 </ul>
 
             </div>
@@ -94,7 +116,9 @@
         </div>
 
     </footer>
-    @*  <script src="~/lib/jquery/dist/jquery.min.js"></script> *@
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

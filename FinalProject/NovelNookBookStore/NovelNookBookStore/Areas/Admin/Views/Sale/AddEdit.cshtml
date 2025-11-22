@@ -1,0 +1,45 @@
+﻿@model NovelNookBookStore.Models.DomainModels.Sale
+
+@{
+    ViewBag.Title = $"{ViewBag.Operation} Sale Entry";
+}
+
+<h1>Admin @ViewBag.Operation @Model.SaleItemName</h1>
+
+<form asp-action="AddEdit" asp-area="Admin" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="SaleId" />
+   @*  <input type="hidden" asp-for="CategoryId" /> *@
+
+    <div class="form-group">
+        <label asp-for="SaleItemName" class="form-label"></label>
+        <input asp-for="SaleItemName" class="form-control" />
+        <span asp-validation-for="SaleItemName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SaleDescription" class="form-label mt-3"></label>
+        <input asp-for="SaleDescription" class="form-control"/>
+        <span asp-validation-for="SaleDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SalePrice" class="form-label  mt-3"></label>
+        <input asp-for="SalePrice" class="form-control" />
+        <span asp-validation-for="SalePrice" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="ImageFile" class="form-label mt-3">Upload Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+
+
+
+    <button type="submit" class="btn btn-secondary mt-3">Save</button>
+    <a asp-area="Admin" asp-action="Details" asp-controller="Sale" class="btn btn-dark mt-3">Cancel</a>
+</form>

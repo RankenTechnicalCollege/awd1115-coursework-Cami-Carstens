@@ -1,0 +1,13 @@
+﻿@using NovelNookBookStore.Models.DomainModels
+@model Sale
+@{
+    ViewBag.Title = $"Delete {Model.SaleItemName} book ";
+}
+<h4>Are you sure you want to delete @Model.SaleItemName from inventory and all of its stock? "</h4>
+
+<h3>@Model.SaleItemName</h3>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="SaleId" />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-action="Index" class="btn btn-outline-danger">Cancel</a>
+</form>

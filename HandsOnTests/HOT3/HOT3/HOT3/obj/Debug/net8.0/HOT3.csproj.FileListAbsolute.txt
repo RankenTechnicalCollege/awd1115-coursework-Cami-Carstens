@@ -170,3 +170,4 @@ C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\HandsOnTests\HO
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.pdb
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\HOT3.genruntimeconfig.cache
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\ref\HOT3.dll
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\HandsOnTests\HOT3\HOT3\HOT3\obj\Debug\net8.0\swae.build.ex.cache

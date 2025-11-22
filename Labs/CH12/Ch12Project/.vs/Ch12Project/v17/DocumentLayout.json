@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\accommodation\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\accommodation\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\activity\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\activity\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\destination\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\destination\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\models\\domainmodels\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\models\\domainmodels\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\home\\page2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,6 +19,10 @@
       "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\destination\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\destination\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -43,20 +31,36 @@
       "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\activity\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\accommodation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\accommodation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\destination\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\destination\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\activity\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\activity\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\controllers\\accommodationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\controllers\\accommodationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\models\\domainmodels\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\models\\domainmodels\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\accommodation\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\accommodation\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\ch12project\\triplog2\\views\\accommodation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1978768-0F14-4877-9CF1-C4A0583257D9}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\accommodation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,11 +70,168 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:13:48.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TripLog2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TripLog2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:35:34.844Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Page1.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page1.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Home\\Page1.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page1.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Home\\Page1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T19:00:03.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Page2.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page2.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Home\\Page2.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page2.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Home\\Page2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:17:48.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Models\\DomainModels\\Trip.cs",
+              "RelativeDocumentMoniker": "TripLog2\\Models\\DomainModels\\Trip.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Models\\DomainModels\\Trip.cs",
+              "RelativeToolTip": "TripLog2\\Models\\DomainModels\\Trip.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:20:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccommodationController.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\AccommodationController.cs",
+              "RelativeDocumentMoniker": "TripLog2\\Controllers\\AccommodationController.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\AccommodationController.cs",
+              "RelativeToolTip": "TripLog2\\Controllers\\AccommodationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:34:40.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:56:13.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Add.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Destination\\Add.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Add.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Destination\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:26:08.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Index.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Destination\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Index.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Destination\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:23:01.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Index.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Activity\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Index.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Activity\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:24:48.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Add.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Activity\\Add.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Add.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Activity\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:25:12.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Program.cs",
+              "RelativeDocumentMoniker": "TripLog2\\Program.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Program.cs",
+              "RelativeToolTip": "TripLog2\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T18:22:14.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Accommodation\\Add.cshtml",
               "RelativeDocumentMoniker": "TripLog2\\Views\\Accommodation\\Add.cshtml",
@@ -78,90 +239,11 @@
               "RelativeToolTip": "TripLog2\\Views\\Accommodation\\Add.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T19:04:28.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T19:04:28.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Page1.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page1.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Home\\Page1.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page1.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Home\\Page1.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T19:00:03.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:56:13.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Add.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Destination\\Add.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Add.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Destination\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:26:08.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:13:48.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Page2.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page2.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Home\\Page2.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Home\\Page2.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Home\\Page2.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:17:48.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Add.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Activity\\Add.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Add.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Activity\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:25:12.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TripLog2\\wwwroot\\css\\site.css",
@@ -169,51 +251,11 @@
               "RelativeToolTip": "TripLog2\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-12T18:10:32.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T18:10:32.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Index.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Activity\\Index.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Activity\\Index.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Activity\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:24:48.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TripLog2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TripLog2\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:35:34.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Index.cshtml",
-              "RelativeDocumentMoniker": "TripLog2\\Views\\Destination\\Index.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Destination\\Index.cshtml",
-              "RelativeToolTip": "TripLog2\\Views\\Destination\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:23:01.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Views\\Accommodation\\Index.cshtml",
               "RelativeDocumentMoniker": "TripLog2\\Views\\Accommodation\\Index.cshtml",
@@ -221,38 +263,7 @@
               "RelativeToolTip": "TripLog2\\Views\\Accommodation\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T18:08:31.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccommodationController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\AccommodationController.cs",
-              "RelativeDocumentMoniker": "TripLog2\\Controllers\\AccommodationController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Controllers\\AccommodationController.cs",
-              "RelativeToolTip": "TripLog2\\Controllers\\AccommodationController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAQwCgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:34:40.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Trip.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Models\\DomainModels\\Trip.cs",
-              "RelativeDocumentMoniker": "TripLog2\\Models\\DomainModels\\Trip.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\Ch12Project\\TripLog2\\Models\\DomainModels\\Trip.cs",
-              "RelativeToolTip": "TripLog2\\Models\\DomainModels\\Trip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T01:20:30.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-11-12T18:08:31.281Z"
             }
           ]
         }

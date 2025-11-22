@@ -15,6 +15,7 @@ namespace NovelNookBookStore.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Discussion> Discussions { get; set; }
         public DbSet<Decor> Decors { get; set; }
+        public DbSet<Sale> Sales { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         //public DbSet<BookReview> BookReviews { get; set; }
@@ -22,35 +23,26 @@ namespace NovelNookBookStore.Data
         {
          
             base.OnModelCreating(modelBuilder);
-           
 
-            ////join table for Book and Review
-            //        modelBuilder.Entity<BookReview>()
-            //            .HasKey(br => new { br.BookId, br.ReviewId });
+            modelBuilder.Entity<OrderItem>()
+              .HasOne(oi => oi.Book)
+             .WithMany()
+            .HasForeignKey(oi => oi.BookId)
+            .OnDelete(DeleteBehavior.Restrict);
 
-            //        modelBuilder.Entity<BookReview>()
-            //            .HasOne(br => br.Book)
-            //            .WithMany(b => b.BookReviews)
-            //            .HasForeignKey(br => br.BookId);
+            modelBuilder.Entity<OrderItem>()
+                .HasOne(oi => oi.Decor)
+                .WithMany()
+                .HasForeignKey(oi => oi.DecorId)
+                .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<OrderItem>()
+            .HasOne(oi => oi.Order)
+            .WithMany(o => o.OrderItems)
+            .HasForeignKey(oi => oi.OrderId)
+            .OnDelete(DeleteBehavior.Cascade); // cascade delete here is fine
 
-            //        modelBuilder.Entity<BookReview>()
-            //            .HasOne(br => br.Review)
-            //            .WithMany(r => r.BookReviews)
-            //            .HasForeignKey(br => br.ReviewId);
 
 
-            ////join table for Decor and Review
-            //modelBuilder.Entity<DecorReview>()
-            //    .HasKey(dr => new { dr.DecorId, dr.ReviewId });
-
-            //modelBuilder.Entity<DecorReview>()
-            //    .HasOne(dr => dr.Decor)
-            //    .WithMany(d => d.DecorReviews)
-            //    .HasForeignKey(dr => dr.ReviewId);
-            //modelBuilder.Entity<DecorReview>()
-            //    .HasOne(dr => dr.Review)
-            //     .WithMany(r => r.DecorReviews)
-            //    .HasForeignKey(dr => dr.ReviewId);
 
             //Seed Data
             //1.)Category
@@ -81,7 +73,8 @@ namespace NovelNookBookStore.Data
                     Stock = 10,
                     Image = "/images/atomic-habits.jpg",
                     LinkUrl = "",
-                    CategoryId =1
+                    CategoryId =1,
+                    IsOnSale = false
 
                 },
                 new Book
@@ -94,7 +87,8 @@ namespace NovelNookBookStore.Data
                     Stock = 20,
                     Image = "/images/cold-tangerines.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -106,7 +100,8 @@ namespace NovelNookBookStore.Data
                    Stock=29,
                     Image = "/images/ill-give-you-the-sun.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
 
                 },
                 new Book
@@ -119,7 +114,8 @@ namespace NovelNookBookStore.Data
                    Stock=3,
                     Image = "/images/book-of-you.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -131,7 +127,8 @@ namespace NovelNookBookStore.Data
                     Stock = 7,
                     Image = "/images/big-little-lies.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
 
                 },
                 new Book
@@ -144,7 +141,8 @@ namespace NovelNookBookStore.Data
                     Stock=3,
                     Image = "/images/you.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -156,7 +154,8 @@ namespace NovelNookBookStore.Data
                     Stock=3,
                     Image = "/images/scythe.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
 
                 },
                 new Book
@@ -169,7 +168,8 @@ namespace NovelNookBookStore.Data
                     Stock = 5,
                     Image = "/images/like-it-darker.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
 
                 },
                 new Book
@@ -182,7 +182,8 @@ namespace NovelNookBookStore.Data
                     Stock = 7,
                     Image = "/images/nervous-planet.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -194,7 +195,8 @@ namespace NovelNookBookStore.Data
                    Stock = 8,
                     Image = "/images/dig.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -206,7 +208,8 @@ namespace NovelNookBookStore.Data
                     Stock = 9,
                     Image = "/images/everyday-amazing.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -218,7 +221,8 @@ namespace NovelNookBookStore.Data
                     Stock = 22,
                     Image = "/images/wilder-girls.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
 
                 },
                 new Book
@@ -231,7 +235,8 @@ namespace NovelNookBookStore.Data
                     Stock = 14,
                     Image = "/images/Blood-over-bright-haven.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -243,7 +248,8 @@ namespace NovelNookBookStore.Data
                     Stock = 17,
                     Image = "/images/Ai-Dummies.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
 
             new Book
@@ -255,7 +261,8 @@ namespace NovelNookBookStore.Data
                 Price = 14.99m,
                 Image = "/images/all-about-love.jpg",
                 LinkUrl = "",
-                CategoryId = 1
+                CategoryId = 1,
+                IsOnSale = false
             },
 
               new Book
@@ -268,7 +275,8 @@ namespace NovelNookBookStore.Data
                   Stock = 12,
                   Image = "/images/ASPNet.jpg",
                   LinkUrl = "",
-                  CategoryId = 1
+                  CategoryId = 1,
+                  IsOnSale = false
               },
                  new Book
                  {
@@ -280,7 +288,8 @@ namespace NovelNookBookStore.Data
                      Stock = 15,
                      Image = "/images/Be-Water-My-Friend.jpg",
                      LinkUrl = "",
-                     CategoryId = 1
+                     CategoryId = 1,
+                     IsOnSale = false
                  },
                  new Book
                  {
@@ -292,7 +301,8 @@ namespace NovelNookBookStore.Data
                      Author = "Tatsuki Fujimoto",
                      Image = "/images/Chainsaw-man.jpg",
                      LinkUrl = "",
-                     CategoryId = 1
+                     CategoryId = 1,
+                     IsOnSale = false
                  },
                  new Book
                  {
@@ -304,7 +314,8 @@ namespace NovelNookBookStore.Data
                      Stock = 23,
                      Image = "/images/Charlottes-web.jpg",
                      LinkUrl = "",
-                     CategoryId = 1
+                     CategoryId = 1,
+                     IsOnSale = false
                  },
                  new Book
                  {
@@ -316,7 +327,8 @@ namespace NovelNookBookStore.Data
                      Stock = 24,
                      Image = "/images/Cinder.jpg",
                      LinkUrl = "",
-                     CategoryId = 1
+                     CategoryId = 1,
+                     IsOnSale = false
                  },
                  new Book
                  {
@@ -328,7 +340,8 @@ namespace NovelNookBookStore.Data
                      Stock =  17,
                      Image = "/images/courage-disliked.jpg",
                      LinkUrl = "",
-                     CategoryId = 1
+                     CategoryId = 1,
+                     IsOnSale = false
                  },
                   new Book
                   {
@@ -340,7 +353,9 @@ namespace NovelNookBookStore.Data
                       Stock = 2,
                       Image = "/images/Darker-shade-of-magic.jpg",
                       LinkUrl = "",
-                      CategoryId = 1
+                      CategoryId = 1,
+                      IsOnSale = false
+
                   },
                   new Book
                   {
@@ -352,7 +367,8 @@ namespace NovelNookBookStore.Data
                       Stock = 6,
                       Image = "/images/Dark-matter.jpg",
                       LinkUrl = "",
-                      CategoryId = 1
+                      CategoryId = 1,
+                      IsOnSale = false
                   },
                    new Book
                    {
@@ -364,7 +380,8 @@ namespace NovelNookBookStore.Data
                        Stock = 9,
                        Image = "/images/Emotional-intelligence.jpg",
                        LinkUrl = "",
-                       CategoryId = 1
+                       CategoryId = 1,
+                       IsOnSale = false
                    },
                   new Book
                   {
@@ -376,7 +393,8 @@ namespace NovelNookBookStore.Data
                       Stock = 10,
                       Image = "/images/Erasing-history.jpg",
                       LinkUrl = "",
-                      CategoryId = 1
+                      CategoryId = 1,
+                      IsOnSale = false
                   },
                 new Book
                 {
@@ -388,7 +406,8 @@ namespace NovelNookBookStore.Data
                     Author = "Pierce Brown",
                     Image = "/images/Golden-son.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -411,7 +430,8 @@ namespace NovelNookBookStore.Data
                     Author = "Alicia Ortego",
                     Image = "/images/Kindness-is-My-Superpower.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -423,7 +443,8 @@ namespace NovelNookBookStore.Data
                     Stock= 10,
                     Image = "/images/Leadership-Dummies.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -435,7 +456,8 @@ namespace NovelNookBookStore.Data
                     Stock = 20,
                     Image = "/images/Light-we-cannot-see.jpg",
                     LinkUrl = "",
-                       CategoryId = 1
+                       CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -447,7 +469,8 @@ namespace NovelNookBookStore.Data
                     Stock = 14,
                     Image = "/images/Originals.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -458,7 +481,8 @@ namespace NovelNookBookStore.Data
                     Price = 26.99m,
                     Image = "/images/Peoples-history.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -470,7 +494,8 @@ namespace NovelNookBookStore.Data
                     Stock= 15,
                     Image = "/images/Pretty-girls.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -482,7 +507,8 @@ namespace NovelNookBookStore.Data
                     Stock = 17,
                     Image = "/images/Python.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -494,7 +520,8 @@ namespace NovelNookBookStore.Data
                     Stock = 3,
                     Image = "/images/Red-rising.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -506,7 +533,8 @@ namespace NovelNookBookStore.Data
                     Stock = 7,
                     Image = "/images/Silent-patient.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -518,7 +546,8 @@ namespace NovelNookBookStore.Data
                     Stock = 8,
                     Image = "/images/Think-again.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -530,7 +559,8 @@ namespace NovelNookBookStore.Data
                     Stock = 9,
                     Image = "/images/Vicious.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -542,7 +572,8 @@ namespace NovelNookBookStore.Data
                     Stock = 19,
                     Image = "/images/my-friends.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                 new Book
                 {
@@ -554,7 +585,8 @@ namespace NovelNookBookStore.Data
                     Stock = 20,
                     Image = "/images/river-is-waiting.jpg",
                     LinkUrl = "",
-                    CategoryId = 1
+                    CategoryId = 1,
+                    IsOnSale = false
                 },
                    new Book
                    {
@@ -566,7 +598,8 @@ namespace NovelNookBookStore.Data
                        Stock = 13,
                        Image = "/images/everything-beautiful-hurts.jpg",
                        LinkUrl = "",
-                       CategoryId = 1
+                       CategoryId = 1,
+                       IsOnSale = false
                    },
                       new Book
                       {
@@ -578,7 +611,8 @@ namespace NovelNookBookStore.Data
                           Stock = 4,
                           Image = "/images/animal-farm.jpg",
                           LinkUrl = "",
-                          CategoryId = 1
+                          CategoryId = 1,
+                          IsOnSale = false
                       } );
 
 
@@ -593,7 +627,8 @@ namespace NovelNookBookStore.Data
                     Stock = 25,
                     Image = "/images/reading-blanket.jpg",
                     LinkUrl = "",
-                    CategoryId = 2
+                    CategoryId = 2,
+                    IsOnSale = false
                 },
                      new Decor
                      {
@@ -604,7 +639,8 @@ namespace NovelNookBookStore.Data
                          Stock = 45,
                          Image = "/images/reading-socks.jpg",
                          LinkUrl = "",
-                         CategoryId = 2
+                         CategoryId = 2,
+                         IsOnSale = false
                      },
                           new Decor
                           {
@@ -615,7 +651,10 @@ namespace NovelNookBookStore.Data
                               Stock = 18,
                               Image = "/images/wearable-blanket.jpg",
                               LinkUrl = "",
-                              CategoryId = 2
+                              CategoryId = 2,
+                              IsOnSale = false
+
+
                           },
                               new Decor
                               {
@@ -626,7 +665,8 @@ namespace NovelNookBookStore.Data
                                   Stock = 35,
                                   Image = "/images/edward-candle.jpg",
                                   LinkUrl = "",
-                                  CategoryId = 2
+                                  CategoryId = 2,
+                                  IsOnSale = false
                               },
                                  new Decor
                                  {
@@ -637,7 +677,8 @@ namespace NovelNookBookStore.Data
                                      Stock = 23,
                                      Image = "/images/candle-warming-lamp.jpg",
                                      LinkUrl = "",
-                                     CategoryId = 2
+                                     CategoryId = 2,
+                                     IsOnSale = false
                                  },
 
                                     new Decor
@@ -649,7 +690,8 @@ namespace NovelNookBookStore.Data
                                         Stock = 60,
                                         Image = "/images/book-caddy.jpg",
                                         LinkUrl = "",
-                                        CategoryId = 2
+                                        CategoryId = 2,
+                                        IsOnSale = false
                                     },
 
                                       new Decor
@@ -661,7 +703,8 @@ namespace NovelNookBookStore.Data
                                           Stock = 20,
                                           Image = "/images/bookend.jpg",
                                           LinkUrl = "",
-                                          CategoryId = 2
+                                          CategoryId = 2,
+                                          IsOnSale = false
                                       },
                                         new Decor
                                         {
@@ -672,7 +715,8 @@ namespace NovelNookBookStore.Data
                                             Stock = 13,
                                             Image = "/images/Home-Mindful_Garden.jpg",
                                             LinkUrl = "",
-                                            CategoryId = 2
+                                            CategoryId = 2,
+                                            IsOnSale = false
                                         },
                                            new Decor
                                            {
@@ -683,7 +727,8 @@ namespace NovelNookBookStore.Data
                                                Stock = 11,
                                                Image = "/images/world-globe.jpg",
                                                LinkUrl = "",
-                                               CategoryId = 2
+                                               CategoryId = 2,
+                                               IsOnSale = false
                                            },
                                               new Decor
                                               {
@@ -694,7 +739,8 @@ namespace NovelNookBookStore.Data
                                                   Stock = 20,
                                                   Image = "/images/reading-light.jpg",
                                                   LinkUrl = "",
-                                                  CategoryId = 2
+                                                  CategoryId = 2,
+                                                  IsOnSale = false
                                               },
                                                  new Decor
                                                  {
@@ -705,7 +751,8 @@ namespace NovelNookBookStore.Data
                                                      Stock = 60,
                                                      Image = "/images/tote-page.jpg",
                                                      LinkUrl = "",
-                                                     CategoryId = 2
+                                                     CategoryId = 2,
+                                                     IsOnSale = false
                                                  },
 
                                                     new Decor
@@ -717,7 +764,8 @@ namespace NovelNookBookStore.Data
                                                         Stock = 22,
                                                         Image = "/images/candle-pack.jpg",
                                                         LinkUrl = "",
-                                                        CategoryId = 2
+                                                        CategoryId = 2,
+                                                        IsOnSale = false
                                                     },
                                                        new Decor
                                                        {
@@ -728,7 +776,8 @@ namespace NovelNookBookStore.Data
                                                            Stock = 7,
                                                            Image = "/images/PP-vase.jpg",
                                                            LinkUrl = "",
-                                                           CategoryId = 2
+                                                           CategoryId = 2,
+                                                           IsOnSale = false
                                                        },
                                                           new Decor
                                                           {
@@ -739,7 +788,8 @@ namespace NovelNookBookStore.Data
                                                               Stock = 12,
                                                               Image = "/images/leather-journal.jpg",
                                                               LinkUrl = "",
-                                                              CategoryId = 2
+                                                              CategoryId = 2,
+                                                              IsOnSale = false
                                                           },
 
                                                              new Decor
@@ -751,7 +801,8 @@ namespace NovelNookBookStore.Data
                                                                  Stock = 20,
                                                                  Image = "/images/leather-bookmark.jpg",
                                                                  LinkUrl = "",
-                                                                CategoryId = 2
+                                                                CategoryId = 2,
+                                                                IsOnSale= false
                                                           });
 
 
@@ -775,12 +826,101 @@ namespace NovelNookBookStore.Data
                          Review = 5
                      });
 
-
-
-
-
-
-
+//Sales-Clearance
+            modelBuilder.Entity<Sale>().HasData(
+                new Sale
+                {
+                    SaleId = 1,
+                    SaleItemName = "Wish you were here",
+                    SaleDescription = "Hard Cover - Gently used book. No marking or tears.",
+                    SalePrice = 9.99m,
+                    ImageUrl = "/Images/Wish-you-were-here.jpg",
+                    IsOnSale = true
+                },
+                  new Sale
+                  {
+                      SaleId = 2,
+                      SaleItemName = "Atlas of the Heart",
+                      SaleDescription = "Hard Cover - Brand New-take a journey into your heart",
+                      SalePrice = 14.99m,
+                      ImageUrl ="/Images/Atlas-Heart.jpg",
+                      IsOnSale = true
+                  },
+                    new Sale
+                    {
+                        SaleId = 3,
+                        SaleItemName = "Sisters",
+                        SaleDescription = "Hard Cover - Like New- floor model book",
+                        SalePrice = 7.99m,
+                        ImageUrl ="/Images/sisters-book.jpg",
+                        IsOnSale = true
+                    },
+                      new Sale
+                      {
+                          SaleId = 4,
+                          SaleItemName = "Goosebumps",
+                          SaleDescription = "Soft Cover - Used-may contain a couple marks or creases, nothing obstructive",
+                          SalePrice = 4.99m,
+                          ImageUrl = "/Images/goosebumps.jpg",
+                          IsOnSale = true
+                      },
+                      new Sale
+                      {
+                          SaleId = 5,
+                          SaleItemName = "A Court of Silver Flames",
+                          SaleDescription = "Hard Cover - New - floor model book",
+                          SalePrice = 15.99m,
+                          ImageUrl= "/Images/court-silver-flames.jpg",
+                          IsOnSale = true
+                      },
+                          new Sale
+                      {
+                          SaleId = 6,
+                          SaleItemName = "Thumb Book Holder",
+                          SaleDescription = "6 pack. Variety of different stones. Easily hold your book open with these beautiful stone-crafted thumb page openers",
+                          SalePrice = 30.99m,
+                          ImageUrl="Images/Book-Thumb.jpg",
+                          IsOnSale = true
+                      },
+                          new Sale
+                      {
+                          SaleId = 7,
+                          SaleItemName = "The Very Hungry Catepillar",
+                          SaleDescription = "Hard Cover- Like new",
+                          SalePrice = 6.99m,
+                          ImageUrl = "/Images/Hungry-Caterpillar.jpg",
+                          IsOnSale = true
+                      },
+                          
+                          
+                          new Sale
+                      {
+                          SaleId = 8,
+                          SaleItemName = "Outsiders",
+                          SaleDescription = "Soft Cover -  Good condition - no creases, tears, or highlighting",
+                          SalePrice = 6.99m,
+                          ImageUrl = "/Images/Outsiders-Book.jpg",
+                          IsOnSale = true
+                      },
+                         new Sale
+                      {
+                          SaleId = 9,
+                          SaleItemName = "James and the Giant Peach",
+                          SaleDescription = "Soft Cover - New - Classic",
+                          SalePrice = 5.99m,
+                          ImageUrl= "/Images/James-Giant-Peach.jpg",
+                          IsOnSale = true
+                      },
+                         
+                         new Sale
+                      {
+                          SaleId = 10,
+                          SaleItemName = "Book Wreath",
+                          SaleDescription = "Beautiful hand crafted wreath made form recycled book pages",
+                          SalePrice = 39.99m,
+                          ImageUrl = "/Images/Book-Wreath.jpg",
+                          IsOnSale = true
+                      });
 
               } 
         }

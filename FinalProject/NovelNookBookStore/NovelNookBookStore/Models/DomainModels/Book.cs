@@ -18,6 +18,7 @@ namespace NovelNookBookStore.Models.DomainModels
 
         [Required(ErrorMessage = "Please select a category.")]
         public int CategoryId { get; set; } //FK
+        [ValidateNever]
         public Category Category { get; set; }
 
         //[ValidateNever]
@@ -30,5 +31,6 @@ namespace NovelNookBookStore.Models.DomainModels
         [ValidateNever]
         public IFormFile? ImageFile { get; set; }
         public string? ImageUrl { get; set; }
+        public bool IsOnSale { get; set; }
     }
 }

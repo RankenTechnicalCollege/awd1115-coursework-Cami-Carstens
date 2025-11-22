@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NovelNookBookStore.Data;
 using NovelNookBookStore.Models;
+using NovelNookBookStore.Models.DataLayer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +13,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+   .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+
 
 //neededfor shopping cart
 builder.Services.AddMemoryCache();
@@ -23,6 +29,9 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+
+builder.Services.AddScoped(typeof(Repository<>));
+
 
 var app = builder.Build();
 app.UseSession();
@@ -42,7 +51,10 @@ else
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
+
 
 app.MapStaticAssets();
 app.MapControllerRoute(
@@ -54,7 +66,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-app.MapRazorPages()
-   .WithStaticAssets();
+
+app.MapRazorPages();
 
 app.Run();

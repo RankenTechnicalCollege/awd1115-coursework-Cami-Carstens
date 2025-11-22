@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NovelNookBookStore.Data;
@@ -13,6 +14,7 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
 {
 
     [Area("Admin")]
+   
     public class BookController : Controller
     {
         private Repository<Book> books;
@@ -87,10 +89,6 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
 
         }
 
-
-
-
-
         [HttpGet]
         public async Task<IActionResult> AddEdit(int id)
         {
@@ -141,7 +139,7 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
                 book.ImageUrl = book.Image;
             }
 
-            if (book.BookId == 0) // New book
+            if (book.BookId == 0) 
             {
                 await books.AddASync(book);
             }
@@ -158,7 +156,7 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
                 existingBook.Stock = book.Stock;
                 existingBook.CategoryId = book.CategoryId;
 
-                // Only update image if a new file was uploaded
+                
                 if (book.ImageFile != null)
                 {
                     existingBook.Image = book.Image;

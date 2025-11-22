@@ -24,7 +24,7 @@ namespace NovelNookBookStore.Controllers
 
         public async Task<IActionResult> Index(string searchString, int page = 1)
         {
-            int pageSize = 6;
+            int pageSize = 8;
             var cards = _context.Books.AsQueryable();
 
             //search feature

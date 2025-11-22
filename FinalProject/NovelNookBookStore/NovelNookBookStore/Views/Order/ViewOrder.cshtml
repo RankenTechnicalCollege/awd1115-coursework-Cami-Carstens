@@ -1,31 +1,59 @@
-﻿
+﻿@model IEnumerable<NovelNookBookStore.Models.DomainModels.Order>
 
 @{
     ViewBag.Title = "My Orders";
 }
+
+<h1>My Orders</h1>
+
 <table class="table table-bordered">
     <thead>
         <tr>
-        <th>Order Id</th>
-        <th>Order Date</th>
-        <th>Total Amount</th>
-        <th>Order Items</th>
+            <th>Order Id</th>
+            <th>Order Date</th>
+            <th>Total Amount</th>
+            <th>Order Items</th>
         </tr>
     </thead>
 
     <tbody>
-        @foreach(var order in Model)
+        @foreach (var order in Model)
         {
             <tr>
                 <td>@order.OrderId</td>
                 <td>@order.OrderDate.ToString("MM/dd/yyyy")</td>
                 <td>@order.TotalAmount.ToString("C")</td>
-
                 <td>
                     <ul>
-                        @foreach(var item in order.OrderItems)
+                        @foreach (var item in order.OrderItems)
                         {
-                            <li>@item.Book.Name -- @item.Quantity x @item.Price.ToString("C")</li>
+                            <li>
+                                @{
+                                    string itemName;
+
+                                    if (item.Book != null)
+                                    {
+                                        itemName = item.Book.Title;
+                                    }
+                                    else if (item.Decor != null)
+                                    {
+                                        itemName = item.Decor.Name;
+                                    }
+                                    else if (item.SaleItem != null)
+                                    {
+                                        itemName = item.SaleItem.SaleItemName;
+                                    }
+                                    else
+                                    {
+                                        itemName = "Unknown Item";
+                                    }
+
+                                    decimal totalPrice = item.Quantity * item.Price;
+                                }
+
+                                @itemName -- @item.Quantity x @item.Price.ToString("C") = @totalPrice.ToString("C")
+                            </li>
+
                         }
                     </ul>
                 </td>

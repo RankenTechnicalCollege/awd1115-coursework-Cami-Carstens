@@ -1,5 +1,6 @@
 ﻿@model OrderViewModel
 @{
+
 }
 
 <h1>My Cart</h1>
@@ -21,7 +22,7 @@
                 var item = Model.OrderItems[i];
                 <tr>
                     <td>
-                        @(string.IsNullOrEmpty(item.BookTitle) ? item.DecorName : item.BookTitle)
+                        @(string.IsNullOrEmpty(item.BookTitle) ? (string.IsNullOrEmpty(item.DecorName) ? item.SaleItemName : item.DecorName) : item.BookTitle )
                     </td>
                     <td>@item.Quantity</td>
                     <td>@item.Price.ToString("C")</td>
@@ -34,7 +35,13 @@
       
     </table>
 
+    <div class="mt-3">
+        <p>Subtotal: @Model.Subtotal.ToString("C")</p>
+        <p>Sales Tax: @Model.TaxAmount.ToString("C")</p>
+        <p>Final Total: @Model.TotalAmount.ToString("C")</p>
+    </div>
+
     <div class="form-group">
-        <input type="submit" value="Place Order" class="btn btn-primary"/>
+        <input type="submit" value="Place Order" class="btn btn-secondary"/>
     </div>
 </form>

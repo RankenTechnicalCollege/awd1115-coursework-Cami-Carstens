@@ -7,7 +7,7 @@ using NovelNookBookStore.Data;
 using NovelNookBookStore.Models;
 using NovelNookBookStore.Models.DataLayer;
 using NovelNookBookStore.Models.DomainModels;
-using static NuGet.Packaging.PackagingConstants;
+
 
 namespace NovelNookBookStore.Controllers
 {
@@ -17,6 +17,7 @@ namespace NovelNookBookStore.Controllers
         private Repository<Book> _books;
         private Repository<Decor> _decors;
         private Repository<Order> _orders;
+        private Repository<Sale> _sales;
         private readonly UserManager<ApplicationUser> _userManager;
 
         public OrderController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
@@ -25,6 +26,7 @@ namespace NovelNookBookStore.Controllers
             _books = new Repository<Book>(context);
             _decors = new Repository<Decor>(context);
             _orders = new Repository<Order>(context);
+            _sales = new Repository<Sale>(context);
             _userManager = userManager;
         }
 
@@ -49,16 +51,18 @@ namespace NovelNookBookStore.Controllers
 
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> AddItem(int bookId, int bookQty, int decorId, int decorQty)
+        public async Task<IActionResult> AddItem(int bookId, int bookQty, int decorId, int decorQty, int saleId = 0, int saleQty = 0)
         {
             var book = await _context.Books.FindAsync(bookId);
             var decor = await _context.Decors.FindAsync(decorId);
+            var sale = saleId > 0 ? await _context.Sales.FindAsync(saleId) : null;
 
             var model = HttpContext.Session.Get<OrderViewModel>("OrderViewModel") ?? new OrderViewModel
             {
                 OrderItems = new List<OrderItemViewModel>(),
                 Books = await _books.GetAllASync(),
-                Decors = await _decors.GetAllASync()
+                Decors = await _decors.GetAllASync(),
+                Sales = await _sales.GetAllASync()
             };
 
             // BOOK
@@ -101,8 +105,31 @@ namespace NovelNookBookStore.Controllers
                 }
             }
 
+            //Sale stuff
+            if(saleQty > 0 && sale != null)
+            {
+                var existingSale = model.OrderItems.FirstOrDefault(s => s.SaleItemId == saleId);
+                if(existingSale != null)
+                {
+                    existingSale.Quantity += saleQty;
+                }
+                else
+                {
+                    model.OrderItems.Add(new OrderItemViewModel
+                    {
+                        SaleItemId = sale.SaleId,
+                        SaleItemName = sale.SaleItemName,
+                        Price = sale.SalePrice,
+                        Quantity = saleQty
+                    });
+                }
+            }
+
             // Recalculate total
-            model.TotalAmount = model.OrderItems.Sum(x => x.Price * x.Quantity);
+            model.Subtotal = model.OrderItems.Sum(x => x.Price * x.Quantity);
+            model.TaxAmount = model.Subtotal * model.TaxRate;
+            model.TotalAmount = model.Subtotal + model.TaxAmount;
+   
 
             HttpContext.Session.Set("OrderViewModel", model);
 
@@ -168,17 +195,26 @@ namespace NovelNookBookStore.Controllers
                         Price = item.Price
                     });
                 }
+                if(item.SaleItemId > 0 )
+                {
+                    order.OrderItems.Add(new OrderItem
+                    {
+                        SaleItemId = item.SaleItemId,
+                        Quantity = item.Quantity,
+                        Price = item.Price
+                    });
+                }
             }
 
             await _orders.AddASync(order);
 
             HttpContext.Session.Remove("OrderViewModel");
-            return RedirectToAction("ViewOrders");
+            return RedirectToAction("ViewOrder");
         }
 
         [HttpGet]
         [Authorize]
-        public async Task<IActionResult> ViewOrders()
+        public async Task<IActionResult> ViewOrder()
         {
             var userId = _userManager.GetUserId(User);
             var userOrders = await _orders.GetAllByIdAsync(userId, "UserId", new QueryOptions<Order>

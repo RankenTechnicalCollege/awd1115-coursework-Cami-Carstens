@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NovelNookBookStore.Data;
+using NovelNookBookStore.Models.DomainModels;
 
 namespace NovelNookBookStore.Models.DataLayer
 {
@@ -81,5 +82,7 @@ namespace NovelNookBookStore.Models.DataLayer
             query = query.Where(e => EF.Property<TKey>(e, propertyName).Equals(id));
             return await query.ToListAsync();
         }
+
+ 
     }
 }

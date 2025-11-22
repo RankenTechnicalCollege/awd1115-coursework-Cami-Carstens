@@ -16,10 +16,12 @@
     }
 }
 
+
 <h4>Admin Book Details</h4>
 
-<a asp-action="AddEdit" asp-area="Admin" asp-controller="Book" class="btn btn-success mb-3">Create a new book entry</a>
-
+<a asp-action="AddEdit" asp-area="Admin" asp-controller="Book" class="btn btn-secondary mb-3">Create a new book entry</a>
+<a asp-action="Details" asp-area="Admin" asp-controller="Decor" class="mb-3">Decor List</a>
+<a asp-action="Details" asp-area="Admin" asp-controller="Sale" class="mb-3 ms-3">Clearance List</a>
 <div class="col">
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
@@ -40,7 +42,9 @@
             {
                 <tr>
                     <td>
-                        <img src="@Url.Content(item.ImageUrl ?? "~/Images/default.png")" alt="@item.Title" class="img-fluid" />
+                        <img src="@Url.Content(item.ImageUrl ?? item.Image ?? "~/Images/default.png")"
+                             alt="@item.Title" class="img-fluid" />
+
 
                     </td>
                     <td>@item.Title</td>

@@ -330,6 +330,9 @@ namespace NovelNookBookStore.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsOnSale")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LinkUrl")
                         .HasColumnType("nvarchar(max)");
 
@@ -357,6 +360,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results",
                             Image = "/images/atomic-habits.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 18.99m,
                             Stock = 10,
@@ -369,6 +373,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A collection of essays that find beauty and meaning in the ordinary moments of life. Shauna Niequist shares her reflections on family, faith, and the simple joys that make life special, encouraging readers to appreciate the small things that often go unnoticed.",
                             Image = "/images/cold-tangerines.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 16.99m,
                             Stock = 20,
@@ -381,6 +386,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A young adult novel that tells the story of twins Noah and Jude, who are struggling to reconnect after a tragic event. The narrative alternates between their perspectives, revealing their secrets, dreams, and the complexities of their relationship as they navigate love, loss, and self-discovery.",
                             Image = "/images/ill-give-you-the-sun.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 14.99m,
                             Stock = 29,
@@ -393,6 +399,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A psychological thriller that delves into the dark side of obsession and the lengths people will go to protect their secrets.",
                             Image = "/images/book-of-you.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 26.99m,
                             Stock = 3,
@@ -405,6 +412,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A gripping novel that explores the lives of three women in a tight-knit community, unraveling the secrets and lies that lead to a shocking event at a school trivia night.",
                             Image = "/images/big-little-lies.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 26.99m,
                             Stock = 7,
@@ -417,6 +425,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A psychological thriller that follows Joe Goldberg, a bookstore manager who becomes infatuated with a customer named Beck. The story is told from Joe's perspective, revealing his obsessive and dangerous behavior as he manipulates those around him to win Beck's affection.",
                             Image = "/images/you.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 25.99m,
                             Stock = 3,
@@ -429,6 +438,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "In a future where death has been conquered, two teenagers are chosen to become Scythes, the only ones who can end life to control population growth. As they learn the art of gleaning, they must navigate moral dilemmas and the corrupt world of the Scythedom.",
                             Image = "/images/scythe.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 17.99m,
                             Stock = 3,
@@ -441,6 +451,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "From legendary storyteller and master of short fiction Stephen King comes an extraordinary new collection of twelve short stories, many never-before-published, and some of his best EVER.",
                             Image = "/images/like-it-darker.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 19.99m,
                             Stock = 5,
@@ -453,6 +464,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "In Notes on a Nervous Planet, Matt Haig explores the impact of modern life on mental health, addressing issues like anxiety, social media, and the fast pace of contemporary living. Through personal anecdotes and reflections, Haig offers insights and practical advice on how to navigate the challenges of the digital age while maintaining mental well-being.",
                             Image = "/images/nervous-planet.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 16.99m,
                             Stock = 7,
@@ -465,6 +477,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Dig is a young adult novel that follows the story of a teenage girl named Brynn, who is struggling to cope with the recent death of her father. As she navigates her grief, Brynn uncovers family secrets and confronts her own identity, leading to a journey of self-discovery and healing.",
                             Image = "/images/dig.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 18.99m,
                             Stock = 8,
@@ -477,6 +490,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Everyday Amazing is a fascinating exploration of the science behind everyday phenomena. Beatrice the Biologist delves into the wonders of the natural world, explaining complex scientific concepts in an engaging and accessible way. From the chemistry of cooking to the physics of rainbows, this book reveals the extraordinary science that surrounds us in our daily lives.",
                             Image = "/images/everyday-amazing.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 16.99m,
                             Stock = 9,
@@ -489,6 +503,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "It's been eighteen months since the Raxter School for Girls was put under quarantine. Since the Tox hit and pulled Hetty's life out from under her.\r\n\r\nIt started slow. First the teachers died one by one. Then it began to infect the students, turning their bodies strange and foreign. Now, cut off from the rest of the world and left to fend for themselves on their island home, the girls don't dare wander outside the school's fence, where the Tox has made the woods wild and dangerous. They wait for the cure they were promised as the Tox seeps into everything.\r\n\r\nBut when Byatt goes missing, Hetty will do anything to find her, even if it means breaking quarantine and braving the horrors that lie beyond the fence. And when she does, Hetty learns that there's more to their story, to their life at Raxter, than she could have ever thought true.",
                             Image = "/images/wilder-girls.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 24.99m,
                             Stock = 22,
@@ -501,6 +516,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Magic has made the city of Tiran an industrial utopia, but magic has a cost. A dark academia brimming with mystery, tradegy, bravery, and damning echoes of the past. Through their fractious relationship, mage and outsider uncover an ancient secret that could change the course of magic forever—if it doesn’t get them killed first. Sciona has defined her life by the pursuit of truth, but how much is one truth worth with the fate of civilization in the balance?",
                             Image = "/images/Blood-over-bright-haven.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 22.99m,
                             Stock = 14,
@@ -513,6 +529,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A comprehensive guide for non-technical users. Artificial intelligence (AI) is the science of creating computer systems that can perform tasks normally requiring human intelligence, such as learning, reasoning, and problem-solving. ",
                             Image = "/images/Ai-Dummies.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 19.99m,
                             Stock = 17,
@@ -525,6 +542,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "All About Love: New Visions, bell hooks argues that love is not simply a feeling but a conscious, intentional choice. Hooks's central thesis is that \"love is as love does\". She explains that modern society has fundamentally misunderstood love by treating it as a noun—a mystical, passive emotion—rather than a verb, which implies intentional action and will.",
                             Image = "/images/all-about-love.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 14.99m,
                             Stock = 0,
@@ -537,6 +555,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Learn to write your first apps using MVC (Model-View-Controller) pattern. This book gets you off to a fast start whether or not you have prior experience with server-side development.\r\nIt teaches you all the skills you need to develop bulletproof, database-driven web apps. That includes using endpoint routing, Razor views, model binding, data validation, dependency injection, Bootstrap for responsive design, EF (Entity Framework) Core for database handling, xUnit and Moq for unit testing, and Identity for authentication",
                             Image = "/images/ASPNet.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 59.50m,
                             Stock = 12,
@@ -549,6 +568,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = " \"Empty your mind, be formless, shapeless—like water,\" was popularized by martial arts legend and philosopher Bruce Lee. The phrase is a core tenet of his philosophy, urging practitioners to become adaptable and fluid, both in combat and in life. \"Empty your mind, be formless, shapeless—like water. You put water into a cup, it becomes the cup. You put water into a bottle, it becomes the bottle. You put it in a teapot, it becomes the teapot. Now, water can flow or it can crash. Be water, my friend.",
                             Image = "/images/Be-Water-My-Friend.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 16.99m,
                             Stock = 15,
@@ -561,6 +581,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Chainsaw Man, Vol. 1 introduces readers to Denji, a poor young man struggling with debt and despair. After being killed in a job, he is revived by his pet devil, Pochita, and transforms into Chainsaw Man, a powerful being with chainsaw-like abilities. The story follows Denji's journey as he seeks redemption and fights against devils, embodying humanity's darkest fears. The volume explores themes of hope, love, and the struggle for a better life, showcasing Denji's transformation and the bond he forms with Pochita. Denji is a small-time devil hunter just trying to survive in a harsh world. After being killed on a job, he is revived by his pet devil Pochita and becomes something new and dangerous—Chainsaw Man!",
                             Image = "/images/Chainsaw-man.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 11.99m,
                             Stock = 19,
@@ -573,6 +594,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Charlotte's Web is a classic 1952 children's novel by E.B. White about the unlikely friendship between a pig named Wilbur and a wise barn spider named Charlotte, who saves his life by spinning words in her web that praise him, preventing him from becoming pork chops. ",
                             Image = "/images/Charlottes-web.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 8.99m,
                             Stock = 23,
@@ -585,6 +607,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Cinder by Marissa Meyer is the first book in The Lunar Chronicles, a young adult science fiction series that retells classic fairy tales in a futuristic, post-war world. The story follows Cinder, a cyborg mechanic in futuristic New Beijing, who is a second-class citizen with a hidden, mysterious past. When her life becomes entangled with Prince Kai, she finds herself at the center of an interplanetary struggle and a fight for Earth's survival against the tyrannical Queen Levana of the Lunar colony",
                             Image = "/images/Cinder.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 12.99m,
                             Stock = 24,
@@ -597,6 +620,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Having the courage to be disliked\" means accepting that you may face disapproval or criticism because you are living authentically and according to your own values, rather than trying to please others or conform to their expectations. It is the freedom to act according to your own beliefs and principles, even if it leads to rejection, and is seen as a pathway to genuine freedom and self-confidence",
                             Image = "/images/courage-disliked.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 14.99m,
                             Stock = 17,
@@ -609,6 +633,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A Darker Shade of Magic by V.E. Schwab is a fantasy novel about Kell, a rare magician called an Antari, who can travel between four parallel versions of London. He serves as an ambassador in the magical Red London but also works as a smuggler, leading to his accidental acquisition of a forbidden black stone from Black London. When an exchange goes wrong, Kell escapes to the non-magical Grey London, where he meets the cunning thief Lila Bard, and together they embark on a perilous adventure to save all the worlds from a greedy, magic-hungry force",
                             Image = "/images/Darker-shade-of-magic.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 22.99m,
                             Stock = 2,
@@ -621,6 +646,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A Darker Shade of Magic by V.E. Schwab is a fantasy novel about Kell, a rare magician called an Antari, who can travel between four parallel versions of London. He serves as an ambassador in the magical Red London but also works as a smuggler, leading to his accidental acquisition of a forbidden black stone from Black London. When an exchange goes wrong, Kell escapes to the non-magical Grey London, where he meets the cunning thief Lila Bard, and together they embark on a perilous adventure to save all the worlds from a greedy, magic-hungry force",
                             Image = "/images/Dark-matter.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 19.99m,
                             Stock = 6,
@@ -633,6 +659,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "a groundbreaking book that argues emotional intelligence (EI), encompassing self-awareness, impulse control, persistence, empathy, and social skills, is a more significant determinant of success than IQ. Drawing on psychology and neuroscience, the book explains how EI, which can be nurtured and developed, influences relationships, career success, and overall well-being, offering a new understanding of intelligence and a compelling vision for personal and societal growth.  ",
                             Image = "/images/Emotional-intelligence.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 15.99m,
                             Stock = 9,
@@ -645,6 +672,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "In Erasing History, Yale professor of philosophy Jason Stanley exposes the true danger of the authoritarian right’s attacks on education, identifies their key tactics and funders, and traces their intellectual roots. He illustrates how fears of a fascist future have metastasized, from hypothetical threat to present reality. And with his “urgent, piercing, and altogether brilliant” (Johnathan M. Metzl, author of What We’ve Become) insight, he illustrates that hearts and minds are won in our schools and universities—places that democratic societies across the world are now ill-prepared to defend against the fascist assault currently underway",
                             Image = "/images/Erasing-history.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 23.99m,
                             Stock = 10,
@@ -657,6 +685,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Golden Son is the second novel in Pierce Brown's Red Rising Saga and follows Darrow as he continues his mission to destroy the Gold ruling class from within by becoming a leader among them after transforming from a lowborn Red to a Gold. The story expands on the political intrigue, betrayal, and warfare of the first book, with Darrow navigating treacherous alliances, growing his power, and preparing for a full-scale rebellion against the oppressive Society. \r\n",
                             Image = "/images/Golden-son.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 19.99m,
                             Stock = 13,
@@ -669,6 +698,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "The Handmaid's Tale by Margaret Atwood is a dystopian novel published in 1985. Set in the near-future Republic of Gilead (formerly the United States), it follows Offred, a Handmaid whose sole purpose is to bear children for the ruling class. After environmental disasters cause a drastic drop in the birth rate, the totalitarian, patriarchal regime strips women of their rights and assigns them to specific social classes",
                             Image = "/images/handmaid-tale.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 11.99m,
                             Stock = 10,
@@ -681,6 +711,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Kindness Is My Superpower is a children's book by Alicia Ortego that teaches young readers about empathy and compassion through the story of a boy named Lucas, who learns to make kindness his superpower. The book illustrates how simple acts like saying \"please\" and \"thank you,\" sharing, helping others, and apologizing can significantly impact others and create a positive environment. Through a heartwarming narrative, children learn that kindness, though sometimes challenging, is a source of inner strength and a powerful way to connect with the world around them",
                             Image = "/images/Kindness-is-My-Superpower.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 14.99m,
                             Stock = 0,
@@ -693,6 +724,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Leadership For Dummies is a practical guide that aims to teach anyone how to become a more effective leader, regardless of their current position or experience. The book moves beyond theory to provide hands-on strategies and techniques for developing leadership skills, building strong teams, and inspiring trust in others",
                             Image = "/images/Leadership-Dummies.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 24.99m,
                             Stock = 10,
@@ -705,6 +737,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "All the Light We Cannot See is a Pulitzer Prize-winning novel by Anthony Doerr that tells the parallel stories of a blind French girl and a German orphan boy during World War II. Their paths converge in the besieged French town of Saint-Malo as both struggle to survive the devastation of the war. ",
                             Image = "/images/Light-we-cannot-see.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 22.99m,
                             Stock = 20,
@@ -717,6 +750,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Originals: How Non-Conformists Move the World by Adam Grant is a book that explores how to champion new and novel ideas, identify good ideas, speak up without being silenced, and build coalitions to bring disruptive concepts to life. Through stories and studies from various fields, Grant details the qualities of original people, provides tips for nurturing originality in children and leaders, and examines how fear and doubt can be managed on the path to innovation",
                             Image = "/images/Originals.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 22.99m,
                             Stock = 14,
@@ -729,6 +763,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A People's History of the United States is a 1980 nonfiction book by historian Howard Zinn that tells the history of the country \"from the bottom up\". Zinn's work presents a different perspective than traditional narratives, focusing on the stories and struggles of marginalized groups rather than the powerful elites.",
                             Image = "/images/Peoples-history.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 26.99m,
                             Stock = 0,
@@ -741,6 +776,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Karin Slaughter's psychological thriller Pretty Girls centers on estranged sisters Claire and Lydia, who are forced to confront their family's devastating past when a new tragedy strikes. The book deals with themes of family trauma, secrets, and the nature of survival.",
                             Image = "/images/Pretty-girls.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 22.99m,
                             Stock = 15,
@@ -753,6 +789,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = " Python programming aimed at beginners. His books focus on a practical, hands-on approach to learning Python and often include real-world projects and exercises to help solidify understanding",
                             Image = "/images/Python.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 56.50m,
                             Stock = 17,
@@ -765,6 +802,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Red Rising, written by Pierce Brown, is a science fiction novel that introduces a color-coded caste system where different classes of humanity occupy specific roles across the solar system. The story follows Darrow, a lowborn \"Red,\" who discovers the truth behind the oppressive society and embarks on a mission of vengeance and rebellion",
                             Image = "/images/Red-rising.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 19.99m,
                             Stock = 3,
@@ -777,6 +815,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "The Silent Patient is a 2019 psychological thriller novel by Alex Michaelides about a psychotherapist who becomes obsessed with unraveling the mystery of his patient, a famous artist who has gone completely silent after murdering her husband",
                             Image = "/images/Silent-patient.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 25.99m,
                             Stock = 7,
@@ -789,6 +828,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Think Again: The Power of Knowing What You Don't Know by Adam Grant is about the importance of reexamining your beliefs and unlearning outdated knowledge to adapt and succeed in a rapidly changing world. Grant, an organizational psychologist, argues that what matters more than intelligence is \"mental flexibility\" and the willingness to question your own opinions.",
                             Image = "/images/Think-again.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 22.99m,
                             Stock = 8,
@@ -801,6 +841,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "V. E. Schwab's Vicious is a science fiction fantasy novel about two former college roommates, Victor Vale and Eli Ever, who turn into powerful arch-nemeses. After a shared research project goes horribly wrong, the two rivals develop extraordinary abilities and embark on a path of ambition, betrayal, and revenge. The story explores what happens when people gain superpowers in a world where there are no true heroes, only villains and anti-heroes with twisted motivations.",
                             Image = "/images/Vicious.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 19.99m,
                             Stock = 9,
@@ -813,6 +854,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Fredrik Backman's My Friends is a story that alternates between the past and present, focusing on four teenage friends who find solace in each other on a pier, and a young woman named Louisa 25 years later. The past timeline reveals the intense bond between the friends—Ted, Yor, Ali, and the artist—as they navigate difficult home lives, with the artist becoming a symbol of hope. The present timeline follows Louisa, who, after losing her own best friend, receives the artist's famous painting and embarks on a journey to uncover its story. Ultimately, the book is a story about friendship, art, grief, and human connection, exploring how a single summer can impact lives for decades to come",
                             Image = "/images/my-friends.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 25.99m,
                             Stock = 19,
@@ -825,6 +867,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "Corby Ledbetter is struggling. New fatherhood, the loss of his job, and a growing secret addiction have thrown his marriage to his beloved Emily into a tailspin. And that's before he causes the tragedy that tears the family apart.\r\n\r\nSentenced to prison, Corby struggles to survive life on the inside, where he bears witness to frightful acts of brutality but also experiences small acts of kindness and elemental kinship with a prison librarian who sees his light and some of his fellow offenders, including a tender-hearted cellmate and a troubled teen desperate for a role model. Buoyed by them and by his mother's enduring faith in him, Corby begins to transcend the boundaries of his confinement, sustained by his hope that mercy and reconciliation might still be possible. Can his crimes ever be forgiven by those he loves?",
                             Image = "/images/river-is-waiting.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 26.99m,
                             Stock = 20,
@@ -837,6 +880,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "The stunning debut novel by the winner of the Allen & Unwin Commercial Fiction Prize. If you loved Lessons in Chemistry and Eleanor Oliphant is Completely Fine, you will adore Everything is Beautiful and Everything Hurts.\r\n\r\nMickey Bloom: five foot tall, dyslexic, and bullied at school. Mickey knows she's nothing special. Until one day, she discovers running.\r\n\r\nMickey's new-found talent makes her realise she's everything she thought she wasn't - powerful, strong and special. But her success comes at a cost, and the relentless training and pressure to win leaves Mickey broken, her dream in tatters.Years later, when Mickey is working in a dead-end job with a drop-kick boyfriend, her mother becomes seriously ill. After nursing her, Mickey realises the only way she can overcome her grief - and find herself - is to run again.A chance encounter with a stranger sees Mickey re-ignite her dreams. The two women form an unbreakable bond, as Mickey is shown what it means to run in the right direction.An unforgettable debut novel about change, family and grit, and what it takes to achieve your dreams.'Everything is Beautiful and Everything Hurts plunges the reader into the gruelling world of the long distance runner - every pleasure, every pain. Shapiro deftly weaves the coming-of-age story of Mickey Bloom into a gripping account of adult Bloom running the Auckland Marathon. This is compelling storytelling that exposes the sacrifices - physical and emotional - demanded of our sporting elite. Chilling, yet ultimately heartwarming, it celebrates success without flinching from staring down its brutal costs. A sophisticated debut that will capture the racing hearts of its readers.' - Sue Orr, author of Loop Tracks",
                             Image = "/images/everything-beautiful-hurts.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 16.99m,
                             Stock = 13,
@@ -849,6 +893,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 1,
                             Description = "A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned –a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible.\r\nWhen Animal Farm was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell’s masterpiece have a meaning and message still ferociously fresh.",
                             Image = "/images/animal-farm.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Price = 9.99m,
                             Stock = 4,
@@ -877,6 +922,9 @@ namespace NovelNookBookStore.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsOnSale")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LinkUrl")
                         .HasColumnType("nvarchar(max)");
 
@@ -903,6 +951,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Cuddle up with a book a hot chocolate. Wrap yourself in this luxurious and incredibly soft blanket and you will never want to stop reading.",
                             Image = "/images/reading-blanket.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Ultra soft plush reading blanket",
                             Price = 34.99m,
@@ -914,6 +963,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Everybody gets cold feet in the winter. Not anymore, with these incredibly warm and toast mid-calf socks. Your toes will thank you!",
                             Image = "/images/reading-socks.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Plush Reading Socks",
                             Price = 16.99m,
@@ -925,6 +975,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Cozy shaw to wrap yourself in. Includes deep pockets. And sealed arm holes so it stays on. ",
                             Image = "/images/wearable-blanket.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Reading Shaw",
                             Price = 24.99m,
@@ -936,6 +987,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Light this comforting candle next time you sit down to read. Smells like rich warm leather, smoky woods, amber and vanilla. Close your eyes you might find yourself transport to Mr Poe's library. ",
                             Image = "/images/edward-candle.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Edgar Allen Poe's Library Candle",
                             Price = 24.99m,
@@ -947,6 +999,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Revitalize your home and reading experience with this candle warming lamp. Releases sent with a flame, soot, or polluntants. Combines wood, glass and gold finish. ",
                             Image = "/images/candle-warming-lamp.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Candle Warming Lamp",
                             Price = 34.99m,
@@ -958,6 +1011,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "This acacia wood book stand is perfect for keeping your reading glasses, phone and drinks within reach during your reading experience. Keep your page marked and your book safely stored.",
                             Image = "/images/book-caddy.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Wooden Book Caddy",
                             Price = 24.99m,
@@ -969,6 +1023,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Known for its calming and soothing properties. This heavy duty book will keep your books from failing and add great decor to all your shelves (or wherever else you like to store your books- HINT: Everywhere!).",
                             Image = "/images/bookend.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Amethyst Crystal Book End",
                             Price = 69.99m,
@@ -980,6 +1035,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Practice mindfullness with this sand garden. Make patterns in the sand by rolling or raking the included miniature rake or groove rock. ",
                             Image = "/images/Home-Mindful_Garden.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Mindful Texture Sand Garden",
                             Price = 25.99m,
@@ -991,6 +1047,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Miniature globe paperweight. If you need a confidence boost, you can literally hold the world in your hands. Rotates 360 degrees. Beautiful for your office, desk, or bookshelf. ",
                             Image = "/images/world-globe.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Glass Globe Paperweight",
                             Price = 29.99m,
@@ -1002,6 +1059,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Clip on reading light, lightweight enough to not weight down your book and fit in your bag. Don't let the dark keep you from reading! Take AAA batteries",
                             Image = "/images/reading-light.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Book Lover's Reading Light",
                             Price = 14.99m,
@@ -1013,6 +1071,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "100% organic cotton Canvas bag with a reinforced base, a pocket for valuables, and a loop for keys. Comes with a Novel Nook exclusively currated print. Come prepared and carry your books everywhere.",
                             Image = "/images/tote-page.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Novel Nook Exclusive Tote",
                             Price = 34.99m,
@@ -1024,6 +1083,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Introducing our own set of 3 candles specifically currated with our customers in mind. The smells include: Frosted Pine, Old Books, and Echanted Forest. Light one or all three.",
                             Image = "/images/candle-pack.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Novel Nook Exclusive Candle Set",
                             Price = 39.99m,
@@ -1035,6 +1095,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Fill this ceramic vase with your favorite fresh flowers or store your utensils. Adorn your kitchen, or any space you wish with some bookish charm.8in tall and 6 in long. A great gift for the Pride and Predujice fan in your life.",
                             Image = "/images/PP-vase.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Large Book Vase-Pride and Prejudice",
                             Price = 24.99m,
@@ -1046,6 +1107,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Beautiful black smooth calfskin leather jounral with snap closure and a gray ribbon bookmark. 150 ivory, worn edge  85 gsm pages",
                             Image = "/images/leather-journal.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Black Leather Journal with Closure",
                             Price = 29.99m,
@@ -1057,6 +1119,7 @@ namespace NovelNookBookStore.Migrations
                             CategoryId = 2,
                             Description = "Make your reading experience more classy with these real leather and gold embossed corner book mars. 2 pack. A elegant addition to saving your spot in reading.",
                             Image = "/images/leather-bookmark.jpg",
+                            IsOnSale = false,
                             LinkUrl = "",
                             Name = "Leatherette Corner Bookmarks",
                             Price = 9.99m,
@@ -1088,6 +1151,132 @@ namespace NovelNookBookStore.Migrations
                     b.ToTable("Orders");
                 });
 
+            modelBuilder.Entity("NovelNookBookStore.Models.DomainModels.Sale", b =>
+                {
+                    b.Property<int>("SaleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SaleId"));
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsOnSale")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SaleDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SaleItemName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("SalePrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("SaleId");
+
+                    b.ToTable("Sales");
+
+                    b.HasData(
+                        new
+                        {
+                            SaleId = 1,
+                            ImageUrl = "/Images/Wish-you-were-here.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Hard Cover - Gently used book. No marking or tears.",
+                            SaleItemName = "Wish you were here",
+                            SalePrice = 9.99m
+                        },
+                        new
+                        {
+                            SaleId = 2,
+                            ImageUrl = "/Images/Atlas-Heart.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Hard Cover - Brand New-take a journey into your heart",
+                            SaleItemName = "Atlas of the Heart",
+                            SalePrice = 14.99m
+                        },
+                        new
+                        {
+                            SaleId = 3,
+                            ImageUrl = "/Images/sisters-book.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Hard Cover - Like New- floor model book",
+                            SaleItemName = "Sisters",
+                            SalePrice = 7.99m
+                        },
+                        new
+                        {
+                            SaleId = 4,
+                            ImageUrl = "/Images/goosebumps.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Soft Cover - Used-may contain a couple marks or creases, nothing obstructive",
+                            SaleItemName = "Goosebumps",
+                            SalePrice = 4.99m
+                        },
+                        new
+                        {
+                            SaleId = 5,
+                            ImageUrl = "/Images/court-silver-flames.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Hard Cover - New - floor model book",
+                            SaleItemName = "A Court of Silver Flames",
+                            SalePrice = 15.99m
+                        },
+                        new
+                        {
+                            SaleId = 6,
+                            ImageUrl = "Images/Book-Thumb.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "6 pack. Variety of different stones. Easily hold your book open with these beautiful stone-crafted thumb page openers",
+                            SaleItemName = "Thumb Book Holder",
+                            SalePrice = 30.99m
+                        },
+                        new
+                        {
+                            SaleId = 7,
+                            ImageUrl = "/Images/Hungry-Caterpillar.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Hard Cover- Like new",
+                            SaleItemName = "The Very Hungry Catepillar",
+                            SalePrice = 6.99m
+                        },
+                        new
+                        {
+                            SaleId = 8,
+                            ImageUrl = "/Images/Outsiders-Book.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Soft Cover -  Good condition - no creases, tears, or highlighting",
+                            SaleItemName = "Outsiders",
+                            SalePrice = 6.99m
+                        },
+                        new
+                        {
+                            SaleId = 9,
+                            ImageUrl = "/Images/James-Giant-Peach.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Soft Cover - New - Classic",
+                            SaleItemName = "James and the Giant Peach",
+                            SalePrice = 5.99m
+                        },
+                        new
+                        {
+                            SaleId = 10,
+                            ImageUrl = "/Images/Book-Wreath.jpg",
+                            IsOnSale = true,
+                            SaleDescription = "Beautiful hand crafted wreath made form recycled book pages",
+                            SaleItemName = "Book Wreath",
+                            SalePrice = 39.99m
+                        });
+                });
+
             modelBuilder.Entity("NovelNookBookStore.Models.OrderItem", b =>
                 {
                     b.Property<int>("OrderItemId")
@@ -1096,13 +1285,16 @@ namespace NovelNookBookStore.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderItemId"));
 
-                    b.Property<int>("BookId")
+                    b.Property<int?>("BookId")
                         .HasColumnType("int");
 
-                    b.Property<int>("DecorId")
+                    b.Property<int?>("DecorId")
                         .HasColumnType("int");
 
-                    b.Property<int>("OrderId")
+                    b.Property<int?>("DecorId1")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Price")
@@ -1114,13 +1306,22 @@ namespace NovelNookBookStore.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
+                    b.Property<int?>("SaleItemId")
+                        .HasColumnType("int");
+
                     b.HasKey("OrderItemId");
 
+                    b.HasIndex("BookId");
+
                     b.HasIndex("DecorId");
+
+                    b.HasIndex("DecorId1");
 
                     b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
+
+                    b.HasIndex("SaleItemId");
 
                     b.ToTable("OrderItems");
                 });
@@ -1243,25 +1444,40 @@ namespace NovelNookBookStore.Migrations
 
             modelBuilder.Entity("NovelNookBookStore.Models.OrderItem", b =>
                 {
+                    b.HasOne("NovelNookBookStore.Models.DomainModels.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("NovelNookBookStore.Models.DomainModels.Decor", "Decor")
+                        .WithMany()
+                        .HasForeignKey("DecorId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("NovelNookBookStore.Models.DomainModels.Decor", null)
                         .WithMany("OrderItems")
-                        .HasForeignKey("DecorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DecorId1");
 
                     b.HasOne("NovelNookBookStore.Models.DomainModels.Order", "Order")
                         .WithMany("OrderItems")
                         .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("NovelNookBookStore.Models.Product", "Product")
+                    b.HasOne("NovelNookBookStore.Models.Product", null)
                         .WithMany("OrderItems")
                         .HasForeignKey("ProductId");
 
+                    b.HasOne("NovelNookBookStore.Models.DomainModels.Sale", "SaleItem")
+                        .WithMany()
+                        .HasForeignKey("SaleItemId");
+
+                    b.Navigation("Book");
+
+                    b.Navigation("Decor");
+
                     b.Navigation("Order");
 
-                    b.Navigation("Product");
+                    b.Navigation("SaleItem");
                 });
 
             modelBuilder.Entity("NovelNookBookStore.Models.Product", b =>

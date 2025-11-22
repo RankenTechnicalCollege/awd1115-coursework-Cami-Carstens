@@ -1,5 +1,72 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = "_Layout";
 }
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-body-secondary border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#adminNav"
+                    aria-controls="adminNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-lg-inline-flex justify-content-between" id="adminNav">
+                <ul class="navbar-nav flex-grow-1">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark mt-1"
+                           asp-area=""
+                           asp-controller="Home"
+                           asp-action="Index">
+                            <img src="~/images/bookLogo2.jpg"
+                                 alt="Novel Nook Book Logo"
+                                 class="img-fluid"
+                                 style="border-radius:75px; width: 30px; height: 30px;" />
+                            Main Site
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark me-2 mt-2"
+                           asp-area="Admin"
+                           asp-controller="Decor"
+                           asp-action="Details">
+                            <i class="bi bi-brush"></i> Decor
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark me-2 mt-2"
+                           asp-area="Admin"
+                           asp-controller="Book"
+                           asp-action="Details">
+                            <i class="bi bi-book"></i> Books
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark me-2 mt-2"
+                           asp-area="Admin"
+                           asp-controller="Sale"
+                           asp-action="Details">
+                            <i class="bi bi-percent"></i> Clearance
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="admin">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+@section Scripts {
+    @await RenderSectionAsync("Scripts", required: false)
+}
+

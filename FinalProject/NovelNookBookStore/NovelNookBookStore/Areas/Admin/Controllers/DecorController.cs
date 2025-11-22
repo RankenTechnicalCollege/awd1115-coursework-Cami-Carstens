@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NovelNookBookStore.Data;
@@ -9,6 +10,7 @@ using static System.Reflection.Metadata.BlobBuilder;
 namespace NovelNookBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
+
     public class DecorController : Controller
     {
         private Repository<Decor> decors;

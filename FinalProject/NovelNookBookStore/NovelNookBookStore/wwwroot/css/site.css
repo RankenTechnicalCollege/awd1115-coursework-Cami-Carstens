@@ -18,7 +18,10 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: gainsboro;
+    background-image: linear-gradient(to bottom,#D6EBDD 0%, rgba(270, 255, 255, 0) 35%);
+    font-family: "Trirong";
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -68,4 +71,14 @@ header a:hover {
 .navbar-brand.active {
     font-weight: bold;
     border-bottom: 2px solid #000000 !important;
+}
+
+.jumbotron {
+    background-image: url('/Images/Novel-Nook-Banner.jpg');
+}
+
+.sale-slider .sale-item {
+    display: inline-block; /* ensures slick treats each div as a slide */
+    width: auto; /* slick will manage width for slidesToShow */
+    text-align: center;
 }

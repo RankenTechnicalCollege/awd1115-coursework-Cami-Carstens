@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\hoodie\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\hoodie\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\hoodie\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\hoodie\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -35,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\models\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,24 +63,8 @@
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\hoodie\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\hoodie\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\hoodie\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\hoodie\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E10D743E-C2E4-462E-8EC5-BE5F0997D186}|HOT3\\HOT3.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\handsontests\\hot3\\hot3\\hot3\\hot3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -86,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,40 +86,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Purchase.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Purchase.cs",
-              "RelativeDocumentMoniker": "HOT3\\Models\\Purchase.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Purchase.cs",
-              "RelativeToolTip": "HOT3\\Models\\Purchase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T02:01:58.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HOT3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "HOT3\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-10T02:47:18.785Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "HOT3\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "HOT3\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-09T22:46:09.579Z",
-              "EditorCaption": ""
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Category.cs",
+              "RelativeToolTip": "HOT3\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:33:14.141Z"
             },
             {
               "$type": "Document",
@@ -144,19 +111,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HOT3\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T03:41:42.871Z"
+              "DocumentIndex": 3,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAC8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T21:44:44.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T01:31:30.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T21:42:49.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T21:42:25.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HOT3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-10T02:47:18.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\Purchase.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Purchase.cs",
+              "RelativeToolTip": "HOT3\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T02:01:58.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HOT3\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HOT3\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-09T22:46:09.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ViewCart.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\ShoppingCart\\ViewCart.cshtml",
               "RelativeDocumentMoniker": "HOT3\\Views\\ShoppingCart\\ViewCart.cshtml",
@@ -168,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ShopContext.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\ShopContext.cs",
               "RelativeDocumentMoniker": "HOT3\\Models\\ShopContext.cs",
@@ -180,20 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddEdit.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
-              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
-              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Hoodie\\AddEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:44:44.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "HOT3\\Controllers\\ShoppingCartController.cs",
@@ -205,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "HOT3\\Models\\ShoppingCartItem.cs",
@@ -217,19 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "HOT3\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Category.cs",
-              "RelativeToolTip": "HOT3\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T21:33:14.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "HOT3\\Models\\SessionExtensions.cs",
@@ -241,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Program.cs",
               "RelativeDocumentMoniker": "HOT3\\Program.cs",
@@ -250,30 +264,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T22:02:47.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:42:49.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:42:25.689Z"
             },
             {
               "$type": "Document",
@@ -290,30 +280,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\Delete.cshtml",
-              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Hoodie\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\Delete.cshtml",
-              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Hoodie\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T21:44:23.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
-              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
-              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Hoodie\\List.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAIBJwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-11T01:31:30.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "HOT3.csproj",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\HandsOnTests\\HOT3\\HOT3\\HOT3\\HOT3.csproj",
               "RelativeDocumentMoniker": "HOT3\\HOT3.csproj",
@@ -322,6 +288,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-08T21:37:19.504Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

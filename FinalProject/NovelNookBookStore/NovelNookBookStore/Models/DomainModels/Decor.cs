@@ -32,5 +32,7 @@ namespace NovelNookBookStore.Models.DomainModels
         {
             get; set;
         }
+
+        public bool IsOnSale { get; set; }
     }
 }

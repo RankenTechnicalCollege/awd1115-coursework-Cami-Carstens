@@ -1,0 +1,102 @@
+﻿@model List<NovelNookBookStore.Models.DomainModels.Sale>
+@{
+    ViewBag.Title = "Clearance page";
+}
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4"></h1>
+        <p class="lead"></p>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <h2 class="text-center">Last Chance Clearance</h2>
+</div>
+
+
+<div class="sale-slider">
+    @foreach (var item in Model)
+    {
+        <div class="sale-item text-center">
+            <img src="@item.ImageUrl" class="img-fluid" style="height:150px;" />
+            <h6 class="mt-2">@item.SaleItemName</h6>
+            <p class="fw-bold">$@item.SalePrice</p>
+
+            <form asp-controller="Sale" asp-action="AddToCart" method="post">
+                <input type="hidden" name="saleId" value="@item.SaleId" />
+                
+                <button type="submit" class="btn btn-sm btn-secondary mb-3" onclick="alert('Item successfully added to cart!')">Add to Cart</button>
+            </form>
+        </div>
+    }
+</div>
+
+
+@* 
+@if (Model.Books != null && Model.Books.Any())
+{
+    <h2 class="mt-4">Books</h2> 
+    <div class="row">
+        @foreach (var b in Model.Books)      {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@b.ImageUrl" class="card-img-top" alt="@b.Title" />
+
+                    <div class="card-body">
+                        <h5 class="card-title">@b.Title</h5>
+                        <p class="card-text text-muted">$@b.Price</p>
+
+                        <span class="badge bg-danger">Sale</span>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@if (Model.Decors != null && Model.Decors.Any())
+{
+    <h2 class="mt-4">Decor</h2>
+    <div class="row">
+        @foreach (var d in Model.Decors)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@d.ImageUrl" class="card-img-top" alt="@d.Name" />
+
+                    <div class="card-body">
+                        <h5 class="card-title">@d.Name</h5>
+                        <p class="card-text text-muted">$@d.Price</p>
+
+                        <span class="badge bg-danger">Sale</span>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}  *@
+
+
+
+
+
+
+
+
+
+@*Carousel script*@
+
+<script>
+    $(document).ready(function(){
+        $('.sale-slider').slick({
+            slidesToShow: 4,      
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false,
+            infinite: true,
+          
+        });
+    });
+</script>
