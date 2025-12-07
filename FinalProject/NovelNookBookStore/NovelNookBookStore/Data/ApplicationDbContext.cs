@@ -39,7 +39,7 @@ namespace NovelNookBookStore.Data
             .HasOne(oi => oi.Order)
             .WithMany(o => o.OrderItems)
             .HasForeignKey(oi => oi.OrderId)
-            .OnDelete(DeleteBehavior.Cascade); // cascade delete here is fine
+            .OnDelete(DeleteBehavior.Cascade); 
 
 
 
@@ -879,7 +879,7 @@ namespace NovelNookBookStore.Data
                           SaleItemName = "Thumb Book Holder",
                           SaleDescription = "6 pack. Variety of different stones. Easily hold your book open with these beautiful stone-crafted thumb page openers",
                           SalePrice = 30.99m,
-                          ImageUrl="Images/Book-Thumb.jpg",
+                          ImageUrl="/Images/Book-Thumb2.jpg",
                           IsOnSale = true
                       },
                           new Sale

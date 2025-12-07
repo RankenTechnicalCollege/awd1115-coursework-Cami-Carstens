@@ -1,5 +1,6 @@
 ﻿@model OrderViewModel
 @using NovelNookBookStore.Models.DomainModels
+@using NovelNookBookStore.Models.ViewModels
 
 @{
     ViewBag.Title = "Create Order";
@@ -64,6 +65,40 @@
                     <form asp-action="AddItem" method="post" class="d-flex align-items-center">
                         <input type="hidden" name="decorId" value="@decor.DecorId" />
                         <input type="number" name="decorQty" class="form-control me-2" value="1" min="1" style="width:80px;" />
+                        <button type="submit" class="btn btn-info">Add Decor</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<h3>Clearance</h3>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity & Add</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Sale sale in Model.Sales)
+        {
+            <tr>
+                <td>
+                    <img src="@Url.Content(sale.ImageUrl ?? sale.ImageUrl ?? "~/Images/default.png")"
+                         alt="@sale.SaleItemName" class="img-fluid" style="max-width:100px;" />
+                </td>
+                <td>@sale.SaleItemName</td>
+                <td>@sale.SalePrice.ToString("C")</td>
+                <td>
+                    <form asp-action="AddItem" method="post" class="d-flex align-items-center">
+                        <input type="hidden" name="saleId" value="@sale.SaleId" />
+                        <input type="number" name="saleQty" class="form-control me-2" value="1" min="1" style="width:80px;" />
                         <button type="submit" class="btn btn-info">Add Decor</button>
                     </form>
                 </td>

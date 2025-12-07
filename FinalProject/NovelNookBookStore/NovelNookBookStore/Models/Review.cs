@@ -16,6 +16,9 @@ namespace NovelNookBookStore.Models
         public int? DecorId { get; set; } //FK to Decor
         public Decor? Decor { get; set; }
 
+        public string? ApplicationUserId { get; set; }  
+        public ApplicationUser? ApplicationUser { get; set; }
+
         //public ICollection<BookReview> BookReviews { get; set; } = new List<BookReview>();
         //public ICollection<DecorReview> DecorReviews { get; set; } = new List<DecorReview>();
     }

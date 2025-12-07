@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace NovelNookBookStore.Areas.Admin.Controllers
 {
-
+    [Authorize(Roles = "Admin")]
     [Area("Admin")]
    
     public class BookController : Controller

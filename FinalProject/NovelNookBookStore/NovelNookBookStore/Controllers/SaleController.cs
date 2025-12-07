@@ -4,6 +4,7 @@ using NovelNookBookStore.Data;
 using NovelNookBookStore.Models;
 using NovelNookBookStore.Models.DataLayer;
 using NovelNookBookStore.Models.DomainModels;
+using NovelNookBookStore.Models.ViewModels;
 using System.Linq;
 
 namespace NovelNookBookStore.Controllers

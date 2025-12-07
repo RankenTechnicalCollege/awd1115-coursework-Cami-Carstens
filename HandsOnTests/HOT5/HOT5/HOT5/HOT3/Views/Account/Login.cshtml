@@ -1,0 +1,55 @@
+﻿@model LoginViewModel
+@{
+    ViewBag.Title = "Account Login";
+}
+
+<h1 class="text-center border border-2 bg-secondary text-white p-5"><i class="bi bi-person-check-fill"></i>Account Login</h1>
+<div class="border border-2 border-dark bg-white p-5">
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form method="post" asp-action="Login" asp-route-returnUrl="@Model.ReturnUrl">
+   
+    <div class="row">
+        <div class="col-6">
+    <div class="form-floating mb-3">
+        <input asp-for="Username" class="form-control" id="floatingEmail" placeholder="Username" />
+        <label asp-for="Username" for="floatingEmail">Username:</label>
+    </div>
+    </div>
+    <div class="col">
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+    <div class="form-floating mb-3">
+        <input asp-for="Password" type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+        <label asp-for="Password" for="floatingPassword">Password:</label>
+    </div>
+    </div>
+    <div class="col">
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    </div>
+
+
+    <div class="form-check mb-3">
+        <input type="checkbox" title="Remember Me" asp-for="RememberMe" class="form-check-inline"/>
+        <label asp-for="RememberMe" class="form-check-label">Remember Me</label>
+    </div>
+
+
+        <button type="submit" class="btn btn-secondary text-white"><i class="bi bi-person-check-fill"></i>Log In</button>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-outline-dark text-white bg-danger">Cancel</a>
+
+    <div class="row">
+        <div class="col">
+            Not Registered?<br>
+            <a asp-action="Register">Register new user</a> <br />
+            <a asp-controller="Account" asp-action="ResetPassword">Reset Password?</a>
+        </div>
+    </div>
+</form>
+</div>

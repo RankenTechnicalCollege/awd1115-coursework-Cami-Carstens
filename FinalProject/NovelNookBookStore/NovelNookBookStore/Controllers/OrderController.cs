@@ -7,6 +7,7 @@ using NovelNookBookStore.Data;
 using NovelNookBookStore.Models;
 using NovelNookBookStore.Models.DataLayer;
 using NovelNookBookStore.Models.DomainModels;
+using NovelNookBookStore.Models.ViewModels;
 
 
 namespace NovelNookBookStore.Controllers
@@ -36,7 +37,7 @@ namespace NovelNookBookStore.Controllers
             return View();
         }
 
-        [Authorize]
+       
         [HttpGet]
         public async Task<IActionResult> Create()
         {
@@ -45,6 +46,7 @@ namespace NovelNookBookStore.Controllers
                 OrderItems = new List<OrderItemViewModel>(),
                 Books = await _books.GetAllASync(),
                 Decors = await _decors.GetAllASync(),
+                Sales = await _sales.GetAllASync()
             };
             return View(model);
         }
@@ -91,7 +93,7 @@ namespace NovelNookBookStore.Controllers
                 var existingDecor = model.OrderItems.FirstOrDefault(x => x.DecorId == decorId);
                 if (existingDecor != null)
                 {
-                    existingDecor.Quantity += decorQty; // <-- fixed this line
+                    existingDecor.Quantity += decorQty; 
                 }
                 else
                 {
@@ -157,6 +159,7 @@ namespace NovelNookBookStore.Controllers
 
         [HttpPost]
         [Authorize]
+      
         public async Task<IActionResult> PlaceOrder()
         {
             var model = HttpContext.Session.Get<OrderViewModel>("OrderViewModel");

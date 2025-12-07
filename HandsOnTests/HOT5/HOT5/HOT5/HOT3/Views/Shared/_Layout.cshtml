@@ -1,0 +1,109 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<User> signInManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HOT3</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HOT3.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+@{
+            var controller = ViewContext.RouteData.Values["controller"]?.ToString() ?? "Home";
+            var action = ViewContext.RouteData.Values["action"]?.ToString() ?? "Index";
+            var area = ViewContext.RouteData.Values["area"]?.ToString() ?? "";
+}
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="nav-link text-white @(controller =="Home" && action =="Index" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white @(controller =="Hoodie" && action =="Index" && area == "" ? "active" : "")" asp-area="" asp-controller="Hoodie" asp-action="Index"> Hoodies</a>
+                        </li>
+                        </ul>
+                       <div class="d-flex">
+                           <ul class="navbar-nav">
+                            @if(signInManager.IsSignedIn(User))
+                            {
+                                <li class="nav-item">
+                                    <form method="post" asp-action="Logout" asp-controller="Account" asp-area="">
+                                        <input type="submit" value="Log Out" class="btn btn-outline-light" />
+                                        <span class="text-light">Hello @User.Identity.Name!</span>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-white @(controller == "Account" && action == "Register" ? "active" : "")"
+                                       asp-area="" asp-controller="Account" asp-action="Register">
+                                        Register
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-white @(controller == "Account" && action == "Login" ? "active" : "")"
+                                        asp-action="Login" asp-controller="Account" asp-area="" class="btn btn-outline-light">Log In</a>
+                                </li>
+                            }
+
+                            @if(signInManager.IsSignedIn(User))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-white @(controller == "Account" && action == "ResetPassword" ? "active" : "")"
+                                    asp-controller="Account" asp-action="ResetPassword">Reset Password</a>
+                                </li>
+                            }
+                            @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-white @(controller == "Hoodie" && action == "Index" && area == "Admin" ? "active" : "")" asp-area="Admin" asp-controller="Hoodie" asp-action="Index">Admin</a>
+                                </li>
+                                }
+                            
+                            <li class="nav-item">
+                                <a class="nav-link text-white @(controller == "ShoppingCart" && action == "ViewCart" ? "active" : "")" asp-area="" asp-controller="ShoppingCart" asp-action="ViewCart"><i class="bi bi-cart4"></i>Cart</a>
+                        </li>
+                         </ul>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted text-center">
+        <div class="container">
+            &copy; 2025 - Loyal Cloth - <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-tiktok p-2"></i>
+            <i class="fa-brands fa-facebook p-2"></i>
+            <i class="fa-brands fa-x-twitter p-2"></i>
+
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

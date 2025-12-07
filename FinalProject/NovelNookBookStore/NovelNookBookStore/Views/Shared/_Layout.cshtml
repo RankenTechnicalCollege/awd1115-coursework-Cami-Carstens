@@ -1,6 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using NovelNookBookStore.Areas.Admin.Models
 @using NovelNookBookStore.Models
+@using NovelNookBookStore.Models.DomainModels
+@inject SignInManager<ApplicationUser> signInManager
 
 
 <!DOCTYPE html>
@@ -47,26 +49,25 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link ms-5 text-dark @(controller == "Book" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Book" asp-action="Index"><i class="fa-solid fa-book"></i>Books</a>
+                            <a class="nav-link ms-5 text-dark @(controller == "Book" && action == "Index" ? "active" : "")" asp-area="" asp-controller="Book" asp-action="Index">Books</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Discussions" ? "active" : "")" asp-area="" asp-controller="Decor" asp-action="Index"><i class="fa-solid fa-bag-shopping"></i>Decor</a>
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Decor" ? "active" : "")" asp-area="" asp-controller="Decor" asp-action="Index">Decor</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Order" ? "active" : "")" asp-area="" asp-controller="Order" asp-action="Create"><i class="bi bi-cart4"></i></i>Shop All </a>
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Sale" ? "active" : "")" asp-area="" asp-controller="Sale" asp-action="List">Clearance</a>
+                        </li>
+
+                       <li class="nav-item">
+                         <a class="nav-link text-dark @(controller == "Order" && action == "Create" ? "active" : "")" asp-area=""
+                                asp-controller="Order" asp-action="Create">Shop All</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Sale" ? "active" : "")" asp-area="" asp-controller="Sale" asp-action="List"><i class="fa-solid fa-bag-shopping"></i>Clearance</a>
+                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Discussion" ? "active" : "")" asp-area="" asp-controller="Discussion" asp-action="Index"><i class="fa-solid fa-face-grin-beam"></i>Book Talk</a>
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Explore" ? "active" : "")" asp-area="" asp-controller="Discussion" asp-action="Index"><i class="fa-solid fa-face-grin-beam"></i>Book Talk</a>
-                        </li>
-                       
-
                        
                     </ul>
                     
@@ -74,20 +75,23 @@
                    
                 </div>
                 <ul class=" adminNav navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Order" ? "active" : "")" asp-area="" asp-controller="Order" asp-action="Create">Cart</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["controller"]?.ToString() == "Order" ? "active" : "")" asp-area="" asp-controller="Order" asp-action="ViewOrder">Orders</a>
-                    </li>
-             
-                    <li class="AdminNav nav-item">
-                    <a class="AdminNav nav-link text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-lock"></i>Admin</a>
+                 <li class="nav-item">
+                     <a class="nav-link text-dark @(controller == "Order" && action == "Create" ? "active" : "")"
+                        asp-area="" asp-controller="Order" asp-action="Create">Cart</a>
                 </li>
 
-                  
+                 <li class="nav-item">
+                     <a class="nav-link text-dark @(controller == "Order" && action == "ViewOrder" ? "active" : "")"
+                     asp-area="" asp-controller="Order" asp-action="ViewOrder">Orders</a>
+                </li>
 
+                    @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(controller == "Hoodie" && action == "Index" && area == "Admin" ? "active" : "")" asp-area="Admin" asp-controller="User" asp-action="Index">Admin</a>
+                        </li>
+                        
+                    }
 
                 </ul>
 

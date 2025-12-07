@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using NovelNookBookStore.Models;
+using NovelNookBookStore.Models.DomainModels;
 
 namespace NovelNookBookStore.Areas.Identity.Pages.Account
 {

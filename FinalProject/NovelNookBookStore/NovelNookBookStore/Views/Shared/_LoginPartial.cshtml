@@ -1,9 +1,42 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using NovelNookBookStore.Models
+@using NovelNookBookStore.Models.DomainModels
+@using NovelNookBookStore.Models.ViewModels
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
 <ul class="navbar-nav">
+@*     @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            @{
+                int cartCount = 0;
+                var order = Context.Session.Get<OrderViewModel>("OrderViewModel");
+                if (order != null && order.OrderItems != null)
+                {
+                    cartCount = order.OrderItems.Sum(item => item.Quantity);
+                }
+            }
+            <a class="nav-link position-relative" asp-action="Cart" asp-controller="Order">
+                <i class="bi bi-cart2"></i>
+                <span class="position-absolute start-100 translate-middle badge rounded-pill bg-secondary">
+                    @cartCount
+                    <span class="visually-hidden">Cart Quantity</span>
+                </span>
+            </a>
+        </li> *@
+    @if(SignInManager.IsSignedIn(User))
+    {
+       
+    <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                Hello @User.Identity?.Name!
+            </a>
+        </li>
+    }
+
+   
+
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item">
@@ -23,17 +56,7 @@
                 </span>
             </a>
         </li>
-
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
-                Hello @User.Identity?.Name!
-            </a>
-        </li>
-        <li class="nav-item">
-            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-            </form>
-        </li>
+      
     }
     else
     {
@@ -44,5 +67,16 @@
             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
         </li>
     }
+    @if(SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+        
+    }
+
+ 
 </ul>
 

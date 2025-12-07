@@ -1,0 +1,58 @@
+﻿@model List<HOT3.Models.Hoodie>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+    ViewBag.SelectedBrand = "brand"; 
+}
+
+<div class="text-center">
+    <h1 class="text-start">Loyal Cloth</h1>
+    <input type="hidden" value="Model.Id" />
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="brandList list-group-item @(ViewBag.SelectedBrand == "Cozy Core" ? "active" : "")">
+
+                <a asp-controller="Hoodie" asp-action="Index" asp-route-brand="cozy core" class="brand nav-link text-white">Cozy Core</a>
+            </li>
+            <li class="brandList list-group-item @(ViewBag.SelectedBrand == "Vintage Vibes" ? "active" : "")">
+                <a asp-controller="Hoodie" asp-action="Index" asp-route-brand="vintage vibes" class="brand nav-link text-white">Vintage Vibes</a>
+            </li>
+            <li class="brandList list-group-item @(ViewBag.SelectedBrand == "Everyday Essentials" ? "active" : "")">
+                <a asp-controller="Hoodie" asp-action="index" asp-route-brand="everyday essentials" class="brand nav-link text-white p-2">Everyday Essentials</a>
+            </li>
+            <li class="brandList list-group-item @(ViewBag.SelectedBrand == "Urban Threads" ? "active" : "")">
+                <a asp-controller="Hoodie" asp-action="Index" asp-route-brand="urban threads" class="brand nav-link text-white">Urban Threads</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    @foreach (var hoodie in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+
+                <img src="~/images/@hoodie.ImageFileName" class="card-img-top" alt="@hoodie.Name" />
+                <div class="card-body">
+                    <h5>@hoodie.Brand</h5>
+                    <h6 class="text-bold"> @hoodie.Name</h6>
+                    <p> @hoodie.Description</p>
+                    <p> @hoodie.Color</p>
+                    <p> @hoodie.Material</p>
+                    <p>@hoodie.Price</p>
+                </div>
+                <div class="card-footer d-flex gap-2">
+                        <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@hoodie.Id" class="btn btn-secondary btn-sm"> Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+</div>

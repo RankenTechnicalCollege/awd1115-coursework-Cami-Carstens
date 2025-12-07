@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using NovelNookBookStore.Models;
+using NovelNookBookStore.Models.ViewModels;
 
 namespace NovelNookBookStore.Controllers
 {

@@ -1,0 +1,87 @@
+﻿@using System.Net
+@model List<HOT3.Models.Hoodie>
+@{
+    Layout = "_AdminLayout";
+    ViewBag.Title = "Admin Loyal Cloth Hoodie List";
+}
+<h1 class="text-center border border-2 bg-secondary text-white p-5"><i class="bi bi-card-checklist"></i>Welcome to Admin Loyal Cloth Hoodie List</h1>
+
+@* <div class="row">
+    <div class="col-md-2">
+        <ul class="list-group mb-3">
+            <li class="list-group-item bg-dark">
+                <a asp-controller="Hoodie" asp-action="List" asp-route-brand="urban threads" class="nav-link text-white border border-1">Urban Threads</a>
+            </li>
+            <li class="list-group-item bg-dark">
+                <a asp-controller="Hoodie" asp-action="List" asp-route-brand="vintages vibes" class="nav-link text-white border border-1">Vintage Vibes</a>
+            </li>
+            <li class="list-group-item bg-dark">
+                <a asp-controller="Hoodie" asp-action="List" asp-route-brand="everyday essentials" class="nav-link text-white border border-1">Everyday Essentials</a>
+            </li>
+            <li class="list-group-item bg-dark">
+                <a asp-controller="Hoodie" asp-action="List" asp-route-brand="urban threads" class="nav-link text-white border border-1">Urban Threads</a>
+            </li>
+          
+        </ul> *@
+
+        <a asp-area="Admin" asp-controller="Hoodie" asp-action="Add" class="btn btn-dark text-white">Add New Hoodie</a>
+   
+    <div class="col-md-10">
+        <table class="adminTable table table-striped border border-3 border-dark mt-4">
+            <tr>
+                <th>
+                    Brand
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Price
+                </th>
+                <th> 
+                    Color
+                </th>
+                <th>
+                    Material
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Brand)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Color)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Material)
+                    </td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Hoodie" asp-action="Add" asp-route-id=@item.Id asp-route-slug="@item.Slug"class="btn btn-dark text-white">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Hoodie" asp-action="Delete" asp-route-id=@item.Id asp-route-slug="@item.Slug"class="btn btn-danger text-white">Delete</a>
+                    </td>
+                </tr>
+            }
+
+        </table>
+      @*   <a asp-asp-controller="Hoodie" asp-action="Add" class="btn btn-primary">Add New Hoodie</a> *@
+    </div>
+</div>

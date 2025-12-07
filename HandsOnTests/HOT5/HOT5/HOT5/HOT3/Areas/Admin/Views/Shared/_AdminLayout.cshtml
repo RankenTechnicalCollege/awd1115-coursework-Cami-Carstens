@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "_Layout";
+    }
+
+
+
+<header>
+    
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+           @*  <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">Loyal Cloth</a> *@
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+
+                    <li class="nav-item">
+                    <a class="nav-link text-white"
+                       asp-area="" asp-controller="Hoodie" asp-action="Index">
+                            <i class="bi bi-house-door"></i>Main Site
+                    </a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link text-white"
+                       asp-area="Admin" asp-controller="Hoodie" asp-action="List" asp-route-brand="all">
+                            <i class="bi bi-card-checklist"></i>Inventory
+                    </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark me-2 text-white"
+                           asp-area="Admin"
+                           asp-controller="User"
+                           asp-action="Index">
+                            <i class="bi bi-card-list text-white"></i> Manage Users
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+@section Scripts {
+    @await RenderSectionAsync("Scripts", required: false)
+}
