@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TripLog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d795a7c8af9adcf0cf14f1ef8b8a19580e67f4ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f13aea8759a212d713b8df1784e8d1a403ec8505")]
 [assembly: System.Reflection.AssemblyProductAttribute("TripLog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TripLog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

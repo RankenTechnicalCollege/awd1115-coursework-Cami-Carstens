@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NovelNookBookStore.Data;
 using NovelNookBookStore.Models;
+using Microsoft.AspNetCore.DataProtection;
 using NovelNookBookStore.Models.DataLayer;
 using NovelNookBookStore.Models.DomainModels;
 
@@ -17,6 +18,22 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
     .AddRoles<IdentityRole>()
    .AddEntityFrameworkStores<ApplicationDbContext>();
 
+builder.Services.AddHttpClient();
+
+var keysFolder = Path.Combine(Directory.GetCurrentDirectory(), "DataProtectionKeys");
+builder.Services.AddDataProtection()
+    .PersistKeysToFileSystem(new DirectoryInfo(keysFolder))
+    .SetApplicationName("NovelNookBookStore");
+
+//only use this block of code for testing, bc the API is rejecting no matter what for- remote cert invalid so catch is running everytime
+builder.Services.AddHttpClient("quotable")
+    .ConfigurePrimaryHttpMessageHandler(() =>
+    {
+        return new HttpClientHandler
+        {
+            ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+        };
+    });
 
 
 builder.Services.AddControllersWithViews();
@@ -69,6 +86,15 @@ using (var scope = scopeFactory.CreateScope())
 {
     await IdentityConfig.CreateAdminUserAsync(scope.ServiceProvider); ;
 }
+
+app.MapControllerRoute(
+    name: "bookdetails",
+    pattern: "books/{id}/{slug?}",
+    defaults: new
+    {
+        controller = "Book",
+        action = "Details"
+    });
 
 
 app.MapControllerRoute(

@@ -2,8 +2,25 @@
     ViewData["Title"] = "Novel Nook Home Page";
 }
 
-<div class="">
+<div class="row">
+    <div class="col-4">
     <h1 class="display-4 pt-3">Novel Nook</h1>
+    </div>
+
+@* API daily book quote display *@
+<div class="col-8">
+@if(Model != null)
+{
+    <div class=" quote-box p-3 mt-3 border border-2 rounded bg-light shadow-sm">
+        <h4 class="fw-bold">Quote of the day</h4>
+        <blockquote class="fst-italic mt-2">
+            "@Model.QuoteOfTheDay.Content"
+        </blockquote>
+
+        <p class="text-end fw-bold"> --@Model.QuoteOfTheDay.Author</p>
+    </div>
+}
+</div>
 </div>
 
 <img src="~/images/BookBannerHome.jpg" accesskey="" action="" alt="Books" class=" homeBanner img-fluid" />

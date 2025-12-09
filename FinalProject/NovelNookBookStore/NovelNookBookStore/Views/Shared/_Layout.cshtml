@@ -88,7 +88,7 @@
                     @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                     {
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(controller == "Hoodie" && action == "Index" && area == "Admin" ? "active" : "")" asp-area="Admin" asp-controller="User" asp-action="Index">Admin</a>
+                            <a class="nav-link text-dark @(controller == "Home" && action == "Index" && area == "Admin" ? "active" : "")" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a>
                         </li>
                         
                     }
@@ -100,6 +100,19 @@
     </header>
     <div class="container flex-grow-1">
         <main role="main" class="pb-3">
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success mt-4">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-success mt-4">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
             @RenderBody()
         </main>
     </div>

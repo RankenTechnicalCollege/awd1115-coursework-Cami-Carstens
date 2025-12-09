@@ -44,13 +44,13 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
 
 
 
-        [HttpGet]
+        [HttpGet("Admin/Book/Create")]
         public IActionResult Create()
         {
             return View();
         }
 
-        [HttpPost]
+        [HttpPost("Admin/Book/Create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("BookId, Title")] Book book)
         {
@@ -70,9 +70,9 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
         //        return NotFound();
 
         //    return View(book);
-          
+
         //}
-        [HttpPost]
+        [HttpPost("Admin/Book/Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -89,7 +89,8 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet("Admin/Book/AddEdit")]
+        [HttpGet("Admin/Book/AddEdit/{id}")]
         public async Task<IActionResult> AddEdit(int id)
         {
             var categoriesList = await _context.Categories.ToListAsync();
@@ -114,7 +115,7 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("Admin/Book/AddEdit")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddEdit(Book book)
         {
@@ -122,6 +123,14 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
 
             if (!ModelState.IsValid)
                 return View(book);
+
+            var duplicate = await _context.Books
+            .FirstOrDefaultAsync(b => b.Title == book.Title && b.Author == book.Author && b.BookId != book.BookId);
+            if (duplicate != null)
+            {
+                ModelState.AddModelError("Title", "A book with this title and author already exists.");
+                return View(book);
+            }
 
             // Upload image only if a file was selected
             if (book.ImageFile != null)

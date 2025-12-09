@@ -251,7 +251,6 @@ C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\No
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\sje17yqkda-{0}-0s5ovd2mcv-0s5ovd2mcv.gz
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\skok16sdyl-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\yro1lsf9yn-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\rhyynbsdbj-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -327,3 +326,4 @@ C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\No
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\NovelNookBookStore.pdb
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\NovelNookBookStore.genruntimeconfig.cache
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\ref\NovelNookBookStore.dll
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\sje17yqkda-{0}-r7zrk296q0-r7zrk296q0.gz
