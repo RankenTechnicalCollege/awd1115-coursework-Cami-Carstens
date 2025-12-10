@@ -8,7 +8,7 @@
 
 <h1 class="text-center my-4">Join the Book Talk!</h1>
 
-<form asp-area="Forum" asp-controller="Discussions" asp-action="Index" method="post" class="mb-5">
+<form asp-area="" asp-controller="Discussion" asp-action="Index" method="post" class="mb-5">
     <input type="hidden" asp-for="NewDiscussion.Id" />
 
     <div class="row g-3">
@@ -72,9 +72,9 @@
                     <p>@discussion.OpinionField</p>
                 </div>
                 <div class="card-footer d-flex gap-2">
-                    <a asp-area="Forum" asp-controller="Discussions" asp-action="Edit" asp-route-id="@discussion.Id" class="btn btn-secondary btn-sm">Edit</a>
+                    <a asp-area="" asp-controller="Discussion" asp-action="Edit" asp-route-id="@discussion.Id" class="btn btn-secondary btn-sm">Edit</a>
 
-                    <form asp-area="Forum" asp-controller="Discussions" asp-action="Delete" method="post" class="d-inline">
+                    <form asp-area="" asp-controller="Discussion" asp-action="Delete" method="post" class="d-inline">
                         @Html.AntiForgeryToken()
                         <input type="hidden" name="id" value="@discussion.Id" />
                         <button type="submit" class="btn btn-danger btn-sm"
