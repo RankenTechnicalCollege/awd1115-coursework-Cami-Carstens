@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using NovelNookBookStore.Models.Validation;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -6,9 +7,12 @@ namespace NovelNookBookStore.Models.DomainModels
 {
     public class Book
     {
-       
+        
         public int BookId { get; set; } //PK
-        public string Title { get; set; }
+
+        [Required]
+        [UniqueBookTitle]
+        public string? Title { get; set; }
         public string Author { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }

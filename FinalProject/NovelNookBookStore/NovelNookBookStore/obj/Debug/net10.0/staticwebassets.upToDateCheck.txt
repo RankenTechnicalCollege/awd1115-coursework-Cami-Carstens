@@ -1,11 +1,16 @@
 wwwroot\css\site.css
+wwwroot\ERD\ERD_Diagram_UPDATED.svg
+wwwroot\ERD\ERD_image.jpg
 wwwroot\favicon.ico
 wwwroot\Images\047e4aff-7f7d-476f-b64e-4770133f9033_BookLogo.jpg
 wwwroot\Images\0d0ad53e-1ee6-4731-a631-c139f313ea29_book-app.jpg
+wwwroot\Images\165215d6-d040-47c6-8975-eceb0a904950_admin-app-pic2.jpg
+wwwroot\Images\16d8373d-bf85-4e06-88d6-7b25fd477818_AI-Dummies.jpg
 wwwroot\Images\2395ea54-bd48-404c-a113-640ae874c0d0_BookLogo.jpg
 wwwroot\Images\3c41e2c5-f8e3-4698-b49f-15af9380fee3_BookLogo.jpg
 wwwroot\Images\459a3922-e379-4d5a-80ff-8839439c83eb_AI-Dummies.jpg
 wwwroot\Images\48fa506f-c402-4080-a0d6-8131a2ccebdf_BookLogo.jpg
+wwwroot\Images\640d9cf5-adb6-4625-81d7-2eaf81253448_all-about-love.jpg
 wwwroot\Images\70c59c45-b6c2-4bc3-81a1-f9837e62b0c8_BookLogo.jpg
 wwwroot\Images\888c71b1-bfb7-4d57-9ef2-c34dc58818f2_BookLogo.jpg
 wwwroot\Images\8dd07a92-d6da-4d0d-965e-2efd3f097812_BookLogo.jpg
@@ -42,6 +47,7 @@ wwwroot\Images\Cinder.jpg
 wwwroot\Images\cold-tangerines.jpg
 wwwroot\Images\courage-disliked.jpg
 wwwroot\Images\court-silver-flames.jpg
+wwwroot\Images\d146c766-4b95-4d5c-a091-55d724a88629_admin-app-pic.jpg
 wwwroot\Images\daad3d26-0d07-4ba9-904f-c9adfb12f039_Caraval.jpg
 wwwroot\Images\Dark-matter.jpg
 wwwroot\Images\Darker-shade-of-magic.jpg
@@ -221,3 +227,4 @@ C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\No
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\wwwroot\favicon.ico
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\wwwroot\css\site.css
+C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\wwwroot\ERD\ERD_Diagram_UPDATED.svg

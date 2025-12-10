@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using NovelNookBookStore.Models.Validation;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -9,6 +10,9 @@ namespace NovelNookBookStore.Models.DomainModels
         [ValidateNever]
         public int SaleId { get; set; }
         [Display(Name ="Sale Item Name")]
+
+        [Required]
+        [UniqueBookTitle]
         public string? SaleItemName { get; set; }
 
         [Display(Name= "Sale Price")]

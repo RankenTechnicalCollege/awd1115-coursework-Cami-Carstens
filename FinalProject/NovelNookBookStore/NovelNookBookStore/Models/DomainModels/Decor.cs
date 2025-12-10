@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using NovelNookBookStore.Models.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NovelNookBookStore.Models.DomainModels
@@ -6,6 +8,8 @@ namespace NovelNookBookStore.Models.DomainModels
     public class Decor
     {
         public int DecorId { get; set; }
+        [Required]
+        [UniqueBookTitle]
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
@@ -14,6 +18,7 @@ namespace NovelNookBookStore.Models.DomainModels
 
         public string? LinkUrl { get; set; } = string.Empty;
         public int CategoryId { get; set; }
+        [ValidateNever]
         public Category? Category { get; set; }
         public ICollection<OrderItem>? OrderItems
         {

@@ -39,6 +39,16 @@ namespace NovelNookBookStore.Controllers
             return View(paginatedCards);
         }
 
+        public async Task<IActionResult> Details(int id, string? slug)
+        {
+            var decor = await _context.Decors.FindAsync(id);
+            if (decor == null)
+                return NotFound();
+
+            return View(decor);
+        }
+
+
 
     }
 }

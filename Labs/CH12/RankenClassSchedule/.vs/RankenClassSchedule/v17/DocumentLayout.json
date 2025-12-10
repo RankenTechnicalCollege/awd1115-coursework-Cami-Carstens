@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
               "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T23:47:18.62Z",
               "EditorCaption": ""
@@ -208,10 +208,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-06T21:41:48.376Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -1,0 +1,92 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: gainsboro;
+    background-image: linear-gradient(to bottom,#D6EBDD 0%, rgba(270, 255, 255, 0) 35%);
+    font-family: "Trirong";
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+.img {
+    height:200px;
+    object-fit: cover;
+    width: 100%;
+}
+.cartCard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #D6EBDD;
+    text-align: center;
+    width: 100%;
+}
+
+.emailFooter {
+    text-align: center;
+    padding: 15px;
+}
+header {
+
+background-color: #D6EBDD;
+}
+
+header a:hover {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #000000 !important;
+}
+
+.navbar-brand.active {
+    font-weight: bold;
+    border-bottom: 2px solid #000000 !important;
+}
+
+.jumbotron {
+    background-image: url('/Images/Novel-Nook-Banner.jpg');
+}
+
+.sale-slider .sale-item {
+    display: inline-block; /* ensures slick treats each div as a slide */
+    width: auto; /* slick will manage width for slidesToShow */
+    text-align: center;
+}
+
+.quote-box {
+    max-width: 500px;
+    max-height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+ 
+}

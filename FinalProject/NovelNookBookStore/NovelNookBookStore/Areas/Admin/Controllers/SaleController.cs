@@ -109,12 +109,12 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
             return View(sale);
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _sales.DeleteAsync(id);
-            return RedirectToAction("List", "Sale", new { area = "Admin" });
+            return RedirectToAction("Details", "Sale", new { area = "Admin" });
             
         }
     }

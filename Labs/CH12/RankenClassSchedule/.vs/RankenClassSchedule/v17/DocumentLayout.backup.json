@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\models\\datalayer\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch12\\rankenclassschedule\\rankenclassschedule\\models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B1E3FF-5161-441B-9F82-0CEDE47878B6}|RankenClassSchedule\\RankenClassSchedule.csproj|solutionrelative:rankenclassschedule\\models\\datalayer\\queryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,27 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T23:52:37.765Z"
             },
             {
               "$type": "Document",
@@ -92,14 +72,14 @@
               "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
               "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
               "RelativeToolTip": "RankenClassSchedule\\Models\\DataLayer\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T23:47:18.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "QueryOptions.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Models\\DataLayer\\QueryOptions.cs",
@@ -111,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AddEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Class\\AddEdit.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Class\\AddEdit.cshtml",
@@ -123,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Teacher\\Index.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Teacher\\Index.cshtml",
@@ -135,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Home\\Index.cshtml",
@@ -147,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Class\\Delete.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Class\\Delete.cshtml",
@@ -159,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\HomeController.cs",
@@ -171,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "TeacherController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\TeacherController.cs",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\TeacherController.cs",
@@ -183,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ClassController.cs",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Controllers\\ClassController.cs",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Controllers\\ClassController.cs",
@@ -195,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Shared\\_Layout.cshtml",
@@ -207,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Teacher\\Add.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Teacher\\Add.cshtml",
@@ -219,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH12\\RankenClassSchedule\\RankenClassSchedule\\Views\\Teacher\\Delete.cshtml",
               "RelativeDocumentMoniker": "RankenClassSchedule\\Views\\Teacher\\Delete.cshtml",
@@ -228,6 +208,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-06T21:41:48.376Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

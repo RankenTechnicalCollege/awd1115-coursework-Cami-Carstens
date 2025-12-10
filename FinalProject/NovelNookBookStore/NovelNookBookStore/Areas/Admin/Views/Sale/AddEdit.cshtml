@@ -4,7 +4,7 @@
     ViewBag.Title = $"{ViewBag.Operation} Sale Entry";
 }
 
-<h1>Admin @ViewBag.Operation @Model.SaleItemName</h1>
+<h1>Admin Sale @ViewBag.Operation @Model.SaleItemName</h1>
 
 <form asp-action="AddEdit" asp-area="Admin" method="post" enctype="multipart/form-data">
     @Html.AntiForgeryToken()

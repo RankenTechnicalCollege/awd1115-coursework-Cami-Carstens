@@ -87,6 +87,13 @@ using (var scope = scopeFactory.CreateScope())
     await IdentityConfig.CreateAdminUserAsync(scope.ServiceProvider); ;
 }
 
+
+
+
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
 app.MapControllerRoute(
     name: "bookdetails",
     pattern: "books/{id}/{slug?}",
@@ -96,10 +103,17 @@ app.MapControllerRoute(
         action = "Details"
     });
 
+app.MapControllerRoute(
+    name: "decordetails",
+    pattern: "decor/{id}/{slug?}",
+    defaults: new { controller = "Decor", action = "Details" });
 
 app.MapControllerRoute(
-    name: "areas",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+    name: "saledetails",
+    pattern: "sales/{id}/{slug?}",
+    defaults: new { controller = "Sale", action = "Details" });
+
+
 
 app.MapControllerRoute(
     name: "default",

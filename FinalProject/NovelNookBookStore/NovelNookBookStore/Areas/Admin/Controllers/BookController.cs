@@ -74,7 +74,7 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
         //}
         [HttpPost("Admin/Book/Delete/{id}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             try
             {

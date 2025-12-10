@@ -71,11 +71,12 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(Decor decor)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await decors.DeleteAsync(decor.DecorId);
-            return RedirectToAction("Index");
+            await decors.DeleteAsync(id);
+            return RedirectToAction("Details");
         }
+
 
 
         [HttpGet]
@@ -92,6 +93,7 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
                 var decor = await _context.Decors.FindAsync(id);
                 if (decor == null)
                     return NotFound();
+                ViewBag.Operation = "Edit";
 
                 return View(decor);
             }
@@ -147,8 +149,9 @@ namespace NovelNookBookStore.Areas.Admin.Controllers
 
                             if (decor.ImageFile != null)
                             {
-                                existingDecor.Image = decor.Image;
                                 existingDecor.ImageUrl = decor.ImageUrl;
+                                existingDecor.Image = decor.Image;
+                               
                             }
                         }
                     }

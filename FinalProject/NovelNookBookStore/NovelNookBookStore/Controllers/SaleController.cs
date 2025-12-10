@@ -59,6 +59,16 @@ namespace NovelNookBookStore.Controllers
 
             return RedirectToAction("List");
         }
+
+        public IActionResult Details(int id, string? slug)
+        {
+            var saleItem = _context.Sales.Find(id);
+            if (saleItem == null)
+                return NotFound();
+
+            return View(saleItem);
+        }
+
     }
 }
     

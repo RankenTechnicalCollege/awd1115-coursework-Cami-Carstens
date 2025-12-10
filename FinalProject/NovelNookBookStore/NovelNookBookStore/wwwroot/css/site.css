@@ -85,8 +85,7 @@ header a:hover {
 
 .quote-box {
     max-width: 500px;
-    max-height: 150px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: auto;
  
 }
