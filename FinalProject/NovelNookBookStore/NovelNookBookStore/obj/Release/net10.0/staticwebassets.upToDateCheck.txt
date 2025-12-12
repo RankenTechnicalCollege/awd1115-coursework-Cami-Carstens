@@ -161,6 +161,10 @@ wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\ERD\ERD_Diagram_UPDATED.svg
 wwwroot\ERD\ERD_image.jpg
+wwwroot\Images\165215d6-d040-47c6-8975-eceb0a904950_admin-app-pic2.jpg
+wwwroot\Images\16d8373d-bf85-4e06-88d6-7b25fd477818_AI-Dummies.jpg
+wwwroot\Images\640d9cf5-adb6-4625-81d7-2eaf81253448_all-about-love.jpg
+wwwroot\Images\d146c766-4b95-4d5c-a091-55d724a88629_admin-app-pic.jpg
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\wwwroot\css\site.css
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\wwwroot\favicon.ico
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\wwwroot\js\site.js

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch08\\ch08\\triplog\\views\\trip\\addfirststep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|solutionrelative:triplog\\views\\trip\\addfirststep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch08\\ch08\\triplog\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|solutionrelative:triplog\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch08\\ch08\\triplog\\views\\trip\\addsecondstep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|solutionrelative:triplog\\views\\trip\\addsecondstep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch08\\ch08\\triplog\\views\\trip\\addfirststep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|solutionrelative:triplog\\views\\trip\\addfirststep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61FBB063-FAC0-4F57-8E55-D95809CC3EE0}|TripLog\\TripLog.csproj|c:\\users\\camis\\documents\\github\\awd1115-coursework-cami-carstens\\labs\\ch08\\ch08\\triplog\\views\\trip\\addthirdstep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,19 +58,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TripContext.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\TripContext.cs",
-              "RelativeDocumentMoniker": "TripLog\\Models\\TripContext.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\TripContext.cs",
-              "RelativeToolTip": "TripLog\\Models\\TripContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\Trip.cs",
+              "RelativeDocumentMoniker": "TripLog\\Models\\Trip.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\Trip.cs",
+              "RelativeToolTip": "TripLog\\Models\\Trip.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T05:10:35.43Z",
+              "WhenOpened": "2025-10-12T04:41:44.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AddFirstStep.cshtml",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Views\\Trip\\AddFirstStep.cshtml",
+              "RelativeDocumentMoniker": "TripLog\\Views\\Trip\\AddFirstStep.cshtml",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Views\\Trip\\AddFirstStep.cshtml",
+              "RelativeToolTip": "TripLog\\Views\\Trip\\AddFirstStep.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T06:02:53.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AddSecondStep.cshtml",
               "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Views\\Trip\\AddSecondStep.cshtml",
               "RelativeDocumentMoniker": "TripLog\\Views\\Trip\\AddSecondStep.cshtml",
@@ -78,21 +91,19 @@
               "RelativeToolTip": "TripLog\\Views\\Trip\\AddSecondStep.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T05:43:21.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T05:43:21.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Trip.cs",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\Trip.cs",
-              "RelativeDocumentMoniker": "TripLog\\Models\\Trip.cs",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\Trip.cs",
-              "RelativeToolTip": "TripLog\\Models\\Trip.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TripContext.cs",
+              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\TripContext.cs",
+              "RelativeDocumentMoniker": "TripLog\\Models\\TripContext.cs",
+              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Models\\TripContext.cs",
+              "RelativeToolTip": "TripLog\\Models\\TripContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T04:41:44.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T05:10:35.43Z"
             },
             {
               "$type": "Document",
@@ -117,18 +128,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-12T05:55:56.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddFirstStep.cshtml",
-              "DocumentMoniker": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Views\\Trip\\AddFirstStep.cshtml",
-              "RelativeDocumentMoniker": "TripLog\\Views\\Trip\\AddFirstStep.cshtml",
-              "ToolTip": "C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\Labs\\CH08\\CH08\\TripLog\\Views\\Trip\\AddFirstStep.cshtml",
-              "RelativeToolTip": "TripLog\\Views\\Trip\\AddFirstStep.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T06:02:53.973Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "mssql4": {
+      "restored": true,
+      "restoreTime": "2025-12-12T16:04:56.9862378Z"
+    }
+  },
+  "parameters": {
+    "mssql4.resourceGroupName": {
+      "Name": "mssql4.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NovelNookBookStore20251209124213ResourceGroup"
+    },
+    "mssql4.subscriptionId": {
+      "Name": "mssql4.subscriptionId",
+      "Type": "subscription",
+      "Value": "bec5ba6b-ac0d-457e-8eab-fa1ca6d7b567"
+    },
+    "mssql4.serviceConnectorResourceGroupName": {
+      "Name": "mssql4.serviceConnectorResourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NovelNookBookStore20251209124213ResourceGroup"
+    }
+  }
+}

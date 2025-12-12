@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NovelNookBookStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9f4fff617c3da778bf5deede47434dcb73d5fb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95fbda7139e02b037f305f6c451ef9b18b5ee115")]
 [assembly: System.Reflection.AssemblyProductAttribute("NovelNookBookStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NovelNookBookStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -326,5 +326,4 @@ C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\No
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\NovelNookBookStore.genruntimeconfig.cache
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\ref\NovelNookBookStore.dll
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\5vmcua9cyl-{0}-3dw2cur9zr-3dw2cur9zr.gz
-C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\camis\Documents\GitHub\awd1115-coursework-Cami-Carstens\FinalProject\NovelNookBookStore\NovelNookBookStore\obj\Debug\net10.0\compressed\sje17yqkda-{0}-bs6ylrjpzg-bs6ylrjpzg.gz

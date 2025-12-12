@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="NovelNookBookStore20251209161234" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="NovelNookBookStore20251212095606" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\obj\\Release\\net10\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="NovelNookBookStore.Data.ApplicationDbContext" description="" value="Server=tcp:novelnookbookstoredbserver.database.windows.net,1433;Initial Catalog=NovelNookBookStoreDB;Persist Security Info=False;User ID=CloudSAfda7e5b1;Password=#Stampy2005;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\camis\\Documents\\GitHub\\awd1115-coursework-Cami-Carstens\\FinalProject\\NovelNookBookStore\\NovelNookBookStore\\obj\\Release\\net10\.0\\PubTmp\\EFSQLScripts\\NovelNookBookStore\.Data\.ApplicationDbContext\.sql$" />
   </parameter>
 </parameters>

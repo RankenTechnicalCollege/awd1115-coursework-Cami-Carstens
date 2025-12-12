@@ -70,8 +70,7 @@
               "RelativeToolTip": "HOT3\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-08T03:05:25.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T03:05:25.371Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "HOT3\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T03:05:16.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T03:05:16.655Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "HOT3\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T03:05:00.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T03:05:00.973Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "HOT3\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T03:04:37.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T03:04:37.367Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Controllers\\UserController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T02:06:54.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T02:06:54.118Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "HOT3\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T01:19:17.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T01:19:17.875Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "HOT3\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAACcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T18:36:25.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T18:36:25.614Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "HOT3\\Models\\IdentityConfig.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:19:22.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T18:19:22.417Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T18:03:11.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T18:03:11.611Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "HOT3\\Models\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T17:57:49.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T17:57:49.352Z"
             }
           ]
         }
